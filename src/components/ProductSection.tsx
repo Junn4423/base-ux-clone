@@ -114,7 +114,7 @@ export const ProductSection = () => {
     <section className="py-20 lg:py-32 relative">
       {/* Section header */}
       <div className="container mx-auto px-4 lg:px-8 mb-16">
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Một nền tảng <span className="text-primary">|</span>{" "}
             <span className="text-gradient">Mọi giải pháp</span>
@@ -126,7 +126,7 @@ export const ProductSection = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Content */}
-          <div className="space-y-6">
+          <div className="space-y-6" data-aos="fade-right">
             <div className="inline-block">
               <span className={`px-4 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r ${product.gradient} text-white`}>
                 {product.title}

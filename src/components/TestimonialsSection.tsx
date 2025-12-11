@@ -66,7 +66,7 @@ export const TestimonialsSection = () => {
     <section className="py-20 lg:py-32 relative overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl lg:text-4xl font-bold">
             <span className="text-gradient">10,000+</span> doanh nghiệp Việt{" "}
             <br className="hidden sm:block" />
@@ -75,7 +75,7 @@ export const TestimonialsSection = () => {
         </div>
 
         {/* Testimonial Card */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="100">
           <div className="glass-card rounded-3xl p-8 lg:p-12 relative">
             <Quote className="absolute top-6 left-6 w-12 h-12 text-primary/20" />
             

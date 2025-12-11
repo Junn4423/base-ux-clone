@@ -18,7 +18,7 @@ export const BaseAISection = () => {
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Thông tin tức thời, quyết định chính xác
           </h2>
@@ -29,7 +29,7 @@ export const BaseAISection = () => {
         </div>
 
         {/* AI Chat Interface */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="100">
           <div className="glass-card rounded-2xl p-6 lg:p-8">
             {/* Chat Header */}
             <div className="flex items-center gap-3 mb-6 pb-4 border-b border-border/50">
@@ -47,6 +47,8 @@ export const BaseAISection = () => {
               {aiQuestions.map((question, index) => (
                 <div
                   key={index}
+                  data-aos="fade-left"
+                  data-aos-delay={index * 40}
                   className="flex items-start gap-3 p-3 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors cursor-pointer group"
                 >
                   <div className="w-8 h-8 rounded-full bg-card flex items-center justify-center flex-shrink-0">

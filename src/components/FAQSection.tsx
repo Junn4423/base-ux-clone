@@ -32,7 +32,7 @@ export const FAQSection = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-3xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
               Hỏi đáp cùng <span className="text-gradient">SOF</span>
             </h2>
@@ -50,6 +50,8 @@ export const FAQSection = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 40}
                 className="glass-card rounded-xl overflow-hidden"
               >
                 <button

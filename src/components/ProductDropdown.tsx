@@ -56,22 +56,22 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
               height: '682px'
             }}
           >
-            <div className="h-full p-6">
-              <div className="grid grid-cols-[1fr_280px] gap-6 h-full">
+            <div className="h-full p-5">
+              <div className="grid grid-cols-[1fr_256px] gap-5 h-full">
                 {/* Left side - Product sections */}
-                <div className="flex flex-col">
+                <div className="flex flex-col overflow-y-auto pr-2">
                   {/* Row 1: SOF WORK+ and SOF INFO+ */}
-                  <div className="grid grid-cols-2 gap-x-8">
+                  <div className="grid grid-cols-2 gap-x-6">
                     {/* SOF WORK+ */}
                     <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-blue-500">
-                        <h3 className="text-blue-600 font-bold text-sm tracking-wide">SOF WORK+</h3>
-                        <button className="text-sm text-gray-400 hover:text-blue-500 flex items-center gap-1">
+                      <div className="flex items-center justify-between mb-2 pb-1.5 border-b-2 border-blue-500">
+                        <h3 className="text-blue-600 font-bold text-xs tracking-wide">SOF WORK+</h3>
+                        <button className="text-xs text-gray-400 hover:text-blue-500 flex items-center gap-1">
                           Tìm hiểu thêm <span>→</span>
                         </button>
                       </div>
-                      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1">
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
                             <span className="text-orange-500 font-bold text-sm">W</span>
                           </div>
@@ -80,7 +80,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý công việc và dự án</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <ClipboardList className="w-4 h-4 text-green-500" />
                           </div>
@@ -89,7 +89,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý phê duyệt</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Workflow className="w-4 h-4 text-blue-500" />
                           </div>
@@ -98,7 +98,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý và tự động hoá quy trình</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <LayoutGrid className="w-4 h-4 text-blue-500" />
                           </div>
@@ -107,7 +107,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Không gian số</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0">
                             <Headphones className="w-4 h-4 text-purple-500" />
                           </div>
@@ -121,14 +121,14 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
 
                     {/* SOF INFO+ */}
                     <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-green-500">
-                        <h3 className="text-green-600 font-bold text-sm tracking-wide">SOF INFO+</h3>
-                        <button className="text-sm text-gray-400 hover:text-blue-500 flex items-center gap-1">
+                      <div className="flex items-center justify-between mb-2 pb-1.5 border-b-2 border-green-500">
+                        <h3 className="text-green-600 font-bold text-xs tracking-wide">SOF INFO+</h3>
+                        <button className="text-xs text-gray-400 hover:text-blue-500 flex items-center gap-1">
                           Tìm hiểu thêm <span>→</span>
                         </button>
                       </div>
-                      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1">
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-red-100 flex items-center justify-center flex-shrink-0">
                             <Video className="w-4 h-4 text-red-500" />
                           </div>
@@ -137,7 +137,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý cuộc họp</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <Building2 className="w-4 h-4 text-green-500" />
                           </div>
@@ -146,7 +146,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý & ban hành văn bản</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0">
                             <Users className="w-4 h-4 text-purple-500" />
                           </div>
@@ -155,7 +155,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Mạng xã hội nội bộ</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Mail className="w-4 h-4 text-blue-500" />
                           </div>
@@ -164,7 +164,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Chat & Trao đổi thông tin nội bộ</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <LayoutGrid className="w-4 h-4 text-blue-500" />
                           </div>
@@ -178,17 +178,17 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                   </div>
 
                   {/* Row 2: SOF HRM+ and SOF CRM */}
-                  <div className="grid grid-cols-2 gap-x-8 mt-6">
+                  <div className="grid grid-cols-2 gap-x-6 mt-3">
                     {/* SOF HRM+ */}
                     <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-blue-500">
-                        <h3 className="text-blue-600 font-bold text-sm tracking-wide">SOF HRM+</h3>
-                        <button className="text-sm text-gray-400 hover:text-blue-500 flex items-center gap-1">
+                      <div className="flex items-center justify-between mb-2 pb-1.5 border-b-2 border-blue-500">
+                        <h3 className="text-blue-600 font-bold text-xs tracking-wide">SOF HRM+</h3>
+                        <button className="text-xs text-gray-400 hover:text-blue-500 flex items-center gap-1">
                           Tìm hiểu thêm <span>→</span>
                         </button>
                       </div>
-                      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1">
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Users className="w-4 h-4 text-blue-500" />
                           </div>
@@ -197,7 +197,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản trị tuyển dụng</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Users className="w-4 h-4 text-blue-500" />
                           </div>
@@ -206,7 +206,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản trị & phát triển nhân sự</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <DollarSign className="w-4 h-4 text-green-500" />
                           </div>
@@ -215,7 +215,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý & tính lương tự động</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Clock className="w-4 h-4 text-blue-500" />
                           </div>
@@ -224,7 +224,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý & tính toán ngày công</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <Award className="w-4 h-4 text-green-500" />
                           </div>
@@ -233,7 +233,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Đánh giá nhân sự</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Target className="w-4 h-4 text-blue-500" />
                           </div>
@@ -242,7 +242,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản trị mục tiêu</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <User className="w-4 h-4 text-blue-500" />
                           </div>
@@ -251,7 +251,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Cổng thông tin cho nhân viên</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <Gift className="w-4 h-4 text-green-500" />
                           </div>
@@ -265,14 +265,14 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
 
                     {/* SOF CRM */}
                     <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-green-500">
-                        <h3 className="text-green-600 font-bold text-sm tracking-wide">SOF CRM</h3>
-                        <button className="text-sm text-gray-400 hover:text-blue-500 flex items-center gap-1">
+                      <div className="flex items-center justify-between mb-2 pb-1.5 border-b-2 border-green-500">
+                        <h3 className="text-green-600 font-bold text-xs tracking-wide">SOF CRM</h3>
+                        <button className="text-xs text-gray-400 hover:text-blue-500 flex items-center gap-1">
                           Tìm hiểu thêm <span>→</span>
                         </button>
                       </div>
-                      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1">
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <Settings className="w-4 h-4 text-green-500" />
                           </div>
@@ -281,7 +281,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý dịch vụ</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-yellow-100 flex items-center justify-center flex-shrink-0">
                             <DollarSign className="w-4 h-4 text-yellow-600" />
                           </div>
@@ -290,7 +290,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý bán hàng</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <BarChart3 className="w-4 h-4 text-green-500" />
                           </div>
@@ -299,7 +299,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý Marketing</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-yellow-100 flex items-center justify-center flex-shrink-0">
                             <Package className="w-4 h-4 text-yellow-600" />
                           </div>
@@ -313,17 +313,17 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                   </div>
 
                   {/* Row 3: SOF FINANCE+ and SOF PLATFORM+ */}
-                  <div className="grid grid-cols-2 gap-x-8 mt-6 pt-6 border-t border-gray-200">
+                  <div className="grid grid-cols-2 gap-x-6 mt-3 pt-3 border-t border-gray-200">
                     {/* SOF FINANCE+ */}
                     <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-blue-500">
-                        <h3 className="text-blue-600 font-bold text-sm tracking-wide">SOF FINANCE+</h3>
-                        <button className="text-sm text-gray-400 hover:text-blue-500 flex items-center gap-1">
+                      <div className="flex items-center justify-between mb-2 pb-1.5 border-b-2 border-blue-500">
+                        <h3 className="text-blue-600 font-bold text-xs tracking-wide">SOF FINANCE+</h3>
+                        <button className="text-xs text-gray-400 hover:text-blue-500 flex items-center gap-1">
                           Tìm hiểu thêm <span>→</span>
                         </button>
                       </div>
-                      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1">
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Package className="w-4 h-4 text-blue-500" />
                           </div>
@@ -332,7 +332,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý tài sản doanh nghiệp</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <Wallet className="w-4 h-4 text-blue-500" />
                           </div>
@@ -341,7 +341,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý tài chính</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <TrendingUp className="w-4 h-4 text-green-500" />
                           </div>
@@ -350,7 +350,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý chi phí</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <DollarSign className="w-4 h-4 text-green-500" />
                           </div>
@@ -359,7 +359,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Quản lý doanh thu</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
                             <Database className="w-4 h-4 text-green-500" />
                           </div>
@@ -373,12 +373,12 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
 
                     {/* SOF PLATFORM+ */}
                     <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-blue-500">
-                        <h3 className="text-blue-600 font-bold text-sm tracking-wide">SOF PLATFORM+</h3>
-                        <span className="text-sm text-gray-400">Các ứng dụng thuộc nền tảng SOF</span>
+                      <div className="flex items-center justify-between mb-2 pb-1.5 border-b-2 border-blue-500">
+                        <h3 className="text-blue-600 font-bold text-xs tracking-wide">SOF PLATFORM+</h3>
+                        <span className="text-[10px] text-gray-400">Các ứng dụng thuộc nền tảng SOF</span>
                       </div>
-                      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1">
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
                             <FileSignature className="w-4 h-4 text-blue-500" />
                           </div>
@@ -387,7 +387,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Chữ ký điện tử</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-pink-100 flex items-center justify-center flex-shrink-0">
                             <Grid3x3 className="w-4 h-4 text-pink-500" />
                           </div>
@@ -396,7 +396,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Hợp nhất dữ liệu</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
                             <HardDrive className="w-4 h-4 text-orange-500" />
                           </div>
@@ -405,7 +405,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                             <div className="text-xs text-gray-500 truncate">Lưu trữ đám mây</div>
                           </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
+                        <a href="#" className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white transition-colors group" onClick={(e) => { e.preventDefault(); onClose(); }}>
                           <div className="w-8 h-8 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
                             <Lock className="w-4 h-4 text-orange-500" />
                           </div>
@@ -416,14 +416,6 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                         </a>
                       </div>
                     </div>
-                  </div>
-
-                  {/* Bottom button */}
-                  <div className="flex justify-end mt-auto pt-4">
-                    <button className="flex items-center gap-2 text-red-500 hover:text-red-600 text-sm font-medium">
-                      <FileText className="w-4 h-4" />
-                      Nhận Tư vấn & Demo
-                    </button>
                   </div>
                 </div>
 

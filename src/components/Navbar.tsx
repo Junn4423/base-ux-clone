@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Menu, X } from "lucide-react";
 import sofLogo from "@/assets/logo/logo.png";
 import { ProductDropdown } from "./ProductDropdown";
+import { SolutionsDropdown } from "./SolutionsDropdown";
+import { IndustriesDropdown } from "./IndustriesDropdown";
+import { NewsDropdown } from "./NewsDropdown";
 
 const navItems = [
   { label: "Sản phẩm", hasDropdown: true, id: "product" },
@@ -71,9 +74,21 @@ export const Navbar = () => {
         </div>
       </div>
 
-      {/* Product Dropdown */}
+      {/* Dropdowns */}
       <ProductDropdown 
         isOpen={activeDropdown === "product"} 
+        onClose={() => setActiveDropdown(null)} 
+      />
+      <SolutionsDropdown 
+        isOpen={activeDropdown === "solutions"} 
+        onClose={() => setActiveDropdown(null)} 
+      />
+      <IndustriesDropdown 
+        isOpen={activeDropdown === "industries"} 
+        onClose={() => setActiveDropdown(null)} 
+      />
+      <NewsDropdown 
+        isOpen={activeDropdown === "news"} 
         onClose={() => setActiveDropdown(null)} 
       />
 

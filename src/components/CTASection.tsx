@@ -9,7 +9,7 @@ export const CTASection = () => {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
-        <div className="glass-card rounded-3xl p-8 lg:p-16 text-center relative overflow-hidden">
+        <div className="glass-card rounded-3xl p-8 lg:p-16 text-center relative overflow-hidden" data-aos="zoom-in">
           {/* Inner glow */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-primary rounded-full" />
           

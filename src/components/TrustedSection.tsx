@@ -11,7 +11,7 @@ export const TrustedSection = () => {
   return (
     <section className="py-16 lg:py-24 relative">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="text-center mb-10">
+        <div className="text-center mb-10" data-aos="fade-up">
           <p className="text-muted-foreground">
             Được tin tưởng bởi những doanh nghiệp hàng đầu
           </p>
@@ -21,6 +21,8 @@ export const TrustedSection = () => {
           {trustedCompanies.map((company, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 30}
               className="group relative glass-card rounded-xl p-6 hover:glow-card transition-all duration-300 cursor-pointer overflow-hidden"
             >
               {/* Logo placeholder */}

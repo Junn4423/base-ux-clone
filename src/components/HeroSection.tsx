@@ -14,7 +14,7 @@ export const HeroSection = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-6rem)]">
           {/* Left Content */}
-          <div className="space-y-6 lg:space-y-8 pt-8 lg:pt-0">
+          <div className="space-y-6 lg:space-y-8 pt-8 lg:pt-0" data-aos="fade-right">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Nền tảng quản trị{" "}
               <br className="hidden sm:block" />
