@@ -163,6 +163,10 @@
   .animate-shake {
     animation: shake 3s ease-in-out infinite;
   }
+
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-in-out;
+  }
 }
 
 @keyframes float {
@@ -219,6 +223,18 @@
 
   50% {
     box-shadow: 0 4px 30px hsl(207 67% 24% / 0.2);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

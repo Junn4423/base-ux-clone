@@ -53,9 +53,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
               {/* Grid 4 cột - Bố cục mới */}
               <div className="grid grid-cols-4 gap-4 max-h-[450px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-orange-300 scrollbar-track-orange-50">
                 {/* Card 1: Bán lẻ */}
-                <a href="#" 
+                <a href="/under-construction" 
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <ShoppingBag className="w-6 h-6 text-white" />
                   </div>
@@ -64,9 +64,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 2: Sản xuất */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Factory className="w-6 h-6 text-white" />
                   </div>
@@ -75,9 +75,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 3: Giáo dục */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-green-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <GraduationCap className="w-6 h-6 text-white" />
                   </div>
@@ -86,9 +86,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 4: Y tế */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-red-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Heart className="w-6 h-6 text-white" />
                   </div>
@@ -97,9 +97,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 5: Bất động sản */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-purple-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Building2 className="w-6 h-6 text-white" />
                   </div>
@@ -108,9 +108,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 6: F&B */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-yellow-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Utensils className="w-6 h-6 text-white" />
                   </div>
@@ -119,9 +119,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 7: Tài chính */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Landmark className="w-6 h-6 text-white" />
                   </div>
@@ -130,9 +130,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 8: Du lịch */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-cyan-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Plane className="w-6 h-6 text-white" />
                   </div>
@@ -141,9 +141,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 9: Logistics */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-green-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Truck className="w-6 h-6 text-white" />
                   </div>
@@ -152,9 +152,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 10: Thời trang */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-pink-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Shirt className="w-6 h-6 text-white" />
                   </div>
@@ -163,9 +163,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 11: Công nghệ */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-yellow-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Zap className="w-6 h-6 text-white" />
                   </div>
@@ -174,9 +174,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 12: Dịch vụ */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-indigo-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Home className="w-6 h-6 text-white" />
                   </div>
@@ -185,9 +185,9 @@ export const IndustriesDropdown = ({ isOpen, onClose }: IndustriesDropdownProps)
                 </a>
 
                 {/* Card 13: Xem tất cả - CTA */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-gradient-to-br from-orange-500 to-amber-500 rounded-xl p-4 hover:shadow-xl transition-all duration-300 hover:scale-105 group cursor-pointer flex flex-col items-center justify-center"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <LayoutGrid className="w-8 h-8 text-white mb-2" />
                   <h4 className="font-bold text-white text-sm text-center">Xem tất cả</h4>
                   <p className="text-xs text-white/80 text-center mt-1">→</p>

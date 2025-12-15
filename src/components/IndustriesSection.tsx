@@ -144,9 +144,11 @@ export const IndustriesSection = () => {
               </div>
             </div>
 
-            <Button variant="hero" className="mt-3 sm:mt-4 w-full sm:w-auto touch-manipulation" style={{ minHeight: '44px' }}>
-              Tìm hiểu thêm
-            </Button>
+            <a href="/under-construction">
+              <Button variant="hero" className="mt-3 sm:mt-4 w-full sm:w-auto touch-manipulation" style={{ minHeight: '44px' }}>
+                Tìm hiểu thêm
+              </Button>
+            </a>
           </div>
         </div>
       </div>

@@ -20,10 +20,12 @@ export const CTASection = () => {
             Không chỉ là phần mềm, SOF cung cấp giải pháp, tri thức & sự đồng hành cùng doanh nghiệp
           </p>
 
-          <Button variant="sofAccent" size="xl" className="group text-sm sm:text-base">
-            Đăng ký Demo
-            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" />
-          </Button>
+          <a href="/contact">
+            <Button variant="sofAccent" size="xl" className="group text-sm sm:text-base">
+              Đăng ký Demo
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

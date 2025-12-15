@@ -1,7 +1,7 @@
 const stats = [
-  { value: "500+", label: "Dự án hoàn thành" },
-  { value: "300+", label: "Khách hàng tin dùng" },
-  { value: "12+", label: "Năm kinh nghiệm" },
+  { value: "3", label: "Sản phẩm chính" },
+  { value: "2011", label: "Thành lập" },
+  { value: "14+", label: "Năm kinh nghiệm" },
   { value: "24/7", label: "Hỗ trợ khách hàng" },
 ];
 

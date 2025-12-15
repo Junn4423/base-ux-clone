@@ -234,12 +234,16 @@ export default function Customers() {
             Hãy để chúng tôi giúp doanh nghiệp của bạn phát triển vượt bậc
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="bg-white text-[#3087fe] hover:bg-gray-100">
-              Đăng ký Demo miễn phí
-            </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-              Liên hệ tư vấn
-            </Button>
+            <a href="/contact">
+              <Button variant="hero" size="lg" className="bg-white text-[#3087fe] hover:bg-gray-100">
+                Đăng ký Demo miễn phí
+              </Button>
+            </a>
+            <a href="/contact">
+              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+                Liên hệ tư vấn
+              </Button>
+            </a>
           </div>
         </div>
       </section>

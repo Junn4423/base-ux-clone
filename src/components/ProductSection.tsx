@@ -117,8 +117,8 @@ export const ProductSection = () => {
       <div className="container mx-auto px-4 lg:px-8 mb-12 lg:mb-16">
         <div className="text-center" data-aos="fade-up">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-[#0f426c]">
-            Một nền tảng <span className="text-[#3087fe]">|</span>{" "}
-            <span className="text-[#3087fe]">Mọi giải pháp</span>
+            Giải pháp thông minh <span className="text-[#3087fe]">|</span>{" "}
+            <span className="text-[#3087fe]">Trợ thủ doanh nghiệp</span>
           </h2>
         </div>
       </div>
@@ -165,8 +165,12 @@ export const ProductSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 pt-4">
-              <Button variant="heroOutline" className="w-full sm:w-auto">Xem chi tiết</Button>
-              <Button variant="hero" className="w-full sm:w-auto">Demo tính năng</Button>
+              <a href="/under-construction" className="flex-1 sm:flex-initial">
+                <Button variant="heroOutline" className="w-full">Xem chi tiết</Button>
+              </a>
+              <a href="/contact" className="flex-1 sm:flex-initial">
+                <Button variant="hero" className="w-full">Demo tính năng</Button>
+              </a>
             </div>
           </div>
 

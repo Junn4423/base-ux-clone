@@ -5,9 +5,9 @@ const footerLinks = {
   congty: {
     title: "Công ty SOF",
     links: [
-      { label: "Về chúng tôi", href: "/gioi-thieu" },
-      { label: "Tuyển dụng", href: "/tuyen-dung" },
-      { label: "Liên hệ", href: "/lien-he" },
+      { label: "Liên hệ", href: "/contact" },
+      { label: "Tuyển dụng", href: "/under-construction" },
+      { label: "Tin tức", href: "/under-construction" },
     ],
   },
   sanpham: {
@@ -189,11 +189,11 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-3 sm:gap-4">
             <a
-              href="mailto:info@sof.vn"
+              href="mailto:cskh@sof.vn"
               className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-[#507588] hover:text-[#0f426c] transition-colors"
             >
               <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <span className="hidden sm:inline">info@sof.vn</span>
+              <span className="hidden sm:inline">cskh@sof.vn</span>
             </a>
             <div className="flex items-center gap-1.5 sm:gap-2">
               <a

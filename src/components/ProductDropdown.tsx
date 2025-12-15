@@ -55,7 +55,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
               {/* Grid 4 cột - Bố cục mới */}
               <div className="grid grid-cols-4 gap-4 max-h-[450px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-300 scrollbar-track-blue-50">
                 {/* Card 1: Bán hàng */}
-                <a href="http://sof.vn/vi/Phan-mem/23/Phan-mem-quan-ly-ban-hang.html" 
+                <a href="http://192.168.1.19/phanmembanhang/" 
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -66,7 +66,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 2: Siêu thị */}
-                <a href="http://sof.vn/vi/Phan-mem/79/Phan-mem-quan-ly-sieu-thi-.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-green-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -77,7 +77,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 3: Tạp hóa */}
-                <a href="http://sof.vn/vi/Phan-mem/82/Phan-mem-quan-ly-tiem-tap-hoa.html"
+                <a href="http://192.168.1.19/phanmembanhang/"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -88,7 +88,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 4: Cafe */}
-                <a href="http://sof.vn/vi/Phan-mem/75/Phan-mem-quan-ly-quan-cafe.html"
+                <a href="http://192.168.1.19/phanmembanhang/"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-amber-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -99,7 +99,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 5: Nhà hàng */}
-                <a href="http://sof.vn/vi/Phan-mem/76/Phan-mem-quan-ly-nha-hang.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-red-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -110,7 +110,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 6: Khách sạn */}
-                <a href="http://sof.vn/vi/Phan-mem/77/Phan-mem-quan-ly-khach-san.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-violet-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-400 to-violet-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -121,7 +121,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 7: Spa */}
-                <a href="http://sof.vn/vi/Phan-mem/83/Phan-mem-quan-ly-Spa.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-pink-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -132,7 +132,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 8: Vận tải */}
-                <a href="http://sof.vn/vi/Phan-mem/78/Phan-mem-quan-ly-van-tai.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -143,7 +143,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 9: Kho Pallet */}
-                <a href="http://sof.vn/vi/Phan-mem/374/Phan-men-quan-ly-kho-pallet.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-amber-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -154,7 +154,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 10: Bãi gửi xe */}
-                <a href="http://sof.vn/vi/Phan-mem/371/Phan-mem-quan-ly-bai-gui-xe.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-cyan-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -165,7 +165,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 11: Nhân sự */}
-                <a href="http://sof.vn/vi/Phan-mem/1/Phan-mem-nhan-su-tien-luong.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-pink-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-pink-700 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -176,7 +176,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 12: ERP */}
-                <a href="http://sof.vn/vi/Phan-mem/18/Phan-mem-quan-tri-nguon-luc-doanh-nghiep-(ERP--SOF).html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-indigo-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -187,7 +187,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 13: Công ty dược */}
-                <a href="http://sof.vn/vi/Phan-mem/81/Phan-mem-quan-ly-cong-ty-duoc-.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-teal-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -198,7 +198,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 14: Chat bảo mật */}
-                <a href="http://sof.vn/vi/Phan-mem/377/Phan-mem-chat-bao-mat.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-slate-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-slate-400 to-slate-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -209,7 +209,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 15: Chữ ký số */}
-                <a href="http://sof.vn/vi/Phan-mem/375/Phan-men-quan-ly-Chu-Ky-So-.html"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-gray-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gray-400 to-gray-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">

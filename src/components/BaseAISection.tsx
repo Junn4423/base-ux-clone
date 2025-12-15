@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, MessageCircle, User } from "lucide-react";
 
 const aiQuestions = [
-  "Có đề xuất nào đang cần phê duyệt không?",
-  "Tóm tắt công việc của team tôi trong tuần này",
-  "Tình hình tài chính của công ty có đang đi theo kế hoạch không?",
-  "Hôm nay tôi có những cuộc họp nào quan trọng?",
-  "Phân tích tình hình dự án kinh doanh sản phẩm mới",
+  "Báo cáo tồn kho hiện tại của kho hàng",
+  "Tổng hợp công nợ phải thu tháng này",
+  "Danh sách nhân viên chưa chấm công hôm nay",
+  "Doanh thu bán hàng theo từng cửa hàng",
+  "Phân tích chi phí mua hàng trong quý",
 ];
 
 export const BaseAISection = () => {
@@ -19,11 +19,11 @@ export const BaseAISection = () => {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12" data-aos="fade-up">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 text-[#0f426c] px-2">
-            Thông tin tức thời, quyết định chính xác
+            Báo cáo và truy vấn dữ liệu thông minh
           </h2>
           <Button variant="hero" className="mt-3 sm:mt-4 touch-manipulation" style={{ minHeight: '44px' }}>
             <Sparkles className="w-4 h-4 mr-2" />
-            SOF AI Coming Soon
+            Tính năng báo cáo nâng cao
           </Button>
         </div>
 
@@ -36,8 +36,8 @@ export const BaseAISection = () => {
                 <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </div>
               <div>
-                <div className="font-semibold text-[#0f426c] text-sm sm:text-base">Hey SOF AI</div>
-                <div className="text-[10px] sm:text-xs text-[#507588]">Trợ lý AI thông minh</div>
+                <div className="font-semibold text-[#0f426c] text-sm sm:text-base">SOF Report</div>
+                <div className="text-[10px] sm:text-xs text-[#507588]">Hệ thống báo cáo quản trị</div>
               </div>
             </div>
 
@@ -71,7 +71,7 @@ export const BaseAISection = () => {
                 <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-[#0f426c] flex-shrink-0" />
                 <input
                   type="text"
-                  placeholder="Hỏi SOF AI bất cứ điều gì..."
+                  placeholder="Truy vấn dữ liệu, tạo báo cáo..."
                   className="flex-1 bg-transparent text-sm sm:text-base text-[#0f426c] placeholder:text-[#507588] outline-none min-w-0"
                 />
                 <Button variant="hero" size="sm" className="touch-manipulation flex-shrink-0" style={{ minHeight: '36px' }}>

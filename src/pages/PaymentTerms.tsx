@@ -428,9 +428,11 @@ export default function PaymentTerms() {
               Đội ngũ tài chính của chúng tôi sẵn sàng hỗ trợ bạn
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button className="bg-white text-[#0f426c] hover:bg-gray-100">
-                Liên hệ tư vấn
-              </Button>
+              <a href="/contact">
+                <Button className="bg-white text-[#0f426c] hover:bg-gray-100">
+                  Liên hệ tư vấn
+                </Button>
+              </a>
               <Button variant="outline" className="border-white text-black hover:bg-white/10">
                 Xem bảng giá
               </Button>

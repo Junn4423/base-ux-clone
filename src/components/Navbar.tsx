@@ -13,44 +13,44 @@ const navItems = [
   { label: "Giải pháp & Giá", hasDropdown: true, id: "solutions" },
   { label: "Lĩnh vực", hasDropdown: true, id: "industries" },
   { label: "Tin tức", hasDropdown: true, id: "news" },
-  { label: "Về chúng tôi", hasDropdown: false, id: "about", path: "/about" },
+  { label: "Liên hệ", hasDropdown: false, id: "contact", path: "/contact" },
 ];
 
 // Mobile dropdown items
 const mobileProductItems = [
-  { name: "Bán hàng", icon: ShoppingCart, href: "http://sof.vn/vi/Phan-mem/23/Phan-mem-quan-ly-ban-hang.html" },
-  { name: "Siêu thị", icon: Store, href: "http://sof.vn/vi/Phan-mem/79/Phan-mem-quan-ly-sieu-thi-.html" },
-  { name: "Tạp hóa", icon: Package, href: "http://sof.vn/vi/Phan-mem/82/Phan-mem-quan-ly-tiem-tap-hoa.html" },
-  { name: "Quán Cafe", icon: Coffee, href: "http://sof.vn/vi/Phan-mem/75/Phan-mem-quan-ly-quan-cafe.html" },
-  { name: "Nhà hàng", icon: Utensils, href: "http://sof.vn/vi/Phan-mem/76/Phan-mem-quan-ly-nha-hang.html" },
-  { name: "Khách sạn", icon: Hotel, href: "http://sof.vn/vi/Phan-mem/77/Phan-mem-quan-ly-khach-san.html" },
-  { name: "Spa", icon: Users, href: "http://sof.vn/vi/Phan-mem/83/Phan-mem-quan-ly-Spa.html" },
-  { name: "Vận tải", icon: Truck, href: "http://sof.vn/vi/Phan-mem/78/Phan-mem-quan-ly-van-tai.html" },
-  { name: "Kho Pallet", icon: Warehouse, href: "http://sof.vn/vi/Phan-mem/374/Phan-men-quan-ly-kho-pallet.html" },
-  { name: "Bãi gửi xe", icon: Car, href: "http://sof.vn/vi/Phan-mem/371/Phan-mem-quan-ly-bai-gui-xe.html" },
-  { name: "Nhân sự HRM", icon: Users, href: "http://sof.vn/vi/Phan-mem/1/Phan-mem-nhan-su-tien-luong.html" },
-  { name: "ERP", icon: Building2, href: "http://sof.vn/vi/Phan-mem/18/Phan-mem-quan-tri-nguon-luc-doanh-nghiep-(ERP--SOF).html" },
-  { name: "Dược phẩm", icon: Pill, href: "http://sof.vn/vi/Phan-mem/81/Phan-mem-quan-ly-cong-ty-duoc-.html" },
+  { name: "Bán hàng", icon: ShoppingCart, href: "http://192.168.1.19/phanmembanhang/" },
+  { name: "Siêu thị", icon: Store, href: "/under-construction" },
+  { name: "Tạp hóa", icon: Package, href: "http://192.168.1.19/phanmembanhang/" },
+  { name: "Quán Cafe", icon: Coffee, href: "http://192.168.1.19/phanmembanhang/" },
+  { name: "Nhà hàng", icon: Utensils, href: "/under-construction" },
+  { name: "Khách sạn", icon: Hotel, href: "/under-construction" },
+  { name: "Spa", icon: Users, href: "/under-construction" },
+  { name: "Vận tải", icon: Truck, href: "/under-construction" },
+  { name: "Kho Pallet", icon: Warehouse, href: "/under-construction" },
+  { name: "Bãi gửi xe", icon: Car, href: "/under-construction" },
+  { name: "Nhân sự HRM", icon: Users, href: "/under-construction" },
+  { name: "ERP", icon: Building2, href: "/under-construction" },
+  { name: "Dược phẩm", icon: Pill, href: "/under-construction" },
 ];
 
 const mobileSolutionsItems = [
-  { name: "Startup & SME", icon: Building2, href: "#" },
-  { name: "Doanh nghiệp vừa", icon: Factory, href: "#" },
-  { name: "Doanh nghiệp lớn", icon: Building2, href: "#" },
-  { name: "Bảng giá chi tiết", icon: FileText, href: "#" },
+  { name: "Startup & SME", icon: Building2, href: "/under-construction" },
+  { name: "Doanh nghiệp vừa", icon: Factory, href: "/under-construction" },
+  { name: "Doanh nghiệp lớn", icon: Building2, href: "/under-construction" },
+  { name: "Bảng giá chi tiết", icon: FileText, href: "/under-construction" },
 ];
 
 const mobileIndustriesItems = [
-  { name: "Sản xuất", icon: Factory, href: "#" },
-  { name: "F&B & Bán lẻ", icon: UtensilsCrossed, href: "#" },
-  { name: "Dược phẩm", icon: Pill, href: "#" },
-  { name: "Vận tải", icon: Truck, href: "#" },
+  { name: "Sản xuất", icon: Factory, href: "/under-construction" },
+  { name: "F&B & Bán lẻ", icon: UtensilsCrossed, href: "/under-construction" },
+  { name: "Dược phẩm", icon: Pill, href: "/under-construction" },
+  { name: "Vận tải", icon: Truck, href: "/under-construction" },
 ];
 
 const mobileNewsItems = [
-  { name: "Tin tức công ty", icon: Newspaper, href: "#" },
-  { name: "Blog", icon: BookOpen, href: "#" },
-  { name: "Tuyển dụng", icon: Users, href: "#" },
+  { name: "Tin tức công ty", icon: Newspaper, href: "/under-construction" },
+  { name: "Blog", icon: BookOpen, href: "/under-construction" },
+  { name: "Tuyển dụng", icon: Users, href: "/under-construction" },
 ];
 
 export const Navbar = () => {
@@ -92,12 +92,17 @@ export const Navbar = () => {
     }
   };
 
+  const handleLogoClick = () => {
+    handleMobileMenuClose();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#f4fbff] backdrop-blur-xl border-b-[3px] border-[#8fc0db] shadow-sm">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-[70px]">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 flex-shrink-0" aria-label="Trang chủ SOF.VN" onClick={handleMobileMenuClose}>
+          <Link to="/" className="flex items-center gap-3 flex-shrink-0" aria-label="Trang chủ SOF.VN" onClick={handleLogoClick}>
             <img
               src={sofLogo}
               alt="Logo SOF.VN"
@@ -140,9 +145,11 @@ export const Navbar = () => {
             <Button variant="ghost" className="text-[#507588] hover:text-[#0f426c]">
               Đăng nhập
             </Button>
-            <Button variant="hero" size="default">
-              Đăng ký Demo
-            </Button>
+            <Link to="/contact">
+              <Button variant="hero" size="default">
+                Đăng ký Demo
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -234,12 +241,14 @@ export const Navbar = () => {
               >
                 Đăng nhập
               </Button>
-              <Button
-                variant="hero"
-                className="w-full justify-center py-3 text-base"
-              >
-                Đăng ký Demo
-              </Button>
+              <Link to="/contact" onClick={handleMobileMenuClose}>
+                <Button
+                  variant="hero"
+                  className="w-full justify-center py-3 text-base"
+                >
+                  Đăng ký Demo
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

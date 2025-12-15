@@ -5,30 +5,30 @@ import { MessageSquare, Laptop, Settings, Database } from "lucide-react";
 const journeySteps = [
   {
     id: 1,
-    title: "Tư vấn",
+    title: "Tư vấn & Khảo sát",
     icon: MessageSquare,
-    description: "Khảo sát hiện trạng vận hành của doanh nghiệp. Tư vấn, đào tạo, xây dựng quy trình nâng cao khả năng vận hành & thiết kế lộ trình số hóa phù hợp.",
+    description: "Phân tích quy trình nghiệp vụ hiện tại. Đề xuất giải pháp phù hợp từ các sản phẩm SOF ERP, HRM, POS dựa trên đặc thù ngành nghề.",
     gradient: "from-blue-500 to-cyan-400",
   },
   {
     id: 2,
-    title: "Số hóa",
+    title: "Triển khai",
     icon: Laptop,
-    description: "Số hóa vận hành của doanh nghiệp lên phần mềm theo các danh mục số hóa được thiết kế phù hợp với doanh nghiệp.",
+    description: "Cài đặt, cấu hình phần mềm. Nhập dữ liệu ban đầu. Tùy chỉnh module theo yêu cầu riêng của doanh nghiệp.",
     gradient: "from-violet-500 to-purple-400",
   },
   {
     id: 3,
-    title: "Tối ưu hóa",
+    title: "Đào tạo",
     icon: Settings,
-    description: "Thiết lập hệ thống, đào tạo và chuyển giao năng lực công nghệ cho doanh nghiệp.",
+    description: "Đào tạo người dùng thao tác trên hệ thống. Hướng dẫn quản trị viên quản lý phần mềm và xử lý nghiệp vụ.",
     gradient: "from-orange-500 to-amber-400",
   },
   {
     id: 4,
-    title: "Dữ liệu hóa",
+    title: "Vận hành & Hỗ trợ",
     icon: Database,
-    description: "Kết nối tất cả dữ liệu vận hành từ các ứng dụng trong và ngoài nền tảng để xây dựng báo cáo quản trị.",
+    description: "Theo dõi vận hành thực tế. Hỗ trợ giải đáp thắc mắc 24/7. Cập nhật, nâng cấp tính năng theo nhu cầu phát sinh.",
     gradient: "from-emerald-500 to-teal-400",
   },
 ];
@@ -42,13 +42,15 @@ export const JourneySection = () => {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 text-[#0f426c] px-2">
-            Đồng hành cùng doanh nghiệp{" "}
+            Quy trình triển khai{" "}
             <br className="hidden sm:block" />
-            xuyên suốt lộ trình chuyển đổi số
+            từ tư vấn đến vận hành
           </h2>
-          <Button variant="hero" className="mt-3 sm:mt-4 w-full sm:w-auto touch-manipulation" style={{ minHeight: '44px' }}>
-            Tư vấn triển khai ngay
-          </Button>
+          <a href="/under-construction">
+            <Button variant="hero" className="mt-3 sm:mt-4 w-full sm:w-auto touch-manipulation" style={{ minHeight: '44px' }}>
+              Tư vấn triển khai ngay
+            </Button>
+          </a>
         </div>
 
         {/* Journey Steps */}

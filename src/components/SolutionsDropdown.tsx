@@ -50,9 +50,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
               {/* Grid 3 cột - Bố cục mới */}
               <div className="grid grid-cols-3 gap-4 max-h-[450px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-green-300 scrollbar-track-green-50">
                 {/* Card 1: Startup & SME */}
-                <a href="#" 
+                <a href="/under-construction" 
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-purple-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Rocket className="w-6 h-6 text-white" />
                   </div>
@@ -61,9 +61,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 2: Doanh nghiệp vừa */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Building2 className="w-6 h-6 text-white" />
                   </div>
@@ -72,9 +72,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 3: Doanh nghiệp lớn */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-green-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Factory className="w-6 h-6 text-white" />
                   </div>
@@ -83,9 +83,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 4: Gói cơ bản */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-yellow-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Tag className="w-6 h-6 text-white" />
                   </div>
@@ -94,9 +94,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 5: Gói chuyên nghiệp */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Package className="w-6 h-6 text-white" />
                   </div>
@@ -105,9 +105,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 6: Gói doanh nghiệp */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-purple-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <CreditCard className="w-6 h-6 text-white" />
                   </div>
@@ -116,9 +116,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 7: Bảng giá chi tiết */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-green-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <DollarSign className="w-6 h-6 text-white" />
                   </div>
@@ -127,9 +127,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 8: Ưu đãi đặc biệt */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Award className="w-6 h-6 text-white" />
                   </div>
@@ -138,9 +138,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 9: ROI & Hiệu quả */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-emerald-400 group cursor-pointer"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <TrendingUp className="w-6 h-6 text-white" />
                   </div>
@@ -149,9 +149,9 @@ export const SolutionsDropdown = ({ isOpen, onClose }: SolutionsDropdownProps) =
                 </a>
 
                 {/* Card 10: Xem tất cả - CTA */}
-                <a href="#"
+                <a href="/under-construction"
                    className="bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl p-4 hover:shadow-xl transition-all duration-300 hover:scale-105 group cursor-pointer flex flex-col items-center justify-center"
-                   onClick={(e) => { e.preventDefault(); onClose(); }}>
+                   onClick={onClose}>
                   <LayoutGrid className="w-8 h-8 text-white mb-2" />
                   <h4 className="font-bold text-white text-sm text-center">Xem tất cả</h4>
                   <p className="text-xs text-white/80 text-center mt-1">→</p>

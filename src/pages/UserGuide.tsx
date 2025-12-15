@@ -407,12 +407,16 @@ export default function UserGuide() {
               Đội ngũ hỗ trợ kỹ thuật của chúng tôi luôn sẵn sàng giúp đỡ bạn 24/7
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button className="bg-white text-[#0f426c] hover:bg-gray-100">
-                Liên hệ hỗ trợ
-              </Button>
-              <Button variant="outline" className="border-white text-black hover:bg-white/10">
-                Đặt lịch đào tạo
-              </Button>
+              <a href="/contact">
+                <Button className="bg-white text-[#0f426c] hover:bg-gray-100">
+                  Liên hệ hỗ trợ
+                </Button>
+              </a>
+              <a href="/contact">
+                <Button variant="outline" className="border-white text-black hover:bg-white/10">
+                  Đặt lịch đào tạo
+                </Button>
+              </a>
             </div>
           </div>
         </div>

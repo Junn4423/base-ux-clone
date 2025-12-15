@@ -6,7 +6,7 @@ export const companyInfo = {
   taxCode: "0310690184",
   address: "69/9 Đường D9, Phường Tây Thạnh, Quận Tân Phú, TP. Hồ Chí Minh",
   hotline: ["0933 549 469", "0932 518 569"],
-  email: "info@sof.vn",
+  email: "cskh@sof.vn",
   supportEmail: "cskh@sof.vn",
   website: "www.sof.vn",
   foundedYear: 2011,
@@ -18,9 +18,17 @@ export const companyInfo = {
   },
 };
 
-// Số liệu thống kê
+// Số liệu thống kê thực tế
 export const companyStats = {
-  projects: "100+",
-  customers: "300+",
-  experience: "12+ Năm",
+  mainProducts: "3",
+  foundedYear: "2011",
+  experience: "14+ Năm",
+  support: "24/7",
 };
+
+// Sản phẩm chính
+export const mainProducts = [
+  { name: "SOF ERP", description: "Hệ thống quản trị doanh nghiệp" },
+  { name: "SOF HRM", description: "Quản lý nhân sự & tính lương" },
+  { name: "SOF POS", description: "Quản lý bán hàng & chuỗi cửa hàng" },
+];

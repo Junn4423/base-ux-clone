@@ -16,23 +16,25 @@ export const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 lg:space-y-8 pt-6 sm:pt-8 lg:pt-0" data-aos="fade-right">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#0f426c]">
-              Giải pháp phần mềm &{" "}
+              Phần mềm quản lý{" "}
               <br className="hidden sm:block" />
-              Chuyển đổi số{" "}
+              doanh nghiệp{" "}
               <span className="text-[#3087fe]">toàn diện</span>
             </h1>
             
             <p className="text-base sm:text-lg lg:text-xl text-[#507588] max-w-xl leading-relaxed">
-              Hệ thống ERP, quản lý kho, nhân sự và thiết kế website chuyên nghiệp.
+              Chuyên cung cấp giải pháp SOF ERP, SOF HRM, SOF POS cho doanh nghiệp Việt Nam.
               <br className="hidden sm:block" />
               <span className="hidden sm:inline"><br /></span>
-              Tùy chỉnh linh hoạt theo nhu cầu đặc thù của doanh nghiệp Việt.
+              Tự hào phát triển và triển khai thành công nhiều dự án ERP, quản lý nhân sự, bán hàng, vận tải từ năm 2011.
             </p>
 
             <div className="flex flex-wrap gap-3 sm:gap-4">
-              <Button variant="hero" size="lg" className="text-sm sm:text-base">
-                Đăng ký Demo
-              </Button>
+              <a href="/contact">
+                <Button variant="hero" size="lg" className="text-sm sm:text-base">
+                  Đăng ký Demo
+                </Button>
+              </a>
             </div>
           </div>
 
@@ -62,19 +64,19 @@ export const HeroSection = () => {
                 <div className="grid grid-cols-3 gap-2 sm:gap-2 sm:gap-3 lg:gap-4">
                   {/* Stats cards */}
                   <div className="bg-[#f4fbff] rounded-lg sm:rounded-xl p-2 sm:p-3 lg:p-4 border border-[#a7d5ec]">
-                    <div className="text-[10px] sm:text-xs text-[#507588] mb-0.5 sm:mb-1">Dự án</div>
-                    <div className="text-sm sm:text-lg lg:text-xl font-bold text-[#0f426c]">500+</div>
-                    <div className="text-[10px] sm:text-xs text-green-500">+23.5%</div>
+                    <div className="text-[10px] sm:text-xs text-[#507588] mb-0.5 sm:mb-1">Sản phẩm</div>
+                    <div className="text-sm sm:text-lg lg:text-xl font-bold text-[#0f426c]">ERP</div>
+                    <div className="text-[10px] sm:text-xs text-green-500">Core</div>
                   </div>
                   <div className="bg-[#f4fbff] rounded-lg sm:rounded-xl p-2 sm:p-3 lg:p-4 border border-[#a7d5ec]">
-                    <div className="text-[10px] sm:text-xs text-[#507588] mb-0.5 sm:mb-1">Khách hàng</div>
-                    <div className="text-sm sm:text-lg lg:text-xl font-bold text-[#0f426c]">300+</div>
-                    <div className="text-[10px] sm:text-xs text-green-500">+12.3%</div>
+                    <div className="text-[10px] sm:text-xs text-[#507588] mb-0.5 sm:mb-1">Sản phẩm</div>
+                    <div className="text-sm sm:text-lg lg:text-xl font-bold text-[#0f426c]">HRM</div>
+                    <div className="text-[10px] sm:text-xs text-green-500">Active</div>
                   </div>
                   <div className="bg-[#f4fbff] rounded-lg sm:rounded-xl p-2 sm:p-3 lg:p-4 border border-[#a7d5ec]">
-                    <div className="text-[10px] sm:text-xs text-[#507588] mb-0.5 sm:mb-1">Kinh nghiệm</div>
-                    <div className="text-sm sm:text-lg lg:text-xl font-bold text-[#0f426c]">12+</div>
-                    <div className="text-[10px] sm:text-xs text-green-500">2011</div>
+                    <div className="text-[10px] sm:text-xs text-[#507588] mb-0.5 sm:mb-1">Sản phẩm</div>
+                    <div className="text-sm sm:text-lg lg:text-xl font-bold text-[#0f426c]">POS</div>
+                    <div className="text-[10px] sm:text-xs text-green-500">Active</div>
                   </div>
 
                   {/* Chart placeholder */}

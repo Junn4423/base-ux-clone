@@ -56,9 +56,11 @@ export const IntegrationsSection = () => {
 
         {/* CTA */}
         <div className="text-center mt-8 sm:mt-12">
-          <Button variant="hero" size="lg" className="w-full sm:w-auto touch-manipulation" style={{ minHeight: '48px' }}>
-            Tư vấn triển khai
-          </Button>
+          <a href="/contact">
+            <Button variant="hero" size="lg" className="w-full sm:w-auto touch-manipulation" style={{ minHeight: '48px' }}>
+              Tư vấn triển khai
+            </Button>
+          </a>
         </div>
       </div>
     </section>
