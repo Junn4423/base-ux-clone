@@ -28,7 +28,8 @@ export const metadata: Metadata = {
 // Server Component wrapper - the actual form is in a Client Component
 export default function ContactPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+    // Bắt buộc phải có Suspense để build không bị lỗi
+    <Suspense fallback={<div className="container py-20 text-center">Đang tải form liên hệ...</div>}>
       <ContactPageClient />
     </Suspense>
   );

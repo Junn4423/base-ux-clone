@@ -17,7 +17,7 @@ const beVietnamPro = Be_Vietnam_Pro({
 
 // SEO Metadata - Static configuration for the entire site
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sof.vn"),
+  metadataBase: new URL("https://sof.com.vn"),
   title: {
     default: "SOF.VN - Giải pháp phần mềm & Chuyển đổi số toàn diện",
     template: "%s | SOF.VN",
