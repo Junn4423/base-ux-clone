@@ -109,8 +109,8 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                   <p className="text-xs text-gray-500 line-clamp-2">Quản lý bàn, bếp, bar</p>
                 </a>
 
-                {/* Card 6: Khách sạn */}
-                <a href="/under-construction"
+                 {/* Card 6: Khách sạn */}
+                 <a href="/sof_khachsan"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-violet-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-400 to-violet-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -120,19 +120,19 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                   <p className="text-xs text-gray-500 line-clamp-2">Đặt phòng, check-in/out</p>
                 </a>
 
-                {/* Card 7: Spa */}
-                <a href="/under-construction"
+                {/* Card 7: Thiết kế web */}
+                <a href="/sof_thietkeweb"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-pink-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     <Users className="w-6 h-6 text-white" />
                   </div>
-                  <h4 className="font-bold text-gray-800 mb-1 text-sm">Spa</h4>
-                  <p className="text-xs text-gray-500 line-clamp-2">Lịch hẹn, dịch vụ spa</p>
+                  <h4 className="font-bold text-gray-800 mb-1 text-sm">Thiết kế web</h4>
+                  <p className="text-xs text-gray-500 line-clamp-2">Website chuẩn UX/UI, tối ưu SEO</p>
                 </a>
 
                 {/* Card 8: Vận tải */}
-                <a href="/under-construction"
+                <a href="/sof_vantai"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -143,7 +143,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 9: Kho Pallet */}
-                <a href="/under-construction"
+                 <a href="/sof_khopallet"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-amber-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -154,7 +154,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 10: Bãi gửi xe */}
-                <a href="/under-construction"
+                 <a href="/sof_quanligiuxe"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-cyan-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -165,7 +165,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 11: Nhân sự */}
-                <a href="/under-construction"
+                 <a href="/sof_nhansu"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-pink-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-pink-700 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -176,7 +176,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 12: ERP */}
-                <a href="/under-construction"
+                 <a href="/sof_erp"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-indigo-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -209,7 +209,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 15: Chữ ký số */}
-                <a href="/under-construction"
+                 <a href="/sof_chukyso"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-gray-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gray-400 to-gray-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
