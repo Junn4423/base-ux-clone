@@ -1,0 +1,676 @@
+{
+    "_template_info": {
+        "version": "1.0.0",
+        "name": "SOF WMS Template",
+        "description": "Template content.json cho Hệ thống Quản lý Kho Pallet (WMS)",
+        "author": "SOF Team",
+        "last_updated": "2024-12-18",
+        "required_images": [
+            "assets/logo/logo.png",
+            "assets/img/hero-warehouse.png",
+            "assets/img/so-do-kho.png",
+            "assets/img/pda-scanner.png",
+            "assets/img/bao-cao-ton.png",
+            "assets/img/mobile-app.png",
+            "assets/img/og-image-wms.jpg"
+        ]
+    },
+    "site": {
+        "name": "SOF Smart WMS",
+        "domain": "https://wms.sof.vn",
+        "lang": "vi",
+        "theme_color": "#2c3e50"
+    },
+    "meta": {
+        "title": "SOF WMS - Phần Mềm Quản Lý Kho Pallet Thông Minh & Barcode",
+        "description": "Giải pháp WMS chuyên nghiệp giúp tối ưu hóa không gian kho, quản lý vị trí Pallet, kiểm soát nhập xuất tồn chính xác 100% bằng Barcode/QR Code.",
+        "keywords": "WMS, phần mềm quản lý kho, kho pallet, quản lý tồn kho, barcode kho, phần mềm kho thông minh, inventory system",
+        "author": "SOF Solutions",
+        "og_image": "https://wms.sof.vn/assets/img/og-image-wms.jpg"
+    },
+    "header": {
+        "logo": "assets/logo/logo.png",
+        "nav": [
+            {
+                "text": "Trang chủ",
+                "href": "index.html"
+            },
+            {
+                "text": "Giải pháp",
+                "href": "features.html"
+            },
+            {
+                "text": "Bảng giá",
+                "href": "pricing.html"
+            },
+            {
+                "text": "Liên hệ",
+                "href": "contact.html"
+            }
+        ],
+        "cta_mobile": "Đăng ký Demo",
+        "hotline": "Hotline: 0933549469",
+        "contact": {
+            "phone": "tel:0933549469"
+        }
+    },
+    "hero": {
+        "badge": "Giải pháp WMS 4.0 cho Kho vận",
+        "title": "Tối Ưu Hóa Vận Hành Kho Pallet",
+        "description": "Quản lý vị trí, luân chuyển hàng hóa và kiểm soát tồn kho chính xác tuyệt đối với công nghệ Barcode/QR Code và Sơ đồ kho trực quan (Visual Warehouse).",
+        "btn_primary": "Dùng thử miễn phí",
+        "btn_secondary": "Xem Demo",
+        "image": "assets/img/hero-warehouse.png",
+        "stats": [
+            {
+                "number": "500+",
+                "label": "Kho hàng vận hành"
+            },
+            {
+                "number": "99.9%",
+                "label": "Độ chính xác tồn kho"
+            },
+            {
+                "number": "30%",
+                "label": "Tiết kiệm không gian"
+            }
+        ]
+    },
+    "features": {
+        "label": "Tính năng vượt trội",
+        "title": "Giải pháp toàn diện cho kho hàng",
+        "description": "Đáp ứng đầy đủ các nghiệp vụ kho phức tạp: FIFO, FEFO, Lot/Date, Serial và quản lý đa chi nhánh.",
+        "items": [
+            {
+                "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><line x1='8' y1='21' x2='16' y2='21'/><line x1='12' y1='17' x2='12' y2='21'/>",
+                "title": "Sơ đồ kho trực quan (Visual Map)",
+                "description": "Mô phỏng layout kho, dãy kệ (Rack), tầng (Level), hộc (Bin) trên phần mềm. Xem trạng thái đầy/trống của từng vị trí Pallet theo thời gian thực."
+            },
+            {
+                "icon_html": "<rect x='3' y='3' width='7' height='7'/><rect x='14' y='3' width='7' height='7'/><rect x='14' y='14' width='7' height='7'/><rect x='3' y='14' width='7' height='7'/>",
+                "title": "Quản lý Barcode / QR Code",
+                "description": "Tạo và in tem mã vạch định danh cho từng Pallet, Sản phẩm, Vị trí. Hỗ trợ máy quét PDA cầm tay để thao tác nhanh chóng."
+            },
+            {
+                "icon_html": "<line x1='12' y1='1' x2='12' y2='23'/><path d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'/>",
+                "title": "Quy trình Nhập - Xuất thông minh",
+                "description": "Hệ thống tự động gợi ý vị trí cất hàng (Put-away) tối ưu và đường đi lấy hàng (Picking path) ngắn nhất cho thủ kho."
+            },
+            {
+                "icon_html": "<path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'/><polyline points='3.27 6.96 12 12.01 20.73 6.96'/><line x1='12' y1='22.08' x2='12' y2='12'/>",
+                "title": "Kiểm kê kho dễ dàng",
+                "description": "Kiểm kê định kỳ hoặc đột xuất bằng thiết bị di động. Tự động đối chiếu số liệu thực tế và hệ thống, giảm 90% thời gian kiểm đếm."
+            },
+            {
+                "icon_html": "<line x1='18' y1='20' x2='18' y2='10'/><line x1='12' y1='20' x2='12' y2='4'/><line x1='6' y1='20' x2='6' y2='14'/>",
+                "title": "Báo cáo Real-time",
+                "description": "Dashboard báo cáo tồn kho, tuổi kho (Aging), hiệu suất nhân viên, lịch sử luân chuyển hàng hóa chi tiết."
+            },
+            {
+                "icon_html": "<path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87'/><path d='M16 3.13a4 4 0 0 1 0 7.75'/>",
+                "title": "Chiến thuật lưu kho",
+                "description": "Hỗ trợ thiết lập các quy tắc xuất hàng tự động như FIFO (Nhập trước xuất trước), FEFO (Hết hạn trước xuất trước) hoặc LIFO."
+            }
+        ],
+        "btn_more": "Xem chi tiết tính năng"
+    },
+    "about": {
+        "label": "Quy trình chuẩn hóa",
+        "title": "Số hóa quy trình vận hành kho bãi",
+        "description": "Loại bỏ hoàn toàn giấy tờ thủ công, giảm thiểu sai sót do con người và tăng tốc độ xử lý đơn hàng.",
+        "image_1": "assets/img/so-do-kho.png",
+        "image_2": "assets/img/pda-scanner.png",
+        "process_1": {
+            "title": "Nhập kho (Inbound):",
+            "items": [
+                "Nhận hàng & Dán tem Barcode Pallet",
+                "Dùng PDA quét mã Pallet & mã Vị trí",
+                "Hệ thống ghi nhận hàng đã vào vị trí (Put-away)",
+                "Cập nhật tồn kho tức thời"
+            ]
+        },
+        "process_2": {
+            "title": "Xuất kho (Outbound):",
+            "items": [
+                "Hệ thống tạo phiếu xuất & chỉ định vị trí lấy hàng (Picking)",
+                "Nhân viên đến vị trí, quét mã để xác nhận lấy đúng hàng",
+                "Đóng gói & Xuất hàng khỏi hệ thống"
+            ]
+        },
+        "btn_consult": "Tư vấn giải pháp kho"
+    },
+    "testimonials": {
+        "label": "Khách hàng nói gì?",
+        "title": "Đối tác tin cậy của các doanh nghiệp Logistics",
+        "description": "Lắng nghe chia sẻ từ những người quản lý kho hàng đầu.",
+        "items": [
+            {
+                "content": "Việc tìm kiếm hàng hóa trước đây mất cả tiếng đồng hồ, giờ chỉ cần nhập mã là biết chính xác Pallet nằm ở kệ nào, tầng nào. Tuyệt vời!",
+                "author": "Anh Tuấn",
+                "role": "Giám đốc Kho - Logistic ABC"
+            },
+            {
+                "content": "Hệ thống WMS giúp chúng tôi kiểm soát hạn sử dụng (Date) cực tốt, giảm hẳn tình trạng hàng hết hạn tồn trong kho mà không biết.",
+                "author": "Chị Mai",
+                "role": "Trưởng phòng Mua hàng - Food Corp"
+            },
+            {
+                "content": "Giao diện trực quan, dễ sử dụng. Nhân viên kho của tôi chỉ mất 1 ngày đào tạo là đã sử dụng thành thạo máy quét PDA.",
+                "author": "Anh Hùng",
+                "role": "Quản lý Vận hành - Tech Warehouse"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Bạn đã sẵn sàng tối ưu kho hàng?",
+        "description": "Đăng ký demo và nhận tư vấn giải pháp phù hợp với quy mô kho của bạn.",
+        "btn_primary": "Đăng ký Demo",
+        "btn_secondary": "Tải Brochure"
+    },
+    "features_page": {
+        "header": {
+            "title": "Tính Năng SOF WMS",
+            "subtitle": "Giải pháp quản lý kho chuyên sâu với khả năng tùy biến cao, phù hợp cho kho Thương mại, Sản xuất và 3PL.",
+            "badge": "Smart Warehouse"
+        },
+        "core": {
+            "label": "Nghiệp vụ cốt lõi",
+            "title": "Quản lý Kho & Tồn kho",
+            "description": "Kiểm soát mọi biến động của hàng hóa từ khi nhập đến khi xuất.",
+            "items": [
+                {
+                    "title": "Quản lý Vị trí (Bin Location)",
+                    "description": "Định nghĩa sơ đồ kho đa tầng: Zone > Aisle > Rack > Level > Bin. Quản lý sức chứa và kích thước từng vị trí.",
+                    "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2' /><line x1='8' y1='21' x2='16' y2='21' /><line x1='12' y1='17' x2='12' y2='21' />"
+                },
+                {
+                    "title": "Quản lý Sản phẩm (SKU)",
+                    "description": "Quản lý chi tiết thuộc tính sản phẩm: Mã, Tên, ĐVT, Kích thước, Trọng lượng, Số lô (Lot), Hạn dùng (Date).",
+                    "icon_html": "<circle cx='9' cy='21' r='1' /><circle cx='20' cy='21' r='1' /><path d='M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6' />"
+                },
+                {
+                    "title": "Nhập & Xuất kho",
+                    "description": "Quy trình nhập mua, nhập trả, nhập chuyển kho. Xuất bán, xuất sản xuất, xuất hủy. Tích hợp phê duyệt nhiều cấp.",
+                    "icon_html": "<line x1='12' y1='1' x2='12' y2='23' /><path d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6' />"
+                },
+                {
+                    "title": "Điều chuyển & Đóng gói",
+                    "description": "Chuyển vị trí hàng hóa trong kho (Internal Transfer). Đóng gói (Packing), Dán nhãn (Labeling) và Kitting.",
+                    "icon_html": "<polyline points='6 9 6 2 18 2 18 9' /><path d='M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2' /><rect x='6' y='14' width='12' height='8' />"
+                },
+                {
+                    "title": "Kiểm soát Pallet",
+                    "description": "Quản lý định danh từng Pallet (Pallet ID/LPN). Theo dõi lịch sử di chuyển và trạng thái của Pallet.",
+                    "icon_html": "<rect x='3' y='3' width='7' height='7' /><rect x='14' y='3' width='7' height='7' /><rect x='14' y='14' width='7' height='7' /><rect x='3' y='14' width='7' height='7' />"
+                },
+                {
+                    "title": "Cảnh báo thông minh",
+                    "description": "Cảnh báo tồn kho tối thiểu (Min), tối đa (Max), hàng sắp hết hạn, hàng nằm kho quá lâu (Slow moving).",
+                    "icon_html": "<rect x='3' y='4' width='18' height='18' rx='2' ry='2' /><line x1='16' y1='2' x2='16' y2='6' /><line x1='8' y1='2' x2='8' y2='6' /><line x1='3' y1='10' x2='21' y2='10' />"
+                }
+            ]
+        },
+        "advanced_1": {
+            "title": "Mobile App & PDA",
+            "description": "Ứng dụng di động dành cho nhân viên kho, hoạt động Online/Offline.",
+            "image": "assets/img/mobile-app.png",
+            "items": [
+                "Quét Barcode/QR Code tốc độ cao",
+                "Thực hiện lệnh Nhập/Xuất/Kiểm kê ngay tại chỗ",
+                "Tra cứu thông tin sản phẩm và vị trí nhanh chóng",
+                "Chụp ảnh tình trạng hàng hóa lưu lên hệ thống"
+            ]
+        },
+        "advanced_2": {
+            "title": "Tích hợp & Mở rộng",
+            "description": "Hệ thống mở, dễ dàng kết nối với các phần mềm và thiết bị khác.",
+            "image": "assets/img/bao-cao-ton.png",
+            "items": [
+                "Tích hợp ERP (SAP, Oracle, Misa...)",
+                "Kết nối cân điện tử, máy in tem",
+                "Hỗ trợ công nghệ RFID (Tùy chọn nâng cao)",
+                "API mở cho các sàn TMĐT"
+            ]
+        },
+        "marketing": {
+            "title": "Hiệu quả quản trị",
+            "subtitle": "Lợi ích",
+            "description": "Mang lại giá trị thiết thực cho doanh nghiệp thông qua các chỉ số vận hành.",
+            "col_1": {
+                "title": "Tối ưu không gian",
+                "items": [
+                    "Tăng 30% khả năng chứa hàng",
+                    "Giảm thời gian tìm kiếm hàng",
+                    "Sắp xếp kho khoa học",
+                    "Trực quan hóa sơ đồ kho",
+                    "Gợi ý vị trí trống thông minh"
+                ]
+            },
+            "col_2": {
+                "title": "Chính xác & Minh bạch",
+                "items": [
+                    "Độ chính xác tồn kho >99.9%",
+                    "Truy xuất nguồn gốc (Traceability)",
+                    "Minh bạch lịch sử giao dịch",
+                    "Kiểm soát thất thoát",
+                    "Quản lý hiệu suất nhân viên"
+                ]
+            },
+            "col_3": {
+                "title": "Báo cáo quản trị",
+                "items": [
+                    "Báo cáo nhập xuất tồn (NXT)",
+                    "Báo cáo tuổi kho (Aging Report)",
+                    "Báo cáo quay vòng hàng tồn kho",
+                    "Biểu đồ trực quan",
+                    "Xuất Excel/PDF linh hoạt"
+                ]
+            }
+        },
+        "tech": {
+            "title": "Nền tảng công nghệ",
+            "subtitle": "Kỹ thuật",
+            "description": "Sử dụng công nghệ tiên tiến đảm bảo hiệu năng và bảo mật.",
+            "items": [
+                {
+                    "title": "Cloud & Web-base",
+                    "description": "Truy cập mọi lúc mọi nơi, không cần cài đặt server phức tạp.",
+                    "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2' /><line x1='8' y1='21' x2='16' y2='21' /><line x1='12' y1='17' x2='12' y2='21' />"
+                },
+                {
+                    "title": "Bảo mật dữ liệu",
+                    "description": "Phân quyền chi tiết đến từng nút bấm, mã hóa dữ liệu, backup tự động.",
+                    "icon_html": "<rect x='3' y='11' width='18' height='11' rx='2' ry='2' /><path d='M7 11V7a5 5 0 0 1 10 0v4' />"
+                },
+                {
+                    "title": "High Performance",
+                    "description": "Xử lý hàng triệu bản ghi tồn kho, hỗ trợ hàng trăm user truy cập cùng lúc.",
+                    "icon_html": "<path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z' />"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Bắt đầu chuyển đổi số kho hàng",
+            "description": "Liên hệ ngay để được demo trực tiếp và tư vấn mô hình phù hợp.",
+            "btn_primary": "Đăng ký Demo",
+            "btn_secondary": "Xem Bảng Giá"
+        }
+    },
+    "pricing_page": {
+        "header": {
+            "title": "Bảng Giá Dịch Vụ WMS",
+            "subtitle": "Đầu tư hiệu quả - Tiết kiệm chi phí",
+            "description": "Các gói dịch vụ được thiết kế linh hoạt theo quy mô kho và nhu cầu sử dụng của doanh nghiệp."
+        },
+        "toggle": {
+            "monthly": "Theo tháng",
+            "yearly": "Theo năm",
+            "discount": "-15%"
+        },
+        "plans": {
+            "basic": {
+                "name": "Standard",
+                "desc": "Kho nhỏ, hộ kinh doanh",
+                "price": "Liên hệ",
+                "items": [
+                    "Quản lý 1 Kho",
+                    "Tối đa 3 Users",
+                    "Quản lý sản phẩm, tồn kho",
+                    "Nhập/Xuất cơ bản",
+                    "Báo cáo NXT",
+                    "Hỗ trợ Online"
+                ],
+                "btn": "Đăng ký ngay"
+            },
+            "pro": {
+                "name": "Professional",
+                "desc": "Doanh nghiệp SMB",
+                "badge": "Khuyên dùng",
+                "price": "Liên hệ",
+                "items": [
+                    "Quản lý đa kho",
+                    "Tối đa 10 Users",
+                    "Quản lý vị trí (Bin Location)",
+                    "Barcode/QR Code",
+                    "Mobile App / PDA",
+                    "Quản lý Lot/Date",
+                    "Hỗ trợ 24/7"
+                ],
+                "btn": "Đăng ký ngay"
+            },
+            "full": {
+                "name": "Enterprise",
+                "desc": "Kho 3PL, Tập đoàn lớn",
+                "price": "Liên hệ",
+                "items": [
+                    "Không giới hạn User/Kho",
+                    "Full tính năng Pro",
+                    "Tùy chỉnh quy trình (Customize)",
+                    "Tích hợp ERP/API",
+                    "Server riêng (On-premise)",
+                    "Triển khai tận nơi",
+                    "Account Manager riêng"
+                ],
+                "btn": "Liên hệ tư vấn"
+            }
+        },
+        "compare": {
+            "label": "So sánh tính năng",
+            "title": "Chi tiết các gói",
+            "description": "So sánh chi tiết tính năng kỹ thuật giữa các gói dịch vụ.",
+            "features": [
+                {
+                    "name": "Số lượng kho",
+                    "basic": "1",
+                    "pro": "Đa kho",
+                    "full": "Không giới hạn"
+                },
+                {
+                    "name": "Quản lý vị trí (Map)",
+                    "basic": "—",
+                    "pro": "✓",
+                    "full": "✓"
+                },
+                {
+                    "name": "Barcode/Mobile App",
+                    "basic": "—",
+                    "pro": "✓",
+                    "full": "✓"
+                },
+                {
+                    "name": "Quản lý Lot/Date/Serial",
+                    "basic": "Cơ bản",
+                    "pro": "✓",
+                    "full": "✓"
+                },
+                {
+                    "name": "Tích hợp ERP (API)",
+                    "basic": "—",
+                    "pro": "—",
+                    "full": "✓"
+                },
+                {
+                    "name": "Tùy chỉnh tính năng",
+                    "basic": "—",
+                    "pro": "—",
+                    "full": "✓"
+                },
+                {
+                    "name": "Hỗ trợ triển khai",
+                    "basic": "Online",
+                    "pro": "Online/Offline",
+                    "full": "Tận nơi"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Cần giải pháp riêng biệt?",
+            "description": "Chúng tôi nhận phát triển tính năng WMS theo yêu cầu đặc thù của doanh nghiệp.",
+            "btn_primary": "Yêu cầu báo giá riêng",
+            "btn_call": "Gọi ngay: 0933549469"
+        },
+        "faq": {
+            "label": "Câu hỏi thường gặp",
+            "title": "Giải đáp thắc mắc",
+            "description": "Các câu hỏi phổ biến về phần mềm quản lý kho.",
+            "items": [
+                {
+                    "question": "Phần mềm có kết nối được với máy quét mã vạch không?",
+                    "answer": "Có. SOF WMS tương thích với hầu hết các loại máy quét mã vạch USB, Bluetooth và các thiết bị PDA công nghiệp (Zebra, Honeywell...)."
+                },
+                {
+                    "question": "Tôi có thể in tem mã vạch từ phần mềm không?",
+                    "answer": "Có. Hệ thống tích hợp sẵn module thiết kế và in tem mã vạch, hỗ trợ các loại máy in tem thông dụng."
+                },
+                {
+                    "question": "Dữ liệu kho có được bảo mật không?",
+                    "answer": "Chúng tôi cam kết bảo mật tuyệt đối dữ liệu khách hàng. Dữ liệu được mã hóa và backup định kỳ trên hệ thống Cloud an toàn."
+                },
+                {
+                    "question": "Triển khai phần mềm mất bao lâu?",
+                    "answer": "Với gói Standard và Pro, bạn có thể sử dụng ngay sau khi đăng ký. Gói Enterprise tùy thuộc vào yêu cầu tùy chỉnh, thường từ 2-4 tuần."
+                },
+                {
+                    "question": "Có hỗ trợ nhập liệu tồn kho ban đầu không?",
+                    "answer": "Có. Chúng tôi hỗ trợ import danh sách sản phẩm và tồn kho đầu kỳ từ file Excel vào hệ thống nhanh chóng."
+                }
+            ]
+        }
+    },
+    "contact_page": {
+        "header": {
+            "title": "Liên Hệ SOF Solutions",
+            "subtitle": "Hỗ trợ 24/7",
+            "description": "Đội ngũ chuyên gia WMS của chúng tôi luôn sẵn sàng giải đáp mọi thắc mắc của bạn."
+        },
+        "info": {
+            "title": "Thông tin liên hệ",
+            "description": "Kết nối với chúng tôi để được tư vấn giải pháp kho vận tối ưu nhất.",
+            "items": [
+                {
+                    "title": "Hotline Tư vấn",
+                    "content": "0933549469",
+                    "sub": "Miễn phí cuộc gọi",
+                    "href": "tel:0933549469",
+                    "icon_html": "<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/>"
+                },
+                {
+                    "title": "Email",
+                    "content": "sales@sof.vn",
+                    "sub": "Gửi yêu cầu báo giá",
+                    "href": "mailto:sales@sof.vn",
+                    "icon_html": "<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/><polyline points='22,6 12,13 2,6'/>"
+                },
+                {
+                    "title": "Văn phòng",
+                    "content": "Tây Thạnh, Tân Phú<br>TP. Hồ Chí Minh, Việt Nam",
+                    "sub": "",
+                    "href": "#",
+                    "icon_html": "<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/>"
+                },
+                {
+                    "title": "Giờ làm việc",
+                    "content": "Thứ 2 - Thứ 7: 8:00 - 17:30",
+                    "sub": "",
+                    "href": "#",
+                    "icon_html": "<circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/>"
+                }
+            ]
+        },
+        "social": {
+            "title": "Kết nối với chúng tôi",
+            "items": [
+                {
+                    "label": "Facebook",
+                    "href": "https://facebook.com/sof.vn",
+                    "icon_html": "<path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/>"
+                },
+                {
+                    "label": "Zalo",
+                    "href": "https://zalo.me/0933549469",
+                    "icon_html": "<path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm-1-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm8 7h-2v-3c0-.55-.45-1-1-1s-1 .45-1 1v3h-2v-6h2v1c.31-.45.84-1 1.5-1 1.38 0 2.5 1.12 2.5 2.5v3.5z'/>"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "#",
+                    "icon_html": "<path d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z'/><rect x='2' y='9' width='4' height='12'/><circle cx='4' cy='4' r='2'/>"
+                }
+            ]
+        },
+        "form": {
+            "title": "Đăng ký tư vấn miễn phí",
+            "labels": {
+                "name": "Họ tên / Công ty",
+                "contact_person": "Người liên hệ",
+                "email": "Email công việc",
+                "phone": "Số điện thoại",
+                "service": "Giải pháp quan tâm",
+                "message": "Nhu cầu cụ thể (Quy mô kho, loại hàng hóa...)",
+                "privacy": "Tôi đồng ý với chính sách bảo mật của SOF.",
+                "submit": "Gửi yêu cầu"
+            },
+            "services": [
+                {
+                    "value": "WMS.STANDARD",
+                    "text": "Gói Standard"
+                },
+                {
+                    "value": "WMS.PRO",
+                    "text": "Gói Professional"
+                },
+                {
+                    "value": "WMS.ENTERPRISE",
+                    "text": "Gói Enterprise"
+                },
+                {
+                    "value": "demo",
+                    "text": "Yêu cầu Demo"
+                },
+                {
+                    "value": "other",
+                    "text": "Khác"
+                }
+            ]
+        },
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.982626705084!2d106.62401047570356!3d10.812641158523363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be7df3b90b9%3A0x2b5653454be821e!2sC%C3%94NG%20TY%20TNHH%20SOF!5e0!3m2!1svi!2s!4v1764900522621!5m2!1svi!2s",
+        "support": {
+            "label": "Hỗ trợ khách hàng",
+            "title": "Trung tâm trợ giúp",
+            "description": "Tài liệu hướng dẫn và kênh hỗ trợ kỹ thuật.",
+            "items": [
+                {
+                    "title": "Tài liệu Wiki",
+                    "desc": "Hướng dẫn sử dụng chi tiết các tính năng WMS.",
+                    "btn": "Xem tài liệu",
+                    "href": "#",
+                    "icon_html": "<path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><polyline points='14 2 14 8 20 8'/><line x1='16' y1='13' x2='8' y2='13'/><line x1='16' y1='17' x2='8' y2='17'/><polyline points='10 9 9 9 8 9'/>"
+                },
+                {
+                    "title": "Video Training",
+                    "desc": "Video hướng dẫn quy trình nhập xuất kho, kiểm kê.",
+                    "btn": "Xem Video",
+                    "href": "#",
+                    "icon_html": "<polygon points='23 7 16 12 23 17 23 7'/><rect x='1' y='5' width='15' height='14' rx='2' ry='2'/>"
+                },
+                {
+                    "title": "FAQ",
+                    "desc": "Câu hỏi thường gặp và xử lý sự cố.",
+                    "btn": "Xem FAQ",
+                    "href": "pricing.html#faq",
+                    "icon_html": "<circle cx='12' cy='12' r='10'/><path d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'/><line x1='12' y1='17' x2='12.01' y2='17'/>"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "brand_desc": "SOF Solutions - Đơn vị cung cấp giải pháp chuyển đổi số kho vận (WMS) hàng đầu Việt Nam.",
+        "col_1": {
+            "title": "Sản phẩm",
+            "links": [
+                {
+                    "text": "Phần mềm WMS",
+                    "href": "features.html"
+                },
+                {
+                    "text": "Bảng giá",
+                    "href": "pricing.html"
+                },
+                {
+                    "text": "Giải pháp Barcode",
+                    "href": "#"
+                },
+                {
+                    "text": "Thiết bị kho",
+                    "href": "#"
+                }
+            ]
+        },
+        "col_2": {
+            "title": "Hỗ trợ",
+            "links": [
+                {
+                    "text": "Hướng dẫn sử dụng",
+                    "href": "#"
+                },
+                {
+                    "text": "Yêu cầu hỗ trợ",
+                    "href": "contact.html"
+                },
+                {
+                    "text": "Chính sách bảo hành",
+                    "href": "#"
+                },
+                {
+                    "text": "Tuyển dụng",
+                    "href": "#"
+                }
+            ]
+        },
+        "col_3": {
+            "title": "Liên hệ",
+            "info": [
+                {
+                    "text": "0933549469",
+                    "icon_html": "<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/>"
+                },
+                {
+                    "text": "sales@sof.vn",
+                    "icon_html": "<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/><polyline points='22,6 12,13 2,6'/>"
+                },
+                {
+                    "text": "TP. Hồ Chí Minh",
+                    "icon_html": "<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/>"
+                }
+            ]
+        },
+        "social": {
+            "facebook": "https://facebook.com/sof.vn",
+            "youtube": "https://youtube.com/@sof.vn",
+            "linkedin": "https://linkedin.com/company/sof-vn",
+            "zalo": "https://zalo.me/0933549469"
+        },
+        "copyright": "© 2024 SOF Solutions. All rights reserved.",
+        "bottom_links": [
+            {
+                "text": "Điều khoản sử dụng",
+                "href": "#"
+            },
+            {
+                "text": "Chính sách bảo mật",
+                "href": "#"
+            }
+        ]
+    },
+    "floating": {
+        "chatbot": {
+            "title": "SOF WMS Support",
+            "status": "Online",
+            "placeholder": "Bạn cần hỗ trợ gì?"
+        },
+        "contact": {
+            "zalo": {
+                "href": "https://zalo.me/0933549469",
+                "label": "Chat Zalo"
+            },
+            "messenger": {
+                "href": "https://m.me/sof",
+                "label": "Messenger"
+            },
+            "email": {
+                "href": "mailto:sales@sof.vn",
+                "label": "Gửi Email"
+            },
+            "phone": {
+                "href": "tel:0933549469",
+                "label": "0933549469"
+            }
+        }
+    },
+    "404_page": {
+        "title": "404 - Trang không tồn tại",
+        "heading": "Oops! Đường dẫn không đúng",
+        "description": "Trang bạn đang tìm kiếm có thể đã bị xóa hoặc không tồn tại.",
+        "btn_home": "Về trang chủ",
+        "btn_contact": "Liên hệ hỗ trợ"
+    }
+}

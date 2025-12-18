@@ -1,0 +1,675 @@
+{
+    "_template_info": {
+        "version": "1.0.0",
+        "name": "SOF Smart Parking Template",
+        "description": "Template content.json cho Hệ thống giữ xe thông minh",
+        "author": "SOF Team",
+        "last_updated": "2024-12-18",
+        "required_images": [
+            "assets/logo/logo.png",
+            "assets/img/hero-parking.png",
+            "assets/img/lan-xe.png",
+            "assets/img/camera-ai.png",
+            "assets/img/barrier.png",
+            "assets/img/bao-cao.png",
+            "assets/img/og-image-parking.jpg"
+        ]
+    },
+    "site": {
+        "name": "SOF Smart Parking",
+        "domain": "https://parking.sof.vn",
+        "lang": "vi",
+        "theme_color": "#0056b3"
+    },
+    "meta": {
+        "title": "SOF Parking - Giải Pháp Quản Lý Bãi Xe Thông Minh & Nhận Diện Biển Số AI",
+        "description": "Hệ thống giữ xe thông minh SOF Parking - Tích hợp Camera AI nhận diện biển số, điều khiển Barrier tự động, quản lý doanh thu chặt chẽ, chống thất thoát. Phù hợp cho tòa nhà, chung cư, TTTM.",
+        "keywords": "máy giữ xe thông minh, phần mềm bãi xe, camera nhận diện biển số, barrier tự động, thẻ từ giữ xe, quản lý bãi xe, SOF Parking",
+        "author": "SOF Solutions",
+        "og_image": "https://parking.sof.vn/assets/img/og-image-parking.jpg"
+    },
+    "header": {
+        "logo": "assets/logo/logo.png",
+        "nav": [
+            {
+                "text": "Trang chủ",
+                "href": "index.html"
+            },
+            {
+                "text": "Giải pháp",
+                "href": "features.html"
+            },
+            {
+                "text": "Báo giá",
+                "href": "pricing.html"
+            },
+            {
+                "text": "Dự án",
+                "href": "contact.html"
+            }
+        ],
+        "cta_mobile": "Tư vấn lắp đặt",
+        "hotline": "Hotline: 0933549469",
+        "contact": {
+            "phone": "tel:0933549469"
+        }
+    },
+    "hero": {
+        "badge": "Công nghệ AI nhận diện 99.9%",
+        "title": "Hệ Thống Quản Lý Bãi Xe Thông Minh",
+        "description": "Tự động hóa quy trình kiểm soát ra vào với công nghệ nhận diện biển số AI. Quản lý doanh thu minh bạch, an toàn tuyệt đối cho bãi xe của bạn.",
+        "btn_primary": "Yêu cầu báo giá",
+        "btn_secondary": "Xem Demo",
+        "image": "assets/img/hero-parking.png",
+        "stats": [
+            {
+                "number": "200+",
+                "label": "Bãi xe đã triển khai"
+            },
+            {
+                "number": "0.5s",
+                "label": "Tốc độ nhận diện"
+            },
+            {
+                "number": "100%",
+                "label": "Chống thất thoát"
+            }
+        ]
+    },
+    "features": {
+        "label": "Công nghệ vượt trội",
+        "title": "Giải pháp toàn diện cho bãi xe",
+        "description": "Kết hợp phần mềm thông minh và thiết bị phần cứng chất lượng cao giúp vận hành trơn tru.",
+        "items": [
+            {
+                "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><line x1='8' y1='21' x2='16' y2='21'/><line x1='12' y1='17' x2='12' y2='21'/>",
+                "title": "Nhận diện biển số AI",
+                "description": "Tự động đọc và chuyển đổi biển số xe thành văn bản chính xác >99%, kể cả trong điều kiện thiếu sáng hoặc biển số mờ."
+            },
+            {
+                "icon_html": "<rect x='3' y='3' width='7' height='7'/><rect x='14' y='3' width='7' height='7'/><rect x='14' y='14' width='7' height='7'/><rect x='3' y='14' width='7' height='7'/>",
+                "title": "Điều khiển Barrier tự động",
+                "description": "Kết nối trực tiếp với Barrier. Tự động mở khi xe hợp lệ (vé tháng/đã thanh toán) và đóng ngay khi xe đi qua."
+            },
+            {
+                "icon_html": "<line x1='12' y1='1' x2='12' y2='23'/><path d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'/>",
+                "title": "Quản lý doanh thu chặt chẽ",
+                "description": "Tính tiền tự động theo block thời gian, loại xe (xe máy/ô tô). Báo cáo doanh thu chi tiết, ngăn chặn gian lận."
+            },
+            {
+                "icon_html": "<path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'/><polyline points='3.27 6.96 12 12.01 20.73 6.96'/><line x1='12' y1='22.08' x2='12' y2='12'/>",
+                "title": "Quản lý vé tháng & vãng lai",
+                "description": "Phân loại khách hàng linh hoạt. Tự động gia hạn vé tháng, cảnh báo vé hết hạn khi quẹt thẻ."
+            },
+            {
+                "icon_html": "<line x1='18' y1='20' x2='18' y2='10'/><line x1='12' y1='20' x2='12' y2='4'/><line x1='6' y1='20' x2='6' y2='14'/>",
+                "title": "Báo cáo Online từ xa",
+                "description": "Chủ bãi xe xem báo cáo doanh thu, lượt xe ra vào, video giám sát trực tiếp qua Web/App điện thoại mọi lúc mọi nơi."
+            },
+            {
+                "icon_html": "<path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87'/><path d='M16 3.13a4 4 0 0 1 0 7.75'/>",
+                "title": "Phân quyền nhân viên",
+                "description": "Quản lý ca trực, phân quyền chi tiết cho bảo vệ, kế toán, quản lý. Lịch sử thao tác được ghi lại đầy đủ."
+            }
+        ],
+        "btn_more": "Xem thông số kỹ thuật"
+    },
+    "about": {
+        "label": "Quy trình hoạt động",
+        "title": "Kiểm soát ra vào nhanh chóng & chính xác",
+        "description": "Quy trình khép kín giúp giảm ùn tắc giờ cao điểm và đảm bảo an ninh tối đa.",
+        "image_1": "assets/img/lan-xe.png",
+        "image_2": "assets/img/camera-ai.png",
+        "process_1": {
+            "title": "Làn xe vào (Check-in):",
+            "items": [
+                "Xe dừng trước vạch → Camera tự động chụp biển số & mặt người",
+                "Bảo vệ quẹt thẻ từ (hoặc hệ thống tự nhận diện vé tháng)",
+                "Barrier mở, loa mời xe vào, hệ thống lưu dữ liệu",
+                "Thời gian xử lý: < 3 giây/xe"
+            ]
+        },
+        "process_2": {
+            "title": "Làn xe ra (Check-out):",
+            "items": [
+                "Quẹt thẻ xe → Hệ thống đối chiếu biển số vào & ra",
+                "Tự động tính tiền theo bảng giá (hoặc trừ lượt vé tháng)",
+                "Hiển thị số tiền trên bảng LED, in hóa đơn (nếu cần)",
+                "Barrier mở cho xe qua sau khi hoàn tất"
+            ]
+        },
+        "btn_consult": "Tư vấn giải pháp miễn phí"
+    },
+    "testimonials": {
+        "label": "Dự án tiêu biểu",
+        "title": "Đối tác tin cậy của các tòa nhà",
+        "description": "Khách hàng nói gì về giải pháp giữ xe thông minh SOF Parking.",
+        "items": [
+            {
+                "content": "Hệ thống nhận diện biển số rất nhanh, giúp giảm hẳn tình trạng ùn tắc tại hầm gửi xe chung cư vào giờ tan tầm. Doanh thu được kiểm soát minh bạch.",
+                "author": "Anh Tuấn",
+                "role": "BQL Chung cư Vista"
+            },
+            {
+                "content": "Phần mềm dễ sử dụng, bảo vệ lớn tuổi cũng thao tác được. Tính năng báo cáo qua điện thoại giúp tôi quản lý bãi xe từ xa rất tiện lợi.",
+                "author": "Chị Lan",
+                "role": "Chủ bãi xe Bệnh viện X"
+            },
+            {
+                "content": "Đội ngũ kỹ thuật hỗ trợ nhiệt tình, xử lý sự cố nhanh. Hệ thống hoạt động ổn định 24/7, tôi rất yên tâm.",
+                "author": "Anh Hùng",
+                "role": "Quản lý TTTM Plaza"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Bạn cần nâng cấp bãi xe hiện tại?",
+        "description": "Liên hệ ngay để được khảo sát thực tế và lên phương án thi công tối ưu chi phí.",
+        "btn_primary": "Đăng ký khảo sát",
+        "btn_secondary": "Xem bảng giá thiết bị"
+    },
+    "features_page": {
+        "header": {
+            "title": "Tính Năng Chi Tiết SOF Parking",
+            "subtitle": "Giải pháp quản lý bãi xe chuyên nghiệp với công nghệ AI, tích hợp phần cứng Barrier, LED, Thẻ từ.",
+            "badge": "Smart Parking 4.0"
+        },
+        "core": {
+            "label": "Tính năng cốt lõi",
+            "title": "Kiểm soát & Vận hành",
+            "description": "Các tính năng giúp bãi xe vận hành tự động hóa và an toàn.",
+            "items": [
+                {
+                    "title": "Nhận diện biển số (LPR)",
+                    "description": "Công nghệ Deep Learning nhận diện chính xác các loại biển số xe máy, ô tô, biển quân đội, biển nước ngoài.",
+                    "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2' /><line x1='8' y1='21' x2='16' y2='21' /><line x1='12' y1='17' x2='12' y2='21' />"
+                },
+                {
+                    "title": "Quản lý thẻ từ (RFID)",
+                    "description": "Hỗ trợ các loại thẻ Proximity, Mifare. Mã hóa thẻ để chống sao chép, tăng cường bảo mật.",
+                    "icon_html": "<rect x='3' y='3' width='18' height='18' rx='2' ry='2' /><path d='M7 7h10' /><path d='M7 11h10' /><path d='M7 15h6' />"
+                },
+                {
+                    "title": "Tính phí linh hoạt",
+                    "description": "Cấu hình giá vé theo giờ, theo lượt, ngày/đêm, ngày lễ tết. Hỗ trợ miễn phí thời gian đầu.",
+                    "icon_html": "<line x1='12' y1='1' x2='12' y2='23' /><path d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6' />"
+                },
+                {
+                    "title": "Cảnh báo gian lận",
+                    "description": "Phát hiện biển số vào và ra không trùng khớp, cảnh báo xe vượt Barrier, cảnh báo thẻ bị khóa.",
+                    "icon_html": "<path d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z' /><line x1='12' y1='9' x2='12' y2='13' /><line x1='12' y1='17' x2='12.01' y2='17' />"
+                },
+                {
+                    "title": "Tích hợp phần cứng",
+                    "description": "Kết nối Barrier, bảng LED hiển thị giá tiền, đầu đọc thẻ tầm xa (UHF), máy nhả thẻ tự động.",
+                    "icon_html": "<rect x='2' y='2' width='20' height='8' rx='2' ry='2' /><rect x='2' y='14' width='20' height='8' rx='2' ry='2' /><line x1='6' y1='6' x2='6.01' y2='6' /><line x1='6' y1='18' x2='6.01' y2='18' />"
+                },
+                {
+                    "title": "Đảo làn thông minh",
+                    "description": "Tự động chuyển đổi làn vào/ra linh hoạt theo lưu lượng xe thực tế vào giờ cao điểm.",
+                    "icon_html": "<polyline points='16 3 21 3 21 8' /><line x1='4' y1='20' x2='21' y2='3' /><polyline points='21 16 21 21 16 21' /><line x1='15' y1='15' x2='21' y2='21' /><line x1='4' y1='4' x2='9' y2='9' />"
+                }
+            ]
+        },
+        "advanced_1": {
+            "title": "Quản lý Thẻ & Khách hàng",
+            "description": "Hệ thống quản lý thông tin khách hàng gửi xe tháng chuyên nghiệp.",
+            "image": "assets/img/anh3.png",
+            "items": [
+                "Đăng ký, gia hạn, khóa thẻ tháng dễ dàng",
+                "Quản lý danh sách xe VIP, xe miễn phí",
+                "Nhập/Xuất danh sách khách hàng từ Excel",
+                "Thông báo gia hạn qua Zalo/SMS"
+            ]
+        },
+        "advanced_2": {
+            "title": "Báo cáo & Thống kê",
+            "description": "Hệ thống báo cáo chi tiết giúp chủ bãi xe nắm bắt tình hình kinh doanh.",
+            "image": "assets/img/bao-cao.png",
+            "items": [
+                "Báo cáo doanh thu theo ca, ngày, tháng",
+                "Thống kê lưu lượng xe vào/ra",
+                "Báo cáo xe tồn trong bãi",
+                "Truy xuất lịch sử xe ra vào có kèm hình ảnh"
+            ]
+        },
+        "marketing": {
+            "title": "Hệ sinh thái thông minh",
+            "subtitle": "Mở rộng",
+            "description": "Tích hợp các tiện ích mở rộng giúp nâng cao trải nghiệm người dùng.",
+            "col_1": {
+                "title": "Ứng dụng Di động",
+                "items": [
+                    "App cho cư dân đăng ký vé tháng",
+                    "Thanh toán phí gửi xe qua App",
+                    "Tìm kiếm vị trí xe trống",
+                    "Thông báo xe ra vào cho chủ xe"
+                ]
+            },
+            "col_2": {
+                "title": "Thanh toán không tiền mặt",
+                "items": [
+                    "Quét mã QR Code động",
+                    "Tích hợp Ví điện tử (Momo, VNPAY)",
+                    "Thanh toán chạm thẻ ngân hàng",
+                    "Thu phí tự động không dừng (ETC)"
+                ]
+            },
+            "col_3": {
+                "title": "Quản lý từ xa",
+                "items": [
+                    "Web Dashboard quản trị trung tâm",
+                    "Xem camera trực tuyến từ xa",
+                    "Mở Barrier từ xa qua phần mềm",
+                    "Đồng bộ dữ liệu đa chi nhánh"
+                ]
+            }
+        },
+        "tech": {
+            "title": "Cấu trúc hệ thống",
+            "subtitle": "Kỹ thuật",
+            "description": "Hệ thống vận hành bền bỉ, ổn định và dễ dàng mở rộng.",
+            "items": [
+                {
+                    "title": "Server Client",
+                    "description": "Mô hình Client-Server đảm bảo dữ liệu an toàn, đồng bộ liên tục.",
+                    "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2' /><line x1='8' y1='21' x2='16' y2='21' /><line x1='12' y1='17' x2='12' y2='21' />"
+                },
+                {
+                    "title": "Offline Mode",
+                    "description": "Hoạt động bình thường ngay cả khi mất kết nối Internet (Local Network).",
+                    "icon_html": "<rect x='3' y='11' width='18' height='11' rx='2' ry='2' /><path d='M7 11V7a5 5 0 0 1 10 0v4' />"
+                },
+                {
+                    "title": "Tích hợp API",
+                    "description": "Sẵn sàng API kết nối với phần mềm quản lý tòa nhà (BMS), phần mềm kế toán.",
+                    "icon_html": "<path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z' />"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Triển khai hệ thống ngay hôm nay",
+            "description": "Liên hệ với SOF để nhận tư vấn giải pháp phù hợp nhất cho bãi xe của bạn.",
+            "btn_primary": "Tư vấn miễn phí",
+            "btn_secondary": "Xem dự án đã làm"
+        }
+    },
+    "pricing_page": {
+        "header": {
+            "title": "Bảng Giá Phần Mềm",
+            "subtitle": "Chi phí hợp lý - Hiệu quả lâu dài",
+            "description": "Bảng giá tham khảo cho phần mềm quản lý. Chi phí thiết bị phần cứng sẽ được báo giá sau khi khảo sát."
+        },
+        "toggle": {
+            "monthly": "Gói thuê bao",
+            "yearly": "Mua vĩnh viễn",
+            "discount": "Tiết kiệm"
+        },
+        "plans": {
+            "basic": {
+                "name": "Basic",
+                "desc": "Bãi xe máy nhỏ, quán cafe",
+                "price": "Liên hệ",
+                "items": [
+                    "Quản lý 01 máy giữ xe (2 làn)",
+                    "Nhận diện biển số xe máy",
+                    "Quản lý vé lượt, vé tháng",
+                    "Báo cáo doanh thu cơ bản",
+                    "Hỗ trợ qua Ultraviewer"
+                ],
+                "btn": "Nhận báo giá"
+            },
+            "pro": {
+                "name": "Pro",
+                "desc": "Chung cư, Tòa nhà văn phòng",
+                "badge": "Phổ biến nhất",
+                "price": "Liên hệ",
+                "items": [
+                    "Quản lý không giới hạn làn xe",
+                    "Nhận diện ô tô & xe máy",
+                    "Điều khiển Barrier tự động",
+                    "Kết nối bảng LED, loa báo",
+                    "Báo cáo qua Web/Mobile App",
+                    "Hỗ trợ tận nơi 24/7"
+                ],
+                "btn": "Nhận báo giá"
+            },
+            "full": {
+                "name": "Enterprise",
+                "desc": "Chuỗi bãi xe, TTTM lớn",
+                "price": "Liên hệ",
+                "items": [
+                    "Hệ thống Server trung tâm",
+                    "Đồng bộ đa điểm, đa chi nhánh",
+                    "Tích hợp App cho cư dân",
+                    "Thanh toán không tiền mặt",
+                    "Tùy chỉnh tính năng theo yêu cầu",
+                    "Bảo trì định kỳ"
+                ],
+                "btn": "Nhận báo giá"
+            }
+        },
+        "compare": {
+            "label": "So sánh chi tiết",
+            "title": "Tính năng theo gói",
+            "description": "Lựa chọn gói phần mềm phù hợp với quy mô bãi xe.",
+            "features": [
+                {
+                    "name": "Số lượng làn xe",
+                    "basic": "Tối đa 2",
+                    "pro": "Không giới hạn",
+                    "full": "Không giới hạn"
+                },
+                {
+                    "name": "Điều khiển Barrier",
+                    "basic": "Thủ công",
+                    "pro": "Tự động",
+                    "full": "Tự động"
+                },
+                {
+                    "name": "Nhận diện biển số",
+                    "basic": "Cơ bản",
+                    "pro": "AI Deep Learning",
+                    "full": "AI Deep Learning"
+                },
+                {
+                    "name": "Quản lý từ xa (Web)",
+                    "basic": "—",
+                    "pro": "✓",
+                    "full": "✓"
+                },
+                {
+                    "name": "App Mobile báo cáo",
+                    "basic": "—",
+                    "pro": "✓",
+                    "full": "✓"
+                },
+                {
+                    "name": "Đồng bộ chuỗi",
+                    "basic": "—",
+                    "pro": "—",
+                    "full": "✓"
+                },
+                {
+                    "name": "Thanh toán ví điện tử",
+                    "basic": "—",
+                    "pro": "Tích hợp thêm",
+                    "full": "✓"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Cần báo giá trọn gói thiết bị?",
+            "description": "Bao gồm Máy tính, Camera, Đầu đọc thẻ, Barrier, Cảm biến, Bảng LED...",
+            "btn_primary": "Yêu cầu báo giá thiết bị",
+            "btn_call": "Gọi ngay: 0933549469"
+        },
+        "faq": {
+            "label": "Câu hỏi thường gặp",
+            "title": "Giải đáp thắc mắc",
+            "description": "Những câu hỏi phổ biến khi lắp đặt hệ thống giữ xe thông minh.",
+            "items": [
+                {
+                    "question": "Hệ thống có nhận diện được biển số vào ban đêm không?",
+                    "answer": "Có. Chúng tôi sử dụng Camera chuyên dụng có hồng ngoại và công nghệ AI giúp nhận diện chính xác >99% trong điều kiện thiếu sáng."
+                },
+                {
+                    "question": "Chi phí lắp đặt trọn gói khoảng bao nhiêu?",
+                    "answer": "Chi phí phụ thuộc vào số lượng làn xe và thiết bị phần cứng (Barrier, loại Camera...). Vui lòng liên hệ để được khảo sát và báo giá chi tiết."
+                },
+                {
+                    "question": "Mất điện thì hệ thống có hoạt động không?",
+                    "answer": "Hệ thống thường được trang bị bộ lưu điện (UPS) để hoạt động thêm một thời gian. Barrier có thể mở khóa thủ công bằng tay khi mất điện."
+                },
+                {
+                    "question": "Tôi có thể xem báo cáo doanh thu trên điện thoại không?",
+                    "answer": "Có. Gói Pro và Enterprise hỗ trợ xem báo cáo doanh thu, lượt xe ra vào trực tiếp trên trình duyệt Web và App điện thoại."
+                },
+                {
+                    "question": "Dữ liệu được lưu trữ bao lâu?",
+                    "answer": "Tùy thuộc vào dung lượng ổ cứng. Thông thường dữ liệu hình ảnh xe ra vào được lưu trữ từ 3-6 tháng, số liệu báo cáo lưu trữ vĩnh viễn."
+                }
+            ]
+        }
+    },
+    "contact_page": {
+        "header": {
+            "title": "Liên Hệ Tư Vấn & Lắp Đặt",
+            "subtitle": "Khảo sát tận nơi",
+            "description": "Đội ngũ kỹ thuật của SOF sẵn sàng đến tận nơi khảo sát và tư vấn giải pháp tối ưu cho bạn."
+        },
+        "info": {
+            "title": "Thông tin liên hệ",
+            "description": "Chúng tôi cung cấp dịch vụ lắp đặt và bảo hành trên toàn quốc.",
+            "items": [
+                {
+                    "title": "Hotline Kỹ thuật",
+                    "content": "0933549469",
+                    "sub": "Hỗ trợ 24/7",
+                    "href": "tel:0933549469",
+                    "icon_html": "<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/>"
+                },
+                {
+                    "title": "Email",
+                    "content": "sales@sof.vn",
+                    "sub": "Gửi yêu cầu báo giá",
+                    "href": "mailto:sales@sof.vn",
+                    "icon_html": "<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/><polyline points='22,6 12,13 2,6'/>"
+                },
+                {
+                    "title": "Văn phòng",
+                    "content": "Tây Thạnh, Tân Phú<br>TP. Hồ Chí Minh, Việt Nam",
+                    "sub": "",
+                    "href": "#",
+                    "icon_html": "<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/>"
+                },
+                {
+                    "title": "Giờ làm việc",
+                    "content": "Thứ 2 - Thứ 7: 8:00 - 17:30",
+                    "sub": "",
+                    "href": "#",
+                    "icon_html": "<circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/>"
+                }
+            ]
+        },
+        "social": {
+            "title": "Kết nối với chúng tôi",
+            "items": [
+                {
+                    "label": "Facebook",
+                    "href": "https://facebook.com/sof.vn",
+                    "icon_html": "<path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/>"
+                },
+                {
+                    "label": "Zalo",
+                    "href": "https://zalo.me/0933549469",
+                    "icon_html": "<path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm-1-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm8 7h-2v-3c0-.55-.45-1-1-1s-1 .45-1 1v3h-2v-6h2v1c.31-.45.84-1 1.5-1 1.38 0 2.5 1.12 2.5 2.5v3.5z'/>"
+                },
+                {
+                    "label": "YouTube",
+                    "href": "https://youtube.com/@sof.vn",
+                    "icon_html": "<path d='M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z'/><polygon points='9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02' fill='white'/>"
+                }
+            ]
+        },
+        "form": {
+            "title": "Gửi yêu cầu báo giá",
+            "labels": {
+                "name": "Họ tên / Đơn vị",
+                "contact_person": "Người liên hệ",
+                "email": "Email",
+                "phone": "Số điện thoại",
+                "service": "Quy mô bãi xe",
+                "message": "Nội dung yêu cầu (Số lượng làn, địa điểm lắp đặt...)",
+                "privacy": "Tôi đồng ý nhận tư vấn từ SOF Parking.",
+                "submit": "Gửi yêu cầu"
+            },
+            "services": [
+                {
+                    "value": "PARKING.BASIC",
+                    "text": "Bãi xe máy nhỏ (Cafe, Shop)"
+                },
+                {
+                    "value": "PARKING.PRO",
+                    "text": "Chung cư / Tòa nhà"
+                },
+                {
+                    "value": "PARKING.FULL",
+                    "text": "Hệ thống lớn (KCN, TTTM)"
+                },
+                {
+                    "value": "DEVICE.ONLY",
+                    "text": "Mua thiết bị (Barrier, Camera...)"
+                },
+                {
+                    "value": "support",
+                    "text": "Bảo trì / Sửa chữa"
+                },
+                {
+                    "value": "other",
+                    "text": "Khác"
+                }
+            ]
+        },
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.982626705084!2d106.62401047570356!3d10.812641158523363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be7df3b90b9%3A0x2b5653454be821e!2sC%C3%94NG%20TY%20TNHH%20SOF!5e0!3m2!1svi!2s!4v1764900522621!5m2!1svi!2s",
+        "support": {
+            "label": "Tài liệu hỗ trợ",
+            "title": "Bạn cần giúp đỡ?",
+            "description": "Tham khảo tài liệu hướng dẫn hoặc liên hệ kỹ thuật.",
+            "items": [
+                {
+                    "title": "Catalogue thiết bị",
+                    "desc": "Tải xuống thông số kỹ thuật Barrier, Camera, Đầu đọc thẻ.",
+                    "btn": "Tải Catalogue",
+                    "href": "#",
+                    "icon_html": "<path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><polyline points='14 2 14 8 20 8'/><line x1='16' y1='13' x2='8' y2='13'/><line x1='16' y1='17' x2='8' y2='17'/><polyline points='10 9 9 9 8 9'/>"
+                },
+                {
+                    "title": "Video vận hành",
+                    "desc": "Xem video thực tế quy trình xe ra vào tại các dự án.",
+                    "btn": "Xem Video",
+                    "href": "#",
+                    "icon_html": "<polygon points='23 7 16 12 23 17 23 7'/><rect x='1' y='5' width='15' height='14' rx='2' ry='2'/>"
+                },
+                {
+                    "title": "Câu hỏi thường gặp",
+                    "desc": "Các sự cố thường gặp và cách xử lý nhanh.",
+                    "btn": "Xem FAQ",
+                    "href": "pricing.html#faq",
+                    "icon_html": "<circle cx='12' cy='12' r='10'/><path d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'/><line x1='12' y1='17' x2='12.01' y2='17'/>"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "brand_desc": "Chuyên cung cấp giải pháp bãi giữ xe thông minh, kiểm soát ra vào tự động uy tín hàng đầu.",
+        "col_1": {
+            "title": "Giải pháp",
+            "links": [
+                {
+                    "text": "Hệ thống giữ xe",
+                    "href": "features.html"
+                },
+                {
+                    "text": "Barrier tự động",
+                    "href": "#"
+                },
+                {
+                    "text": "Kiểm soát thang máy",
+                    "href": "#"
+                },
+                {
+                    "text": "Máy phát hành thẻ",
+                    "href": "#"
+                }
+            ]
+        },
+        "col_2": {
+            "title": "Hỗ trợ",
+            "links": [
+                {
+                    "text": "Chính sách bảo hành",
+                    "href": "#"
+                },
+                {
+                    "text": "Tài liệu kỹ thuật",
+                    "href": "#"
+                },
+                {
+                    "text": "Quy định sử dụng",
+                    "href": "#"
+                },
+                {
+                    "text": "Liên hệ bảo trì",
+                    "href": "contact.html"
+                }
+            ]
+        },
+        "col_3": {
+            "title": "Liên hệ",
+            "info": [
+                {
+                    "text": "0933549469",
+                    "icon_html": "<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/>"
+                },
+                {
+                    "text": "sales@sof.vn",
+                    "icon_html": "<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/><polyline points='22,6 12,13 2,6'/>"
+                },
+                {
+                    "text": "TP. Hồ Chí Minh",
+                    "icon_html": "<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/>"
+                }
+            ]
+        },
+        "social": {
+            "facebook": "https://facebook.com/sof.vn",
+            "youtube": "https://youtube.com/@sof.vn",
+            "linkedin": "https://linkedin.com/company/sof-vn",
+            "zalo": "https://zalo.me/0933549469"
+        },
+        "copyright": "© 2024 SOF Smart Parking. All rights reserved.",
+        "bottom_links": [
+            {
+                "text": "Điều khoản sử dụng",
+                "href": "#"
+            },
+            {
+                "text": "Chính sách bảo mật",
+                "href": "#"
+            }
+        ]
+    },
+    "floating": {
+        "chatbot": {
+            "title": "Tư vấn viên Online",
+            "status": "Sẵn sàng hỗ trợ",
+            "placeholder": "Bạn cần báo giá cho mấy làn xe?"
+        },
+        "contact": {
+            "zalo": {
+                "href": "https://zalo.me/763475936290889196",
+                "label": "Chat Zalo"
+            },
+            "messenger": {
+                "href": "https://m.me/sof",
+                "label": "Messenger"
+            },
+            "email": {
+                "href": "mailto:sales@sof.vn",
+                "label": "Gửi Email"
+            },
+            "phone": {
+                "href": "tel:0933549469",
+                "label": "0933549469"
+            }
+        }
+    },
+    "404_page": {
+        "title": "404 - Trang không tồn tại",
+        "heading": "Oops! Trang không tìm thấy",
+        "description": "Đường dẫn bạn truy cập có thể đã bị thay đổi hoặc không tồn tại.",
+        "btn_home": "Về trang chủ",
+        "btn_contact": "Liên hệ hỗ trợ"
+    }
+}

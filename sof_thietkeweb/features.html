@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+<!-- Meta Tags Cơ Bản -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<!-- SEO Meta Tags -->
+<title>Tính Năng - SOF Cafe POS | Phần Mềm Quản Lý Quán Cafe Đa Nền Tảng</title>
+<meta content="Tính năng SOF Cafe POS: Màn hình POS trực quan, quản lý bàn, gọi món, kho hàng, thanh toán đa phương thức, báo cáo real-time. Hỗ trợ Windows, macOS, Linux." name="description"/>
+<meta content="tính năng POS cafe, quản lý quán cafe, gọi món cafe, quản lý kho cafe, báo cáo doanh thu cafe, phần mềm bán hàng cafe" name="keywords"/>
+<meta content="PMBH - Phần Mềm Bán Hàng" name="author"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://pos.sof.vn/features.html" rel="canonical"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://pos.sof.vn/features.html" property="og:url"/>
+<meta content="Tính Năng SOF Cafe POS - Giải Pháp Quản Lý Quán Cafe Toàn Diện" property="og:title"/>
+<meta content="Khám phá đầy đủ tính năng của SOF Cafe POS: Quản lý bàn, gọi món, kho hàng, báo cáo doanh thu." property="og:description"/>
+<meta content="https://pos.sof.vn/assets/img/og-features.jpg" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Tính Năng SOF Cafe POS - Giải Pháp Quản Lý Quán Cafe Toàn Diện" name="twitter:title"/>
+<meta content="Khám phá đầy đủ tính năng của SOF Cafe POS." name="twitter:description"/>
+<!-- Favicon -->
+<link href="assets/icons/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+<link href="assets/icons/favicon/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="assets/icons/favicon/favicon.ico" rel="shortcut icon"/>
+<link href="assets/icons/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<meta content="SOF.VN" name="apple-mobile-web-app-title">
+<link href="assets/icons/favicon/site.webmanifest" rel="manifest"/>
+<meta content="#197dd3" name="theme-color"/>
+<!-- Stylesheets -->
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/responsive.css" rel="stylesheet"/>
+</meta></link></head>
+<body>
+<!-- Header -->
+<header class="header" id="header">
+<div class="header-container">
+<a aria-label="SOF Cafe POS - Trang chủ" class="logo" href="index.html">
+<img alt="SOF Cafe POS Logo" height="50" src="assets/logo/logo.png" width="150"/>
+</a>
+<nav aria-label="Main navigation" class="nav">
+<ul class="nav-menu" id="navMenu">
+<li><a class="nav-link" href="index.html">Trang chủ</a></li>
+
+<li><a class="nav-link" href="features.html">Dịch vụ</a></li>
+
+<li><a class="nav-link" href="pricing.html">Bảng giá</a></li>
+
+<li><a class="nav-link" href="contact.html">Liên hệ</a></li>
+</ul>
+<div class="nav-cta">
+<a class="btn btn-outline btn-sm" href="tel:0933549469">Hotline: 0933549469</a>
+<div class="language-switcher">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm language-toggle" id="langToggle">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="2" x2="22" y1="12" y2="12"></line>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
+<span class="current-lang">VI</span>
+<svg class="chevron" fill="none" height="12" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="12">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+<div class="language-dropdown" id="langDropdown">
+<div class="language-list">
+<button class="language-option active" data-lang="vi">
+<span class="flag">🇻🇳</span>
+<span class="lang-name">Tiếng Việt</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="en">
+<span class="flag">🇺🇸</span>
+<span class="lang-name">English</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="zh">
+<span class="flag">🇨🇳</span>
+<span class="lang-name">中文</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="ja">
+<span class="flag">🇯🇵</span>
+<span class="lang-name">日本語</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="ko">
+<span class="flag">🇰🇷</span>
+<span class="lang-name">한국어</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="th">
+<span class="flag">🇹🇭</span>
+<span class="lang-name">ไทย</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="fr">
+<span class="flag">🇫🇷</span>
+<span class="lang-name">Français</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="de">
+<span class="flag">🇩🇪</span>
+<span class="lang-name">Deutsch</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<button aria-expanded="false" aria-label="Toggle menu" class="menu-toggle" id="menuToggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</nav>
+</div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+<!-- Page Header -->
+<section class="section bg-primary-gradient" style="padding-top: 120px;">
+<div class="container text-center">
+<span class="hero-badge" style="margin-bottom: var(--spacing-md);">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<span>Công nghệ 4.0</span>
+</span>
+<h1 class="text-white" style="margin-bottom: var(--spacing-md);">Dịch Vụ &amp; Công Nghệ</h1>
+<p class="text-white" style="opacity: 0.9; font-size: var(--fs-xl); max-width: 700px; margin: 0 auto;">Chúng tôi cung cấp các giải pháp web đa dạng từ Landing Page giới thiệu đến hệ thống E-commerce phức tạp.</p>
+</div>
+</section>
+<!-- Core Features -->
+<section class="section" id="core-features">
+<div class="container">
+<div class="section-header">
+<span class="label">Dịch vụ cốt lõi</span>
+<h2>Loại hình Website</h2>
+<p>Lựa chọn loại hình website phù hợp với mô hình kinh doanh của bạn.</p>
+</div>
+<div class="features-grid">
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect><line x1="12" x2="12" y1="17" y2="21"></line></svg>
+</div>
+<h3>Website Doanh Nghiệp</h3>
+<p>Quảng bá thương hiệu, hồ sơ năng lực (Profile), dịch vụ. Tăng độ uy tín với đối tác.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><circle cx="9" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+</div>
+<h3>Website Bán Hàng (E-com)</h3>
+<p>Tích hợp giỏ hàng, thanh toán online, vận chuyển. Quản lý kho, đơn hàng chuyên nghiệp.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><line x1="12" x2="12" y1="1" y2="23"></line></svg>
+</div>
+<h3>Landing Page</h3>
+<p>Trang đích tập trung vào một mục tiêu chuyển đổi: Bán 1 sản phẩm, đăng ký sự kiện, thu thập lead.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><polyline points="6 9 6 2 18 2 18 9"></polyline><rect height="8" width="12" x="6" y="14"></rect></svg>
+</div>
+<h3>Web App / Hệ thống</h3>
+<p>Các ứng dụng web phức tạp: Quản lý nội bộ, Booking, E-learning, Sàn thương mại điện tử.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="7" width="7" x="3" y="3"></rect><rect height="7" width="7" x="14" y="14"></rect></svg>
+</div>
+<h3>Redesign Website</h3>
+<p>Nâng cấp giao diện cũ, tối ưu lại cấu trúc code, tăng tốc độ và cải thiện chỉ số SEO.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect><line x1="8" x2="8" y1="2" y2="6"></line></svg>
+</div>
+<h3>Chăm sóc &amp; Quản trị</h3>
+<p>Viết bài chuẩn SEO, thiết kế banner, bảo trì kỹ thuật và backup dữ liệu định kỳ.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Advanced Features -->
+<section class="section bg-light">
+<div class="container">
+<div class="section-header">
+<span class="label">Tính năng nâng cao</span>
+<h2>Thực đơn, Kho &amp; Giá bán</h2>
+<p>Quản lý đồng bộ giữa bar, thu ngân, kho và kế toán với dữ liệu real-time.</p>
+</div>
+<div class="about-container" style="margin-bottom: var(--spacing-3xl);">
+<div class="about-image">
+<img alt="Quản lý thực đơn" src="assets/img/feature-ui.png" style="width: 100%; height: auto; border-radius: var(--radius-lg);"/>
+</div>
+<div class="about-content">
+<h3 style="color: var(--color-primary); margin-bottom: var(--spacing-md);">Thiết kế UI/UX</h3>
+<p>Tập trung vào trải nghiệm người dùng để gia tăng tỷ lệ chuyển đổi (Conversion Rate).</p>
+<ul class="about-list">
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Nghiên cứu hành vi người dùng (User Research)</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Thiết kế Wireframe &amp; Prototype</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Giao diện hiện đại, bắt kịp xu hướng (Material Design, Flat...)</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Tương thích mọi thiết bị (Mobile First)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="about-container" style="flex-direction: row-reverse;">
+<div class="about-image" style="order: 1;">
+<img alt="Quản lý kho" src="assets/img/feature-seo.png" style="width: 100%; height: auto; border-radius: var(--radius-lg);"/>
+</div>
+<div class="about-content" style="order: 2;">
+<h3 style="color: var(--color-primary); margin-bottom: var(--spacing-md);">Digital Marketing</h3>
+<p>Không chỉ làm web, chúng tôi cung cấp giải pháp marketing giúp web hoạt động hiệu quả.</p>
+<ul class="about-list">
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Tối ưu SEO On-page ngay khi code</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Tích hợp Google Analytics, Facebook Pixel</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Cài đặt Chatbot tự động chăm sóc khách</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Tối ưu tốc độ tải trang (Google PageSpeed)</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- More Features -->
+<section class="section">
+<div class="container">
+<div class="section-header">
+<span class="label">Hệ sinh thái</span>
+<h2>Công cụ hỗ trợ kinh doanh</h2>
+<p>Website được tích hợp sẵn các công cụ giúp bạn quản lý và phát triển kinh doanh dễ dàng.</p>
+</div>
+<div class="features-grid">
+<div class="feature-card" style="border-left: 4px solid var(--color-primary);">
+<div class="feature-icon" style="background: var(--color-primary);">
+<svg fill="none" height="32" stroke="white" stroke-width="2" viewbox="0 0 24 24" width="32">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+<circle cx="12" cy="7" r="4"></circle>
+</svg>
+</div>
+<h3>Kết nối đa kênh</h3>
+<ul style="text-align: left; padding-left: 1.5rem; margin-top: var(--spacing-sm);">
+<li>Đồng bộ sản phẩm lên Facebook/Instagram Shop</li>
+
+<li>Kết nối Zalo OA, Messenger</li>
+
+<li>Tích hợp Google Maps API</li>
+
+<li>Email Marketing tự động</li>
+
+<li>Nút gọi điện, chat nhanh</li>
+</ul>
+</div>
+<div class="feature-card" style="border-left: 4px solid var(--color-secondary);">
+<div class="feature-icon" style="background: var(--color-secondary);">
+<svg fill="none" height="32" stroke="white" stroke-width="2" viewbox="0 0 24 24" width="32">
+<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+<circle cx="9" cy="7" r="4"></circle>
+<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+</svg>
+</div>
+<h3>Thanh toán &amp; Vận chuyển</h3>
+<ul style="text-align: left; padding-left: 1.5rem; margin-top: var(--spacing-sm);">
+<li>Cổng thanh toán: VNPay, Momo, Stripe, Paypal</li>
+
+<li>Chuyển khoản ngân hàng tự động (VietQR)</li>
+
+<li>Tính phí vận chuyển tự động (GHTK, GHN)</li>
+
+<li>Theo dõi trạng thái đơn hàng</li>
+
+<li>Xuất hóa đơn điện tử</li>
+</ul>
+</div>
+<div class="feature-card" style="border-left: 4px solid #28a745;">
+<div class="feature-icon" style="background: #28a745;">
+<svg fill="none" height="32" stroke="white" stroke-width="2" viewbox="0 0 24 24" width="32">
+<line x1="18" x2="18" y1="20" y2="10"></line>
+<line x1="12" x2="12" y1="20" y2="4"></line>
+<line x1="6" x2="6" y1="20" y2="14"></line>
+</svg>
+</div>
+<h3>Báo cáo &amp; Phân tích</h3>
+<ul style="text-align: left; padding-left: 1.5rem; margin-top: var(--spacing-sm);">
+<li>Thống kê lượt truy cập theo thời gian thực</li>
+
+<li>Báo cáo doanh thu, sản phẩm bán chạy</li>
+
+<li>Biểu đồ hành vi khách hàng</li>
+
+<li>Xuất dữ liệu khách hàng ra Excel</li>
+
+<li>Phân quyền quản trị viên</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Tech Stack -->
+<section class="section bg-light">
+<div class="container">
+<div class="section-header">
+<span class="label">Nền tảng</span>
+<h2>Công nghệ sử dụng</h2>
+<p>Chúng tôi sử dụng những stack công nghệ hiện đại, mạnh mẽ và phổ biến nhất.</p>
+</div>
+<div class="features-grid">
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect><line x1="12" x2="12" y1="17" y2="21"></line></svg>
+</div>
+<h3>Frontend Modern</h3>
+<p>ReactJS, Next.js, VueJS, Bootstrap 5, Tailwind CSS giúp giao diện mượt mà, tốc độ cao.</p>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="11" rx="2" ry="2" width="18" x="3" y="11"></rect></svg>
+</div>
+<h3>Backend &amp; CMS</h3>
+<p>WordPress (Phổ biến), Node.js, PHP (Laravel) hoặc .NET tùy theo quy mô dự án.</p>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+</div>
+<h3>Server &amp; Cloud</h3>
+<p>Hạ tầng AWS, Google Cloud hoặc VPS tốc độ cao tại Việt Nam, bảo mật nhiều lớp.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="section cta">
+<div class="container">
+<h2>Bắt đầu dự án của bạn</h2>
+<p>Liên hệ ngay để được tư vấn giải pháp công nghệ phù hợp nhất.</p>
+<div class="cta-buttons">
+<a class="btn btn-white btn-lg" href="contact.html">
+<span>Nhận tư vấn ngay</span>
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</a>
+<a class="btn btn-outline-white btn-lg" href="pricing.html">Xem bảng giá</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="index.html">
+<img alt="SOF Cafe POS Logo" height="50" src="assets/logo/logo.png" width="150"/>
+</a>
+<p>Đơn vị cung cấp giải pháp thiết kế website và marketing tổng thể chuyên nghiệp, uy tín.</p>
+<div class="footer-social">
+<a aria-label="Facebook" href="#">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+</a>
+<a aria-label="YouTube" href="#">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+<polygon fill="white" points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+</a>
+<a aria-label="LinkedIn" href="#">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+<rect height="12" width="4" x="2" y="9"></rect>
+<circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Dịch vụ</h4>
+<ul class="footer-links">
+<li><a href="#">Thiết kế Landing Page</a></li>
+
+<li><a href="#">Thiết kế Web Bán Hàng</a></li>
+
+<li><a href="#">Thiết kế Web Doanh Nghiệp</a></li>
+
+<li><a href="#">Chăm sóc Website</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Hỗ trợ khách hàng</h4>
+<ul class="footer-links">
+<li><a href="#">Quy định bảo hành</a></li>
+
+<li><a href="#">Hình thức thanh toán</a></li>
+
+<li><a href="#">Hướng dẫn sử dụng</a></li>
+
+<li><a href="contact.html">Gửi yêu cầu hỗ trợ</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Liên hệ</h4>
+<ul class="footer-links">
+<li>
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<span>0933549469</span>
+</li>
+
+<li>
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path></svg>
+<span>contact@sof.vn</span>
+</li>
+
+<li>
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path></svg>
+<span>TP. Hồ Chí Minh</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2024 SOF Web Solutions. All rights reserved.</p>
+<div class="footer-bottom-links">
+<a href="#">Điều khoản dịch vụ</a>
+
+<a href="#">Chính sách bảo mật</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Scroll to Top Button -->
+<button aria-label="Scroll to top" class="scroll-top" id="scrollTop">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="24">
+<path d="M18 15l-6-6-6 6"></path>
+</svg>
+</button>
+<!-- Floating Chatbot -->
+<div class="floating-chatbot" id="floatingChatbot">
+<div class="chatbot-window">
+<div class="chatbot-header">
+<div class="chatbot-avatar">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="24">
+<path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+<circle cx="7.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+<circle cx="16.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+</svg>
+</div>
+<div class="chatbot-info">
+<h4>PMBH AI Assistant</h4>
+<p class="chatbot-status">Online</p>
+</div>
+</div>
+<div class="chatbot-messages" id="chatbotMessages"></div>
+<div class="chatbot-input">
+<textarea autocomplete="off" id="chatbotInput" placeholder="Nhập tin nhắn..." rows="1"></textarea>
+<button aria-label="Gửi tin nhắn" class="chatbot-send" id="chatbotSend">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
+<line x1="22" x2="11" y1="2" y2="13"></line>
+<polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+</svg>
+</button>
+</div>
+</div>
+<button aria-label="Mở chatbot" class="chatbot-toggle" id="chatbotToggle">
+<svg class="icon-open" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+<circle cx="7.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+<circle cx="16.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+</svg>
+<svg class="icon-close" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<line x1="18" x2="6" y1="6" y2="18"></line>
+<line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<!-- Floating Contact Button -->
+<div class="floating-contact" id="floatingContact">
+<div class="floating-contact-menu">
+<a class="floating-contact-item zalo" href="https://zalo.me/0933549469" rel="noopener" target="_blank">
+<span class="icon"><svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 14.655c-.346.346-.907.477-1.418.346-.511-.13-1.022-.477-1.468-.953-.477-.511-.823-1.087-.953-1.598-.13-.511 0-1.072.346-1.418.346-.346.907-.477 1.418-.346.511.13 1.022.477 1.468.953.477.511.823 1.087.953 1.598.13.511 0 1.072-.346 1.418zM8.5 7h7c.276 0 .5.224.5.5s-.224.5-.5.5h-7c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm0 2h7c.276 0 .5.224.5.5s-.224.5-.5.5h-7c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm0 2h4c.276 0 .5.224.5.5s-.224.5-.5.5h-4c-.276 0-.5-.224-.5-.5s.224-.5.5-.5z"></path>
+</svg></span>
+<span>Chat Zalo</span>
+</a>
+<a class="floating-contact-item facebook" href="https://m.me/pmbhcafe" rel="noopener" target="_blank">
+<span class="icon"><svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"></path>
+</svg></span>
+<span>Messenger</span>
+</a>
+<a class="floating-contact-item email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to= cskh@sof.vn&amp;su=Li%C3%AAn%20H%E1%BB%87%20B%C3%A1o%20Gi%C3%A1%20Ph%E1%BA%A7n%20M%E1%BB%81m%20Qu%C3%A1n%20Cafe&amp;body=K%C3%ADnh%20g%E1%BB%ADi%20PMBH%20Cafe%20POS%2C%0A%0AT%C3%B4i%20quan%20t%C3%A2m%20%C4%91%E1%BA%BFn%20ph%E1%BA%A7n%20m%E1%BB%81m%20qu%E1%BA%A3n%20l%C3%BD%20qu%C3%A1n%20cafe%20c%E1%BB%A7a%20qu%C3%BD%20c%C3%B4ng%20ty.%0A%0AXin%20vui%20l%C3%B2ng%20g%E1%BB%ADi%20cho%20t%C3%B4i%20b%C3%A1o%20gi%C3%A1%20chi%20ti%E1%BA%BFt.%0A%0ATh%C3%B4ng%20tin%20li%C3%AAn%20h%E1%BB%87%3A%0A-%20H%E1%BB%8D%20t%C3%AAn%3A%20%0A-%20S%E1%BB%91%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i%3A%20%0A-%20T%C3%AAn%20qu%C3%A1n%20cafe%2FC%C3%B4ng%20ty%3A%20%0A%0AXin%20c%E1%BA%A3m%20%C6%A1n!" rel="noopener" target="_blank">
+<span class="icon"><svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+<polyline points="22,6 12,13 2,6"></polyline>
+</svg></span>
+<span>Gửi Email</span>
+</a>
+<a class="floating-contact-item phone" href="tel:0933549469">
+<span class="icon"><svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+</svg></span>
+<span>0933549469</span>
+</a>
+</div>
+<button aria-label="Liên hệ nhanh" class="floating-contact-toggle" id="floatingContactToggle">
+<svg class="icon-open" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+</svg>
+<svg class="icon-close" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<line x1="18" x2="6" y1="6" y2="18"></line>
+<line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<!-- JavaScript -->
+<script src="js/modules/content-loader.js"></script>
+<script src="js/modules/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

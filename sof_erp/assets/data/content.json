@@ -1,0 +1,680 @@
+{
+    "_template_info": {
+        "version": "1.0.0",
+        "name": "SOF Website Template",
+        "description": "Template content.json cho SOF Site Cloner - ERP Version",
+        "author": "SOF Team",
+        "last_updated": "2024-12-18",
+        "required_images": [
+            "assets/logo/logo.png",
+            "assets/img/hero.png",
+            "assets/img/anh1.png",
+            "assets/img/anh2.png",
+            "assets/img/anh3.png",
+            "assets/img/anh4.png",
+            "assets/img/og-image.jpg"
+        ]
+    },
+    "site": {
+        "name": "SOF Cloud ERP",
+        "domain": "https://erp.sof.vn",
+        "lang": "vi",
+        "theme_color": "#0F4C81"
+    },
+    "meta": {
+        "title": "SOF Cloud ERP - Giải Pháp Quản Trị Doanh Nghiệp Tổng Thể",
+        "description": "Hệ thống ERP đám mây tích hợp Kế toán, Kho vận, Bán hàng, Nhân sự và Sản xuất. Tối ưu hóa quy trình, ra quyết định dựa trên dữ liệu thực. Dùng thử miễn phí!",
+        "keywords": "ERP, phần mềm quản trị doanh nghiệp, kế toán doanh nghiệp, quản lý kho, CRM, HRM, chuyển đổi số, SOF ERP",
+        "author": "SOF Solutions",
+        "og_image": "https://erp.sof.vn/assets/img/og-image.jpg"
+    },
+    "header": {
+        "logo": "assets/logo/logo.png",
+        "nav": [
+            {
+                "text": "Trang chủ",
+                "href": "index.html"
+            },
+            {
+                "text": "Phân hệ",
+                "href": "features.html"
+            },
+            {
+                "text": "Bảng giá",
+                "href": "pricing.html"
+            },
+            {
+                "text": "Liên hệ",
+                "href": "contact.html"
+            }
+        ],
+        "cta_mobile": "Tư vấn chuyển đổi số",
+        "hotline": "Hotline: 0933549469",
+        "contact": {
+            "phone": "tel:0933549469"
+        }
+    },
+    "hero": {
+        "badge": "Nền tảng Quản trị #1 cho SMEs",
+        "title": "Hệ Điều Hành Doanh Nghiệp Số",
+        "description": "Hợp nhất mọi quy trình từ Tài chính, Bán hàng, Kho vận đến Nhân sự trên một nền tảng duy nhất. Dữ liệu realtime, báo cáo thông minh.",
+        "btn_primary": "Dùng thử miễn phí",
+        "btn_secondary": "Xem Demo",
+        "image": "assets/img/hero.png",
+        "stats": [
+            {
+                "number": "500+",
+                "label": "Doanh nghiệp tin dùng"
+            },
+            {
+                "number": "10M+",
+                "label": "Giao dịch/tháng"
+            },
+            {
+                "number": "30%",
+                "label": "Tiết kiệm chi phí"
+            }
+        ]
+    },
+    "features": {
+        "label": "Phân hệ chức năng",
+        "title": "Giải pháp All-in-One cho doanh nghiệp",
+        "description": "Loại bỏ các phần mềm rời rạc. SOF ERP cung cấp bộ công cụ toàn diện để vận hành doanh nghiệp trơn tru.",
+        "items": [
+            {
+                "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><line x1='8' y1='21' x2='16' y2='21'/><line x1='12' y1='17' x2='12' y2='21'/>",
+                "title": "Tài chính & Kế toán",
+                "description": "Tự động hóa hạch toán, quản lý dòng tiền, thuế, tài sản cố định và báo cáo tài chính theo chuẩn VAS/IFRS."
+            },
+            {
+                "icon_html": "<rect x='3' y='3' width='7' height='7'/><rect x='14' y='3' width='7' height='7'/><rect x='14' y='14' width='7' height='7'/><rect x='3' y='14' width='7' height='7'/>",
+                "title": "Quản lý Bán hàng (CRM)",
+                "description": "Quản lý Pipeline, báo giá, đơn hàng và chăm sóc khách hàng đa kênh. Tối ưu tỷ lệ chuyển đổi sales."
+            },
+            {
+                "icon_html": "<line x1='12' y1='1' x2='12' y2='23'/><path d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'/>",
+                "title": "Mua hàng & Cung ứng",
+                "description": "Quản lý nhà cung cấp, đề xuất mua hàng, so sánh giá và tự động hóa quy trình phê duyệt mua sắm."
+            },
+            {
+                "icon_html": "<path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'/><polyline points='3.27 6.96 12 12.01 20.73 6.96'/><line x1='12' y1='22.08' x2='12' y2='12'/>",
+                "title": "Kho vận & Inventory",
+                "description": "Quản lý đa kho, lô/date, serial/IMEI. Tối ưu tồn kho an toàn và quy trình nhập xuất kho thông minh."
+            },
+            {
+                "icon_html": "<line x1='18' y1='20' x2='18' y2='10'/><line x1='12' y1='20' x2='12' y2='4'/><line x1='6' y1='20' x2='6' y2='14'/>",
+                "title": "Business Intelligence",
+                "description": "Dashboard phân tích dữ liệu thời gian thực. Báo cáo quản trị đa chiều giúp CEO ra quyết định chính xác."
+            },
+            {
+                "icon_html": "<path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87'/><path d='M16 3.13a4 4 0 0 1 0 7.75'/>",
+                "title": "Nhân sự & Tiền lương",
+                "description": "Quản lý hồ sơ nhân sự, chấm công GPS/FaceID, tính lương tự động, BHXH và đánh giá KPI."
+            }
+        ],
+        "btn_more": "Khám phá toàn bộ phân hệ"
+    },
+    "about": {
+        "label": "Quy trình vận hành",
+        "title": "Chuẩn hóa quy trình doanh nghiệp",
+        "description": "Kết nối liền mạch giữa các phòng ban, giảm thiểu thao tác thủ công và sai sót dữ liệu.",
+        "image_1": "assets/img/anh1.png",
+        "image_2": "assets/img/anh2.png",
+        "process_1": {
+            "title": "Từ Đơn hàng đến Thu tiền (O2C):",
+            "items": [
+                "Sales tạo báo giá/đơn hàng trên hệ thống",
+                "Kế toán xác nhận công nợ và hạn mức tín dụng",
+                "Kho xuất hàng theo phiếu xuất tự động",
+                "Hệ thống xuất hóa đơn điện tử & ghi nhận doanh thu"
+            ]
+        },
+        "process_2": {
+            "title": "Từ Mua hàng đến Thanh toán (P2P):",
+            "items": [
+                "Bộ phận tạo yêu cầu mua hàng (PR)",
+                "Quản lý phê duyệt online theo phân quyền",
+                "Nhập kho và Kế toán ghi nhận công nợ phải trả",
+                "Lập kế hoạch thanh toán dòng tiền"
+            ]
+        },
+        "btn_consult": "Tư vấn giải pháp"
+    },
+    "testimonials": {
+        "label": "Khách hàng tiêu biểu",
+        "title": "Đối tác tin cậy của doanh nghiệp Việt",
+        "description": "Lắng nghe chia sẻ từ các nhà quản lý đã triển khai thành công SOF ERP.",
+        "items": [
+            {
+                "content": "SOF ERP giúp chúng tôi giảm 40% thời gian làm báo cáo tài chính cuối tháng. Dữ liệu kho và kế toán luôn khớp nhau theo thời gian thực.",
+                "author": "Ông Trần Hữu Đức",
+                "role": "CEO - Công ty SXTM Minh Long"
+            },
+            {
+                "content": "Hệ thống quản lý quy trình phê duyệt rất linh hoạt. Tôi có thể ký duyệt đơn hàng ngay trên điện thoại khi đi công tác.",
+                "author": "Bà Nguyễn Thu Trang",
+                "role": "CFO - Logistics Đại Việt"
+            },
+            {
+                "content": "Đội ngũ triển khai am hiểu nghiệp vụ, hỗ trợ tùy chỉnh các tính năng đặc thù cho ngành bán lẻ chuỗi của chúng tôi rất tốt.",
+                "author": "Ông Lê Văn Nam",
+                "role": "Giám đốc Vận hành - Chuỗi Retail X"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Sẵn sàng chuyển đổi số doanh nghiệp?",
+        "description": "Trải nghiệm sức mạnh của dữ liệu tập trung. Đăng ký tư vấn demo 1:1 ngay hôm nay.",
+        "btn_primary": "Đăng ký Demo",
+        "btn_secondary": "Xem bảng giá"
+    },
+    "features_page": {
+        "header": {
+            "title": "Hệ Sinh Thái Tính Năng ERP",
+            "subtitle": "Giải pháp quản trị nguồn lực doanh nghiệp toàn diện, tùy biến linh hoạt theo quy mô và ngành nghề.",
+            "badge": "Công nghệ Cloud Native"
+        },
+        "core": {
+            "label": "Nghiệp vụ cốt lõi",
+            "title": "Tài chính & Thương mại",
+            "description": "Quản lý dòng tiền và hoạt động kinh doanh hiệu quả với độ chính xác tuyệt đối.",
+            "items": [
+                {
+                    "title": "Kế toán tổng hợp",
+                    "description": "Đầy đủ phân hệ: Tiền mặt, Ngân hàng, Mua/Bán, Kho, Thuế, TSCĐ, Giá thành. Tự động lên BCTC.",
+                    "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2' /><line x1='8' y1='21' x2='16' y2='21' /><line x1='12' y1='17' x2='12' y2='21' />"
+                },
+                {
+                    "title": "Quản lý Bán hàng (Sales)",
+                    "description": "Quản lý chính sách giá, chiết khấu, khuyến mãi phức tạp. Theo dõi công nợ khách hàng chi tiết.",
+                    "icon_html": "<circle cx='9' cy='21' r='1' /><circle cx='20' cy='21' r='1' /><path d='M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6' />"
+                },
+                {
+                    "title": "Hóa đơn điện tử",
+                    "description": "Tích hợp sẵn phát hành hóa đơn điện tử, ký số trực tiếp trên phần mềm, đồng bộ cơ quan thuế.",
+                    "icon_html": "<line x1='12' y1='1' x2='12' y2='23' /><path d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6' />"
+                },
+                {
+                    "title": "Báo cáo quản trị",
+                    "description": "P&L theo chi nhánh, bộ phận, dự án. Phân tích biến động chi phí và doanh thu.",
+                    "icon_html": "<polyline points='6 9 6 2 18 2 18 9' /><path d='M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2' /><rect x='6' y='14' width='12' height='8' />"
+                },
+                {
+                    "title": "Quản lý Kho nâng cao",
+                    "description": "Định mức tồn kho tối thiểu/tối đa. Quản lý vị trí kho (Bin/Location), barcode, QR code.",
+                    "icon_html": "<rect x='3' y='3' width='7' height='7' /><rect x='14' y='3' width='7' height='7' /><rect x='14' y='14' width='7' height='7' /><rect x='3' y='14' width='7' height='7' />"
+                },
+                {
+                    "title": "Quy trình phê duyệt",
+                    "description": "Thiết lập luồng duyệt (Workflow) linh hoạt cho đề xuất mua sắm, thanh toán, nghỉ phép.",
+                    "icon_html": "<rect x='3' y='4' width='18' height='18' rx='2' ry='2' /><line x1='16' y1='2' x2='16' y2='6' /><line x1='8' y1='2' x2='8' y2='6' /><line x1='3' y1='10' x2='21' y2='10' />"
+                }
+            ]
+        },
+        "advanced_1": {
+            "title": "Sản xuất & Giá thành",
+            "description": "Quản lý định mức nguyên vật liệu (BOM), lệnh sản xuất và tính giá thành tự động.",
+            "image": "assets/img/anh3.png",
+            "items": [
+                "Thiết lập định mức BOM nhiều cấp",
+                "Lập kế hoạch nhu cầu nguyên vật liệu (MRP)",
+                "Theo dõi tiến độ sản xuất (WIP)",
+                "Phân bổ chi phí và tính giá thành sản phẩm"
+            ]
+        },
+        "advanced_2": {
+            "title": "Quản trị Nhân sự (HRM)",
+            "description": "Số hóa toàn bộ quy trình nhân sự từ tuyển dụng, đào tạo đến tính lương.",
+            "image": "assets/img/anh4.png",
+            "items": [
+                "Hồ sơ nhân sự trực tuyến",
+                "Chấm công linh hoạt (Ca kíp, OT, GPS)",
+                "Tính lương & Thuế TNCN tự động",
+                "Cổng thông tin nhân viên (Portal)"
+            ]
+        },
+        "marketing": {
+            "title": "Kết nối & Mở rộng",
+            "subtitle": "CRM & Integration",
+            "description": "Xây dựng mối quan hệ khách hàng bền vững và mở rộng khả năng kết nối hệ thống.",
+            "col_1": {
+                "title": "CRM & Marketing",
+                "items": [
+                    "Quản lý Leads và Cơ hội bán hàng",
+                    "Lịch sử tương tác khách hàng 360 độ",
+                    "Automation Marketing qua Email/SMS",
+                    "Đánh giá hiệu quả chiến dịch",
+                    "Chăm sóc khách hàng sau bán"
+                ]
+            },
+            "col_2": {
+                "title": "Quản lý Dự án & Công việc",
+                "items": [
+                    "Lập kế hoạch và phân bổ nguồn lực",
+                    "Theo dõi tiến độ Gantt Chart",
+                    "Quản lý ngân sách dự án",
+                    "Cộng tác làm việc nhóm",
+                    "Báo cáo hiệu quả dự án"
+                ]
+            },
+            "col_3": {
+                "title": "Tích hợp hệ thống",
+                "items": [
+                    "Đồng bộ sàn TMĐT (Shopee, TikTok)",
+                    "Tích hợp Ngân hàng điện tử",
+                    "Kết nối Hóa đơn điện tử",
+                    "Open API cho bên thứ 3",
+                    "Export/Import Excel linh hoạt"
+                ]
+            }
+        },
+        "tech": {
+            "title": "Công nghệ & Bảo mật",
+            "subtitle": "Nền tảng kỹ thuật",
+            "description": "Xây dựng trên kiến trúc Microservices hiện đại, đảm bảo an toàn dữ liệu chuẩn ISO.",
+            "items": [
+                {
+                    "title": "Cloud & Mobile",
+                    "description": "Truy cập mọi lúc mọi nơi trên Web và Mobile App (iOS/Android).",
+                    "icon_html": "<rect x='2' y='3' width='20' height='14' rx='2' ry='2' /><line x1='8' y1='21' x2='16' y2='21' /><line x1='12' y1='17' x2='12' y2='21' />"
+                },
+                {
+                    "title": "Bảo mật đa lớp",
+                    "description": "Mã hóa dữ liệu SSL/TLS, xác thực 2 yếu tố (2FA), sao lưu dữ liệu tự động hàng ngày.",
+                    "icon_html": "<rect x='3' y='11' width='18' height='11' rx='2' ry='2' /><path d='M7 11V7a5 5 0 0 1 10 0v4' />"
+                },
+                {
+                    "title": "Hiệu năng cao",
+                    "description": "Hệ thống chịu tải lớn, xử lý hàng triệu bản ghi với tốc độ cao nhờ kiến trúc tối ưu.",
+                    "icon_html": "<path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z' />"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Bắt đầu hành trình số hóa",
+            "description": "Liên hệ ngay để được demo giải pháp phù hợp nhất với mô hình của bạn.",
+            "btn_primary": "Đăng ký Demo",
+            "btn_secondary": "Tải hồ sơ năng lực"
+        }
+    },
+    "pricing_page": {
+        "header": {
+            "title": "Bảng Giá Dịch Vụ ERP",
+            "subtitle": "Đầu tư hiệu quả",
+            "description": "Chi phí linh hoạt theo quy mô người dùng và phân hệ. Không phí ẩn, nâng cấp dễ dàng."
+        },
+        "toggle": {
+            "monthly": "Thanh toán tháng",
+            "yearly": "Thanh toán năm",
+            "discount": "-15%"
+        },
+        "plans": {
+            "basic": {
+                "name": "Start-up",
+                "desc": "Dành cho doanh nghiệp nhỏ mới thành lập",
+                "price": "Liên hệ",
+                "items": [
+                    "03 người dùng (Users)",
+                    "Phân hệ Kế toán cơ bản",
+                    "Phân hệ Mua hàng & Kho",
+                    "Báo cáo thuế",
+                    "Hỗ trợ qua Ticket/Email",
+                    "App Mobile cơ bản"
+                ],
+                "btn": "Nhận báo giá"
+            },
+            "pro": {
+                "name": "SME Growth",
+                "desc": "Doanh nghiệp đang tăng trưởng",
+                "badge": "Khuyên dùng",
+                "price": "Liên hệ",
+                "items": [
+                    "10 người dùng (Users)",
+                    "Đầy đủ phân hệ Kế toán & Kho",
+                    "Phân hệ Bán hàng (CRM)",
+                    "Phân hệ Nhân sự (HRM basic)",
+                    "Hóa đơn điện tử tích hợp",
+                    "Hỗ trợ 1-1 giờ hành chính"
+                ],
+                "btn": "Nhận báo giá"
+            },
+            "full": {
+                "name": "Enterprise",
+                "desc": "Tập đoàn & Doanh nghiệp lớn",
+                "price": "Liên hệ",
+                "items": [
+                    "Không giới hạn người dùng",
+                    "Đầy đủ hệ sinh thái ERP",
+                    "Phân hệ Sản xuất & Giá thành",
+                    "Tùy chỉnh quy trình (Custom)",
+                    "Triển khai Server riêng",
+                    "Cam kết SLA & Hỗ trợ 24/7",
+                    "Đào tạo chuyên sâu"
+                ],
+                "btn": "Liên hệ chuyên gia"
+            }
+        },
+        "compare": {
+            "label": "So sánh chi tiết",
+            "title": "Tính năng theo gói",
+            "description": "Lựa chọn gói dịch vụ phù hợp với nhu cầu quản trị.",
+            "features": [
+                {
+                    "name": "Số lượng người dùng",
+                    "basic": "03 Users",
+                    "pro": "10 Users",
+                    "full": "Không giới hạn"
+                },
+                {
+                    "name": "Phân hệ Kế toán - Tài chính",
+                    "basic": "Cơ bản",
+                    "pro": "Nâng cao",
+                    "full": "Toàn diện"
+                },
+                {
+                    "name": "Quản lý quan hệ khách hàng (CRM)",
+                    "basic": "—",
+                    "pro": "✓",
+                    "full": "✓"
+                },
+                {
+                    "name": "Quản trị sản xuất (MRP)",
+                    "basic": "—",
+                    "pro": "—",
+                    "full": "✓"
+                },
+                {
+                    "name": "Tích hợp API/Webservice",
+                    "basic": "—",
+                    "pro": "Tiêu chuẩn",
+                    "full": "Mở rộng"
+                },
+                {
+                    "name": "Quản lý đa chi nhánh/Công ty con",
+                    "basic": "—",
+                    "pro": "—",
+                    "full": "✓"
+                },
+                {
+                    "name": "Dịch vụ hỗ trợ",
+                    "basic": "Ticket/Email",
+                    "pro": "Hotline/Zalo",
+                    "full": "Priority Support"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Cần giải pháp thiết kế riêng?",
+            "description": "Chúng tôi cung cấp dịch vụ tư vấn và tùy chỉnh ERP theo đặc thù ngành nghề của bạn.",
+            "btn_primary": "Tư vấn giải pháp",
+            "btn_call": "Hotline: 0933549469"
+        },
+        "faq": {
+            "label": "Hỏi đáp",
+            "title": "Câu hỏi thường gặp",
+            "description": "Thông tin về triển khai và chi phí ERP.",
+            "items": [
+                {
+                    "question": "Thời gian triển khai ERP mất bao lâu?",
+                    "answer": "Với gói Cloud chuẩn hóa (Start-up/SME), thời gian triển khai từ 3-7 ngày. Với gói Enterprise cần tùy chỉnh, thời gian có thể từ 1-3 tháng tùy độ phức tạp."
+                },
+                {
+                    "question": "Dữ liệu của tôi có được bảo mật không?",
+                    "answer": "Tuyệt đối an toàn. SOF ERP sử dụng hạ tầng Cloud chuẩn quốc tế, mã hóa dữ liệu và sao lưu định kỳ. Bạn là người duy nhất sở hữu dữ liệu."
+                },
+                {
+                    "question": "Tôi có thể nâng cấp từ gói nhỏ lên gói lớn không?",
+                    "answer": "Có, hệ thống thiết kế để mở rộng dễ dàng. Dữ liệu sẽ được giữ nguyên và đồng bộ khi bạn nâng cấp gói dịch vụ."
+                },
+                {
+                    "question": "Phần mềm có chạy được trên điện thoại không?",
+                    "answer": "Có, SOF ERP có ứng dụng Mobile (iOS/Android) hỗ trợ các nghiệp vụ: Phê duyệt, Xem báo cáo, Chấm công, Bán hàng, Kiểm kho."
+                },
+                {
+                    "question": "Chính sách bảo hành và bảo trì như thế nào?",
+                    "answer": "Chúng tôi cam kết bảo trì trọn đời sản phẩm trong suốt thời gian sử dụng dịch vụ. Các bản cập nhật tính năng mới được update miễn phí."
+                }
+            ]
+        }
+    },
+    "contact_page": {
+        "header": {
+            "title": "Liên Hệ SOF Solutions",
+            "subtitle": "Đồng hành cùng phát triển",
+            "description": "Kết nối với đội ngũ chuyên gia của chúng tôi để được tư vấn lộ trình chuyển đổi số."
+        },
+        "info": {
+            "title": "Kênh liên lạc",
+            "description": "Chúng tôi luôn sẵn sàng hỗ trợ doanh nghiệp bạn 24/7.",
+            "items": [
+                {
+                    "title": "Hotline Tư vấn",
+                    "content": "0933549469",
+                    "sub": "Hỗ trợ kinh doanh & kỹ thuật",
+                    "href": "tel:0933549469",
+                    "icon_html": "<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/>"
+                },
+                {
+                    "title": "Email",
+                    "content": "contact@sof.vn",
+                    "sub": "Gửi yêu cầu hợp tác",
+                    "href": "mailto:contact@sof.vn",
+                    "icon_html": "<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/><polyline points='22,6 12,13 2,6'/>"
+                },
+                {
+                    "title": "Trụ sở chính",
+                    "content": "Tây Thạnh, Tân Phú<br>TP. Hồ Chí Minh, Việt Nam",
+                    "sub": "",
+                    "href": "#",
+                    "icon_html": "<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/>"
+                },
+                {
+                    "title": "Giờ làm việc",
+                    "content": "Thứ 2 - Thứ 6: 8:00 - 17:30<br>Thứ 7: 8:00 - 12:00",
+                    "sub": "",
+                    "href": "#",
+                    "icon_html": "<circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/>"
+                }
+            ]
+        },
+        "social": {
+            "title": "Mạng xã hội",
+            "items": [
+                {
+                    "label": "Facebook",
+                    "href": "https://facebook.com/sof.vn",
+                    "icon_html": "<path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/>"
+                },
+                {
+                    "label": "Zalo",
+                    "href": "https://zalo.me/0933549469",
+                    "icon_html": "<path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm-1-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm8 7h-2v-3c0-.55-.45-1-1-1s-1 .45-1 1v3h-2v-6h2v1c.31-.45.84-1 1.5-1 1.38 0 2.5 1.12 2.5 2.5v3.5z'/>"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "#",
+                    "icon_html": "<path d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z'/><rect x='2' y='9' width='4' height='12'/><circle cx='4' cy='4' r='2'/>"
+                }
+            ]
+        },
+        "form": {
+            "title": "Đăng ký tư vấn",
+            "labels": {
+                "name": "Tên doanh nghiệp / Người liên hệ",
+                "contact_person": "Chức vụ",
+                "email": "Email công ty",
+                "phone": "Số điện thoại",
+                "service": "Giải pháp quan tâm",
+                "message": "Nhu cầu cụ thể / Ghi chú",
+                "privacy": "Tôi đồng ý với <a href='#' style='color: var(--color-primary);'>Điều khoản bảo mật</a> và cho phép SOF liên hệ tư vấn.",
+                "submit": "Gửi yêu cầu"
+            },
+            "services": [
+                {
+                    "value": "ERP.STARTUP.2025",
+                    "text": "Gói Start-up"
+                },
+                {
+                    "value": "ERP.SME.2025",
+                    "text": "Gói SME Growth"
+                },
+                {
+                    "value": "ERP.ENT.2025",
+                    "text": "Gói Enterprise"
+                },
+                {
+                    "value": "demo",
+                    "text": "Yêu cầu Demo"
+                },
+                {
+                    "value": "consult",
+                    "text": "Tư vấn chuyển đổi số"
+                },
+                {
+                    "value": "other",
+                    "text": "Khác"
+                }
+            ]
+        },
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.982626705084!2d106.62401047570356!3d10.812641158523363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be7df3b90b9%3A0x2b5653454be821e!2sC%C3%94NG%20TY%20TNHH%20SOF!5e0!3m2!1svi!2s!4v1764900522621!5m2!1svi!2s",
+        "support": {
+            "label": "Trung tâm trợ giúp",
+            "title": "Tài liệu & Hỗ trợ",
+            "description": "Truy cập kho tri thức và công cụ hỗ trợ của chúng tôi.",
+            "items": [
+                {
+                    "title": "Tài liệu nghiệp vụ",
+                    "desc": "Hướng dẫn chi tiết quy trình Kế toán, Kho, Bán hàng trên phần mềm.",
+                    "btn": "Xem tài liệu",
+                    "href": "#",
+                    "icon_html": "<path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><polyline points='14 2 14 8 20 8'/><line x1='16' y1='13' x2='8' y2='13'/><line x1='16' y1='17' x2='8' y2='17'/><polyline points='10 9 9 9 8 9'/>"
+                },
+                {
+                    "title": "SOF Academy",
+                    "desc": "Khóa học video đào tạo sử dụng ERP cho từng vị trí nhân sự.",
+                    "btn": "Vào học viện",
+                    "href": "#",
+                    "icon_html": "<polygon points='23 7 16 12 23 17 23 7'/><rect x='1' y='5' width='15' height='14' rx='2' ry='2'/>"
+                },
+                {
+                    "title": "Cộng đồng người dùng",
+                    "desc": "Tham gia group trao đổi kinh nghiệm quản trị và sử dụng phần mềm.",
+                    "btn": "Tham gia ngay",
+                    "href": "#",
+                    "icon_html": "<circle cx='12' cy='12' r='10'/><path d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'/><line x1='12' y1='17' x2='12.01' y2='17'/>"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "brand_desc": "SOF Solutions - Đơn vị tiên phong cung cấp giải pháp ERP Cloud & Chuyển đổi số cho doanh nghiệp Việt Nam.",
+        "col_1": {
+            "title": "Sản phẩm",
+            "links": [
+                {
+                    "text": "SOF ERP",
+                    "href": "features.html"
+                },
+                {
+                    "text": "SOF CRM",
+                    "href": "#"
+                },
+                {
+                    "text": "SOF HRM",
+                    "href": "#"
+                },
+                {
+                    "text": "Hóa đơn điện tử",
+                    "href": "#"
+                }
+            ]
+        },
+        "col_2": {
+            "title": "Tài nguyên",
+            "links": [
+                {
+                    "text": "Blog quản trị",
+                    "href": "#"
+                },
+                {
+                    "text": "Tài liệu hướng dẫn",
+                    "href": "#"
+                },
+                {
+                    "text": "Khách hàng",
+                    "href": "#"
+                },
+                {
+                    "text": "Tuyển dụng",
+                    "href": "#"
+                }
+            ]
+        },
+        "col_3": {
+            "title": "Liên hệ",
+            "info": [
+                {
+                    "text": "0933549469",
+                    "icon_html": "<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/>"
+                },
+                {
+                    "text": "contact@sof.vn",
+                    "icon_html": "<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/><polyline points='22,6 12,13 2,6'/>"
+                },
+                {
+                    "text": "TP. Hồ Chí Minh",
+                    "icon_html": "<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/>"
+                }
+            ]
+        },
+        "social": {
+            "facebook": "https://facebook.com/sof.vn",
+            "youtube": "https://youtube.com/@sof.vn",
+            "linkedin": "https://linkedin.com/company/sof-vn",
+            "zalo": "https://zalo.me/0933549469"
+        },
+        "copyright": "© 2024 SOF Solutions. All rights reserved.",
+        "bottom_links": [
+            {
+                "text": "Điều khoản sử dụng",
+                "href": "#"
+            },
+            {
+                "text": "Chính sách bảo mật",
+                "href": "#"
+            }
+        ]
+    },
+    "floating": {
+        "chatbot": {
+            "title": "Trợ lý ảo SOF",
+            "status": "Online",
+            "placeholder": "Tôi có thể giúp gì về ERP?"
+        },
+        "contact": {
+            "zalo": {
+                "href": "https://zalo.me/0933549469",
+                "label": "Chat Zalo"
+            },
+            "messenger": {
+                "href": "https://m.me/sof",
+                "label": "Messenger"
+            },
+            "email": {
+                "href": "mailto:contact@sof.vn",
+                "label": "Gửi Email"
+            },
+            "phone": {
+                "href": "tel:0933549469",
+                "label": "0933549469"
+            }
+        }
+    },
+    "404_page": {
+        "title": "404 - Không tìm thấy trang",
+        "heading": "Oops! Nội dung không tồn tại",
+        "description": "Trang bạn đang tìm kiếm có thể đã bị di chuyển hoặc không còn khả dụng.",
+        "btn_home": "Về trang chủ",
+        "btn_contact": "Liên hệ hỗ trợ"
+    }
+}

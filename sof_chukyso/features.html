@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+<!-- Meta Tags Cơ Bản -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<!-- SEO Meta Tags -->
+<title>Tính Năng - SOF Cafe POS | Phần Mềm Quản Lý Quán Cafe Đa Nền Tảng</title>
+<meta content="Tính năng SOF Cafe POS: Màn hình POS trực quan, quản lý bàn, gọi món, kho hàng, thanh toán đa phương thức, báo cáo real-time. Hỗ trợ Windows, macOS, Linux." name="description"/>
+<meta content="tính năng POS cafe, quản lý quán cafe, gọi món cafe, quản lý kho cafe, báo cáo doanh thu cafe, phần mềm bán hàng cafe" name="keywords"/>
+<meta content="PMBH - Phần Mềm Bán Hàng" name="author"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://pos.sof.vn/features.html" rel="canonical"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://pos.sof.vn/features.html" property="og:url"/>
+<meta content="Tính Năng SOF Cafe POS - Giải Pháp Quản Lý Quán Cafe Toàn Diện" property="og:title"/>
+<meta content="Khám phá đầy đủ tính năng của SOF Cafe POS: Quản lý bàn, gọi món, kho hàng, báo cáo doanh thu." property="og:description"/>
+<meta content="https://pos.sof.vn/assets/img/og-features.jpg" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Tính Năng SOF Cafe POS - Giải Pháp Quản Lý Quán Cafe Toàn Diện" name="twitter:title"/>
+<meta content="Khám phá đầy đủ tính năng của SOF Cafe POS." name="twitter:description"/>
+<!-- Favicon -->
+<link href="assets/icons/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+<link href="assets/icons/favicon/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="assets/icons/favicon/favicon.ico" rel="shortcut icon"/>
+<link href="assets/icons/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<meta content="SOF.VN" name="apple-mobile-web-app-title">
+<link href="assets/icons/favicon/site.webmanifest" rel="manifest"/>
+<meta content="#197dd3" name="theme-color"/>
+<!-- Stylesheets -->
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/responsive.css" rel="stylesheet"/>
+</meta></link></head>
+<body>
+<!-- Header -->
+<header class="header" id="header">
+<div class="header-container">
+<a aria-label="SOF Cafe POS - Trang chủ" class="logo" href="index.html">
+<img alt="SOF Cafe POS Logo" height="50" src="assets/logo/logo.png" width="150"/>
+</a>
+<nav aria-label="Main navigation" class="nav">
+<ul class="nav-menu" id="navMenu">
+<li><a class="nav-link" href="index.html">Trang chủ</a></li>
+
+<li><a class="nav-link" href="features.html">Dịch vụ</a></li>
+
+<li><a class="nav-link" href="pricing.html">Bảng giá</a></li>
+
+<li><a class="nav-link" href="contact.html">Hỗ trợ</a></li>
+</ul>
+<div class="nav-cta">
+<a class="btn btn-outline btn-sm" href="tel:0933549469">Hotline: 0933549469</a>
+<div class="language-switcher">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm language-toggle" id="langToggle">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="2" x2="22" y1="12" y2="12"></line>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
+<span class="current-lang">VI</span>
+<svg class="chevron" fill="none" height="12" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="12">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+<div class="language-dropdown" id="langDropdown">
+<div class="language-list">
+<button class="language-option active" data-lang="vi">
+<span class="flag">🇻🇳</span>
+<span class="lang-name">Tiếng Việt</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="en">
+<span class="flag">🇺🇸</span>
+<span class="lang-name">English</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="zh">
+<span class="flag">🇨🇳</span>
+<span class="lang-name">中文</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="ja">
+<span class="flag">🇯🇵</span>
+<span class="lang-name">日本語</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="ko">
+<span class="flag">🇰🇷</span>
+<span class="lang-name">한국어</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="th">
+<span class="flag">🇹🇭</span>
+<span class="lang-name">ไทย</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="fr">
+<span class="flag">🇫🇷</span>
+<span class="lang-name">Français</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+<button class="language-option" data-lang="de">
+<span class="flag">🇩🇪</span>
+<span class="lang-name">Deutsch</span>
+<svg class="check" fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<button aria-expanded="false" aria-label="Toggle menu" class="menu-toggle" id="menuToggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</nav>
+</div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+<!-- Page Header -->
+<section class="section bg-primary-gradient" style="padding-top: 120px;">
+<div class="container text-center">
+<span class="hero-badge" style="margin-bottom: var(--spacing-md);">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<span>Chuẩn SHA-256</span>
+</span>
+<h1 class="text-white" style="margin-bottom: var(--spacing-md);">Các Loại Hình Chữ Ký Số</h1>
+<p class="text-white" style="opacity: 0.9; font-size: var(--fs-xl); max-width: 700px; margin: 0 auto;">Giải pháp xác thực điện tử đa dạng, phù hợp với mọi quy mô từ cá nhân đến tập đoàn lớn.</p>
+</div>
+</section>
+<!-- Core Features -->
+<section class="section" id="core-features">
+<div class="container">
+<div class="section-header">
+<span class="label">Dịch vụ cốt lõi</span>
+<h2>Ký số &amp; Chứng thực</h2>
+<p>Công cụ không thể thiếu cho mọi hoạt động giao dịch điện tử của doanh nghiệp.</p>
+</div>
+<div class="features-grid">
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect><line x1="12" x2="12" y1="17" y2="21"></line></svg>
+</div>
+<h3>USB Token Doanh Nghiệp</h3>
+<p>Thiết bị phần cứng lưu trữ khóa bí mật. Dùng cho kê khai thuế, hải quan, ký hóa đơn.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><circle cx="9" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+</div>
+<h3>Chữ ký số Cá nhân</h3>
+<p>Dành cho cá nhân ký văn bản nội bộ, giao dịch chứng khoán, nộp thuế thu nhập cá nhân.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><line x1="12" x2="12" y1="1" y2="23"></line></svg>
+</div>
+<h3>HSM - Ký số tập trung</h3>
+<p>Thiết bị chuyên dụng hiệu năng cao, ký hàng nghìn hóa đơn/giây cho doanh nghiệp lớn.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><polyline points="6 9 6 2 18 2 18 9"></polyline><rect height="8" width="12" x="6" y="14"></rect></svg>
+</div>
+<h3>Remote Signing</h3>
+<p>Ký số trên nền tảng đám mây, không cần USB Token. Ký mọi lúc trên điện thoại/Tablet.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="7" width="7" x="3" y="3"></rect><rect height="7" width="7" x="14" y="14"></rect></svg>
+</div>
+<h3>Chứng thư số SSL</h3>
+<p>Bảo mật website (HTTPS), mã hóa dữ liệu trao đổi giữa máy chủ và người dùng.</p>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect><line x1="8" x2="8" y1="2" y2="6"></line></svg>
+</div>
+<h3>Dịch vụ công</h3>
+<p>Tích hợp sẵn các cổng Dịch vụ công Quốc gia, Kho bạc nhà nước, Đấu thầu qua mạng.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Advanced Features -->
+<section class="section bg-light">
+<div class="container">
+<div class="section-header">
+<span class="label">Tính năng nâng cao</span>
+<h2>Thực đơn, Kho &amp; Giá bán</h2>
+<p>Quản lý đồng bộ giữa bar, thu ngân, kho và kế toán với dữ liệu real-time.</p>
+</div>
+<div class="about-container" style="margin-bottom: var(--spacing-3xl);">
+<div class="about-image">
+<img alt="Quản lý thực đơn" src="assets/img/anh3.png" style="width: 100%; height: auto; border-radius: var(--radius-lg);"/>
+</div>
+<div class="about-content">
+<h3 style="color: var(--color-primary); margin-bottom: var(--spacing-md);">Ký hợp đồng điện tử</h3>
+<p>Giải pháp ký kết văn bản không giấy tờ, hợp pháp và bảo mật tuyệt đối.</p>
+<ul class="about-list">
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Ký đơn lẻ hoặc ký theo lô</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Xác thực danh tính người ký (eKYC)</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Lưu trữ bằng chứng pháp lý lâu dài</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Tích hợp luồng ký vào quy trình nội bộ</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="about-container" style="flex-direction: row-reverse;">
+<div class="about-image" style="order: 1;">
+<img alt="Quản lý kho" src="assets/img/anh4.png" style="width: 100%; height: auto; border-radius: var(--radius-lg);"/>
+</div>
+<div class="about-content" style="order: 2;">
+<h3 style="color: var(--color-primary); margin-bottom: var(--spacing-md);">Bảo hiểm xã hội (IVAN)</h3>
+<p>Hỗ trợ kê khai và nộp hồ sơ Bảo hiểm xã hội điện tử nhanh chóng.</p>
+<ul class="about-list">
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Kê khai tăng/giảm lao động</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Chế độ ốm đau, thai sản</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Ký số và nộp hồ sơ trực tiếp qua phần mềm</span>
+</li>
+
+<li class="about-list-item">
+<span class="icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="14">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</span>
+<span>Tra cứu kết quả trả về từ cơ quan BHXH</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- More Features -->
+<section class="section">
+<div class="container">
+<div class="section-header">
+<span class="label">Dịch vụ gia tăng</span>
+<h2>Tiện ích đi kèm</h2>
+<p>Không chỉ bán chữ ký số, chúng tôi đồng hành cùng sự an toàn dữ liệu của bạn.</p>
+</div>
+<div class="features-grid">
+<div class="feature-card" style="border-left: 4px solid var(--color-primary);">
+<div class="feature-icon" style="background: var(--color-primary);">
+<svg fill="none" height="32" stroke="white" stroke-width="2" viewbox="0 0 24 24" width="32">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+<circle cx="12" cy="7" r="4"></circle>
+</svg>
+</div>
+<h3>Hỗ trợ kỹ thuật</h3>
+<ul style="text-align: left; padding-left: 1.5rem; margin-top: var(--spacing-sm);">
+<li>Cài đặt Driver Token, Java</li>
+
+<li>Mở khóa Token khi quên mã PIN</li>
+
+<li>Hỗ trợ đăng ký tài khoản Thuế</li>
+
+<li>Xử lý lỗi không ký được tờ khai</li>
+
+<li>Cập nhật thông tin doanh nghiệp</li>
+</ul>
+</div>
+<div class="feature-card" style="border-left: 4px solid var(--color-secondary);">
+<div class="feature-icon" style="background: var(--color-secondary);">
+<svg fill="none" height="32" stroke="white" stroke-width="2" viewbox="0 0 24 24" width="32">
+<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+<circle cx="9" cy="7" r="4"></circle>
+<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+</svg>
+</div>
+<h3>Quản lý chứng thư</h3>
+<ul style="text-align: left; padding-left: 1.5rem; margin-top: var(--spacing-sm);">
+<li>Thông báo nhắc gia hạn tự động</li>
+
+<li>Cấp lại thiết bị khi bị mất/hỏng</li>
+
+<li>Chuyển đổi nhà cung cấp dễ dàng</li>
+
+<li>Kiểm tra thời hạn chứng thư số</li>
+
+<li>Thu hồi chứng thư khi cần thiết</li>
+</ul>
+</div>
+<div class="feature-card" style="border-left: 4px solid #28a745;">
+<div class="feature-icon" style="background: #28a745;">
+<svg fill="none" height="32" stroke="white" stroke-width="2" viewbox="0 0 24 24" width="32">
+<line x1="18" x2="18" y1="20" y2="10"></line>
+<line x1="12" x2="12" y1="20" y2="4"></line>
+<line x1="6" x2="6" y1="20" y2="14"></line>
+</svg>
+</div>
+<h3>Tích hợp hệ thống</h3>
+<ul style="text-align: left; padding-left: 1.5rem; margin-top: var(--spacing-sm);">
+<li>Tích hợp API cho phần mềm ERP</li>
+
+<li>Tích hợp vào Website bán hàng</li>
+
+<li>Ký số trên file PDF, Office, XML</li>
+
+<li>Giải pháp ký tập trung cho Tập đoàn</li>
+
+<li>Xuất bản tài liệu điện tử</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Tech Stack -->
+<section class="section bg-light">
+<div class="container">
+<div class="section-header">
+<span class="label">An toàn thông tin</span>
+<h2>Công nghệ &amp; Tiêu chuẩn</h2>
+<p>Tuân thủ nghiêm ngặt các tiêu chuẩn bảo mật Quốc tế và Quốc gia.</p>
+</div>
+<div class="features-grid">
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect><line x1="12" x2="12" y1="17" y2="21"></line></svg>
+</div>
+<h3>Tiêu chuẩn FIPS 140-2</h3>
+<p>Thiết bị phần cứng (USB Token, HSM) đạt chuẩn bảo mật FIPS của Mỹ.</p>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><rect height="11" rx="2" ry="2" width="18" x="3" y="11"></rect></svg>
+</div>
+<h3>Mã hóa RSA 2048-bit</h3>
+<p>Sử dụng thuật toán mã hóa công khai RSA với độ dài khóa 2048 bit, không thể giả mạo.</p>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="32"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+</div>
+<h3>Chứng thực Quốc gia</h3>
+<p>Được cấp phép bởi Trung tâm Chứng thực điện tử quốc gia (NEAC) - Bộ TTTT.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="section cta">
+<div class="container">
+<h2>Đảm bảo pháp lý cho doanh nghiệp</h2>
+<p>Liên hệ ngay để được tư vấn gói chữ ký số phù hợp nhất.</p>
+<div class="cta-buttons">
+<a class="btn btn-white btn-lg" href="contact.html">
+<span>Đăng ký ngay</span>
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</a>
+<a class="btn btn-outline-white btn-lg" href="pricing.html">Xem bảng giá</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="index.html">
+<img alt="SOF Cafe POS Logo" height="50" src="assets/logo/logo.png" width="150"/>
+</a>
+<p>SOF CA - Nhà cung cấp dịch vụ chứng thực chữ ký số công cộng hàng đầu.</p>
+<div class="footer-social">
+<a aria-label="Facebook" href="#">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+</a>
+<a aria-label="YouTube" href="#">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+<polygon fill="white" points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+</a>
+<a aria-label="LinkedIn" href="#">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+<rect height="12" width="4" x="2" y="9"></rect>
+<circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Dịch vụ</h4>
+<ul class="footer-links">
+<li><a href="features.html">Chữ ký số Doanh nghiệp</a></li>
+
+<li><a href="#">Chữ ký số Cá nhân</a></li>
+
+<li><a href="#">Hóa đơn điện tử</a></li>
+
+<li><a href="#">Bảo hiểm xã hội</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Tiện ích</h4>
+<ul class="footer-links">
+<li><a href="#">Tải Driver</a></li>
+
+<li><a href="#">Kiểm tra thời hạn</a></li>
+
+<li><a href="#">Hướng dẫn nộp thuế</a></li>
+
+<li><a href="contact.html">Liên hệ hỗ trợ</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Liên hệ</h4>
+<ul class="footer-links">
+<li>
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<span>0933549469</span>
+</li>
+
+<li>
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path></svg>
+<span>cskh@sof.vn</span>
+</li>
+
+<li>
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path></svg>
+<span>TP. Hồ Chí Minh</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2024 SOF CA. All rights reserved.</p>
+<div class="footer-bottom-links">
+<a href="#">Quy định sử dụng</a>
+
+<a href="#">Chính sách bảo mật</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Scroll to Top Button -->
+<button aria-label="Scroll to top" class="scroll-top" id="scrollTop">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="24">
+<path d="M18 15l-6-6-6 6"></path>
+</svg>
+</button>
+<!-- Floating Chatbot -->
+<div class="floating-chatbot" id="floatingChatbot">
+<div class="chatbot-window">
+<div class="chatbot-header">
+<div class="chatbot-avatar">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="24">
+<path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+<circle cx="7.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+<circle cx="16.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+</svg>
+</div>
+<div class="chatbot-info">
+<h4>PMBH AI Assistant</h4>
+<p class="chatbot-status">Online</p>
+</div>
+</div>
+<div class="chatbot-messages" id="chatbotMessages"></div>
+<div class="chatbot-input">
+<textarea autocomplete="off" id="chatbotInput" placeholder="Nhập tin nhắn..." rows="1"></textarea>
+<button aria-label="Gửi tin nhắn" class="chatbot-send" id="chatbotSend">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
+<line x1="22" x2="11" y1="2" y2="13"></line>
+<polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+</svg>
+</button>
+</div>
+</div>
+<button aria-label="Mở chatbot" class="chatbot-toggle" id="chatbotToggle">
+<svg class="icon-open" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+<circle cx="7.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+<circle cx="16.5" cy="14.5" fill="currentColor" r="1.5"></circle>
+</svg>
+<svg class="icon-close" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<line x1="18" x2="6" y1="6" y2="18"></line>
+<line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<!-- Floating Contact Button -->
+<div class="floating-contact" id="floatingContact">
+<div class="floating-contact-menu">
+<a class="floating-contact-item zalo" href="https://zalo.me/0933549469" rel="noopener" target="_blank">
+<span class="icon"><svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 14.655c-.346.346-.907.477-1.418.346-.511-.13-1.022-.477-1.468-.953-.477-.511-.823-1.087-.953-1.598-.13-.511 0-1.072.346-1.418.346-.346.907-.477 1.418-.346.511.13 1.022.477 1.468.953.477.511.823 1.087.953 1.598.13.511 0 1.072-.346 1.418zM8.5 7h7c.276 0 .5.224.5.5s-.224.5-.5.5h-7c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm0 2h7c.276 0 .5.224.5.5s-.224.5-.5.5h-7c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm0 2h4c.276 0 .5.224.5.5s-.224.5-.5.5h-4c-.276 0-.5-.224-.5-.5s.224-.5.5-.5z"></path>
+</svg></span>
+<span>Chat Zalo</span>
+</a>
+<a class="floating-contact-item facebook" href="https://m.me/pmbhcafe" rel="noopener" target="_blank">
+<span class="icon"><svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"></path>
+</svg></span>
+<span>Messenger</span>
+</a>
+<a class="floating-contact-item email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to= cskh@sof.vn&amp;su=Li%C3%AAn%20H%E1%BB%87%20B%C3%A1o%20Gi%C3%A1%20Ph%E1%BA%A7n%20M%E1%BB%81m%20Qu%C3%A1n%20Cafe&amp;body=K%C3%ADnh%20g%E1%BB%ADi%20PMBH%20Cafe%20POS%2C%0A%0AT%C3%B4i%20quan%20t%C3%A2m%20%C4%91%E1%BA%BFn%20ph%E1%BA%A7n%20m%E1%BB%81m%20qu%E1%BA%A3n%20l%C3%BD%20qu%C3%A1n%20cafe%20c%E1%BB%A7a%20qu%C3%BD%20c%C3%B4ng%20ty.%0A%0AXin%20vui%20l%C3%B2ng%20g%E1%BB%ADi%20cho%20t%C3%B4i%20b%C3%A1o%20gi%C3%A1%20chi%20ti%E1%BA%BFt.%0A%0ATh%C3%B4ng%20tin%20li%C3%AAn%20h%E1%BB%87%3A%0A-%20H%E1%BB%8D%20t%C3%AAn%3A%20%0A-%20S%E1%BB%91%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i%3A%20%0A-%20T%C3%AAn%20qu%C3%A1n%20cafe%2FC%C3%B4ng%20ty%3A%20%0A%0AXin%20c%E1%BA%A3m%20%C6%A1n!" rel="noopener" target="_blank">
+<span class="icon"><svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+<polyline points="22,6 12,13 2,6"></polyline>
+</svg></span>
+<span>Gửi Email</span>
+</a>
+<a class="floating-contact-item phone" href="tel:0933549469">
+<span class="icon"><svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+</svg></span>
+<span>0933549469</span>
+</a>
+</div>
+<button aria-label="Liên hệ nhanh" class="floating-contact-toggle" id="floatingContactToggle">
+<svg class="icon-open" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+</svg>
+<svg class="icon-close" fill="none" height="28" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="28">
+<line x1="18" x2="6" y1="6" y2="18"></line>
+<line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<!-- JavaScript -->
+<script src="js/modules/content-loader.js"></script>
+<script src="js/modules/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

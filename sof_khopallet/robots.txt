@@ -1,0 +1,43 @@
+# SOF Cafe POS - Robots.txt
+# Website: https://pos.sof.vn
+
+# Allow all crawlers
+User-agent: *
+
+# Allowed pages
+Allow: /
+Allow: /index.html
+Allow: /features.html
+Allow: /pricing.html
+Allow: /contact.html
+
+# Disallow pages
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://pos.sof.vn/sitemap.xml
+
+# Crawl delay (optional - seconds between requests)
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific  
+User-agent: Bingbot
+Allow: /
+
+# Disable image crawling for specific bots (optional)
+# User-agent: Googlebot-Image
+# Disallow: /assets/img/
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
