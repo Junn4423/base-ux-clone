@@ -55,7 +55,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
               {/* Grid 4 cột - Bố cục mới */}
               <div className="grid grid-cols-4 gap-4 max-h-[450px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-300 scrollbar-track-blue-50">
                 {/* Card 1: Bán hàng */}
-                <a href="/phan-mem-ban-hang/index.html/index.html" 
+                <a href="/phan-mem-ban-hang/index.html" 
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -77,7 +77,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 3: Tạp hóa */}
-                <a href="/phan-mem-ban-hang/index.html/index.html"
+                <a href="/phan-mem-ban-hang/index.html"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -88,7 +88,7 @@ export const ProductDropdown = ({ isOpen, onClose }: ProductDropdownProps) => {
                 </a>
 
                 {/* Card 4: Cafe */}
-                <a href="/phan-mem-ban-hang/index.html/index.html"
+                <a href="/phan-mem-ban-hang/index.html"
                    className="bg-white rounded-xl p-4 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-amber-400 group cursor-pointer"
                    onClick={onClose}>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
