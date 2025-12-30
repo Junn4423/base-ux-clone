@@ -2,10 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
+import { toast } from "sonner";
+import { authService } from "@/services/authService";
+import { useAuth } from "@/components/providers/AuthProvider";
 import {
     Eye,
     EyeOff,
@@ -25,10 +29,13 @@ import {
 } from "lucide-react";
 
 export default function RegisterPage() {
+    const router = useRouter();
+    const { login } = useAuth();
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
     const [currentStep, setCurrentStep] = useState(1);
     const [formData, setFormData] = useState({
+        username: "",
         fullName: "",
         email: "",
         phone: "",
@@ -40,18 +47,58 @@ export default function RegisterPage() {
     });
     const [isLoading, setIsLoading] = useState(false);
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         if (currentStep === 1) {
             setCurrentStep(2);
             return;
         }
         setIsLoading(true);
-        // Simulate API call
-        setTimeout(() => {
+
+        try {
+            // Note: API 'username' mapped from 'fullName' or 'email' depending on requirement. 
+            // Based on user request data example: username: "test_user_01", email: "test.user@example.com"
+            // Since we don't have separate username field, let's use email prefix or generate one, OR API might accept email as username.
+            // Requirement says request body has 'username'. I'll assume we use email as username for now or ask user to add username field.
+            // But looking at previous request body example: "username": "test_user_01", "email": "..."
+            // I will use email as username for simplicity unless specified otherwise.
+
+            const payload = {
+                username: formData.username,
+                password: formData.password,
+                email: formData.email,
+                phone: formData.phone,
+                companyName: formData.companyName || "N/A"
+            };
+
+            const response = await authService.register(payload);
+
+            if (response.success) {
+                toast.success(response.message || "Đăng ký thành công!");
+
+                // Auto login or redirect to login? 
+                // User request said: "sau khi đăng nhập thì tên người dùng sẽ thay thế..."
+                // Typical flow: Register -> Auto Login OR Redirect to Login.
+                // Response data contains token, so we can Auto Login.
+
+                login({
+                    username: response.data.username,
+                    name: response.data.name,
+                    token: response.data.token,
+                    role: response.data.role,
+                    email: response.data.email,
+                });
+
+                router.push("/");
+            } else {
+                toast.error(response.message || "Đăng ký thất bại");
+            }
+        } catch (error) {
+            console.error(error);
+            toast.error("Có lỗi xảy ra, vui lòng thử lại sau.");
+        } finally {
             setIsLoading(false);
-            console.log("Register data:", formData);
-        }, 1500);
+        }
     };
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -256,13 +303,36 @@ export default function RegisterPage() {
                         <form onSubmit={handleSubmit} className="space-y-5">
                             {currentStep === 1 ? (
                                 <>
+                                    {/* Username */}
+                                    <div className="space-y-2">
+                                        <Label htmlFor="username" className="text-[#0f426c] font-medium">
+                                            Tên đăng nhập <span className="text-red-500">*</span>
+                                        </Label>
+                                        <div className="relative">
+                                            <User className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#8fc0db]" />
+                                            <Input
+                                                id="username"
+                                                name="username"
+                                                type="text"
+                                                placeholder="ngocchung"
+                                                value={formData.username}
+                                                onChange={handleInputChange}
+                                                className="pl-10 h-12 border-[#a7d5ec] focus:border-[#0f426c] focus:ring-[#0f426c] bg-white"
+                                                required
+                                            />
+                                        </div>
+                                    </div>
+
                                     {/* Full Name */}
                                     <div className="space-y-2">
                                         <Label htmlFor="fullName" className="text-[#0f426c] font-medium">
                                             Họ và tên <span className="text-red-500">*</span>
                                         </Label>
                                         <div className="relative">
-                                            <User className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#8fc0db]" />
+                                            <div className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 flex items-center justify-center text-[#8fc0db]">
+                                                {/* Use a different icon for Full Name since User is used for Username, effectively User icon is generic enough but let's see imports */}
+                                                <User className="w-5 h-5" />
+                                            </div>
                                             <Input
                                                 id="fullName"
                                                 name="fullName"

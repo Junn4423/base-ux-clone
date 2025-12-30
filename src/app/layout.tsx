@@ -6,6 +6,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { AOSProvider } from "@/components/providers/AOSProvider";
 import { QueryProvider } from "@/components/providers/QueryProvider";
 import { LayoutWrapper } from "@/components/LayoutWrapper";
+import { AuthProvider } from "@/components/providers/AuthProvider";
 
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["vietnamese", "latin"],
@@ -114,11 +115,13 @@ export default function RootLayout({
     <html lang="vi" suppressHydrationWarning>
       <body className={`${beVietnamPro.variable} font-sans antialiased`}>
         <QueryProvider>
-          <AOSProvider>
-            <LayoutWrapper>{children}</LayoutWrapper>
-            <Toaster />
-            <Sonner />
-          </AOSProvider>
+          <AuthProvider>
+            <AOSProvider>
+              <LayoutWrapper>{children}</LayoutWrapper>
+              <Toaster />
+              <Sonner />
+            </AOSProvider>
+          </AuthProvider>
         </QueryProvider>
       </body>
     </html>

@@ -2,10 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
+import { toast } from "sonner";
+import { authService } from "@/services/authService";
+import { useAuth } from "@/components/providers/AuthProvider";
 import {
     Eye,
     EyeOff,
@@ -17,26 +21,51 @@ import {
     Apple,
     Shield,
     Sparkles,
-    CheckCircle2
+    CheckCircle2,
+    User
 } from "lucide-react";
 
 export default function LoginPage() {
+    const router = useRouter();
+    const { login } = useAuth();
     const [showPassword, setShowPassword] = useState(false);
     const [formData, setFormData] = useState({
-        email: "",
+        username: "",
         password: "",
         rememberMe: false,
     });
     const [isLoading, setIsLoading] = useState(false);
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsLoading(true);
-        // Simulate API call
-        setTimeout(() => {
+
+        try {
+            const response = await authService.login(formData.username, formData.password);
+
+            if (response.success) {
+                toast.success(response.message || "Đăng nhập thành công!");
+
+                // Update Context
+                login({
+                    username: response.data.username,
+                    name: response.data.name,
+                    token: response.data.token,
+                    role: response.data.role,
+                    email: response.data.email,
+                });
+
+                // Redirect
+                router.push("/");
+            } else {
+                toast.error(response.message || "Đăng nhập thất bại");
+            }
+        } catch (error) {
+            console.error(error);
+            toast.error("Có lỗi xảy ra, vui lòng thử lại sau.");
+        } finally {
             setIsLoading(false);
-            console.log("Login data:", formData);
-        }, 1500);
+        }
     };
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -189,19 +218,19 @@ export default function LoginPage() {
 
                         {/* Form */}
                         <form onSubmit={handleSubmit} className="space-y-5">
-                            {/* Email */}
+                            {/* Username / Email */}
                             <div className="space-y-2">
-                                <Label htmlFor="email" className="text-[#0f426c] font-medium">
-                                    Email
+                                <Label htmlFor="username" className="text-[#0f426c] font-medium">
+                                    Tên đăng nhập hoặc Email
                                 </Label>
                                 <div className="relative">
-                                    <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#8fc0db]" />
+                                    <User className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#8fc0db]" />
                                     <Input
-                                        id="email"
-                                        name="email"
-                                        type="email"
-                                        placeholder="email@company.com"
-                                        value={formData.email}
+                                        id="username"
+                                        name="username"
+                                        type="text"
+                                        placeholder="Tên đăng nhập hoặc email"
+                                        value={formData.username}
                                         onChange={handleInputChange}
                                         className="pl-10 h-12 border-[#a7d5ec] focus:border-[#0f426c] focus:ring-[#0f426c] bg-white"
                                         required

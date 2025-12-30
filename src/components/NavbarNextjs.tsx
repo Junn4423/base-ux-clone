@@ -45,6 +45,16 @@ import { ProductDropdown } from "./ProductDropdown";
 import { SolutionsDropdown } from "./SolutionsDropdown";
 import { IndustriesDropdown } from "./IndustriesDropdown";
 import { NewsDropdown } from "./NewsDropdown";
+import { useAuth } from "@/components/providers/AuthProvider";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { User as UserIcon, LogOut, Settings } from "lucide-react";
 
 const navItems = [
   { label: "Sản phẩm", hasDropdown: true, id: "product" },
@@ -93,6 +103,7 @@ const mobileNewsItems = [
 export const Navbar = () => {
   const pathname = usePathname();
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const { user, logout } = useAuth();
 
   const getMobileDropdownItems = (id: string) => {
     switch (id) {
@@ -151,11 +162,52 @@ export const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <Link href="/login">
-              <Button variant="ghost" className="text-[#507588] hover:text-[#0f426c]">
-                Đăng nhập
-              </Button>
-            </Link>
+            {user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" className="flex items-center gap-2 text-[#0f426c] font-medium hover:bg-slate-50">
+                    <div className="w-8 h-8 rounded-full bg-[#e0f2fe] flex items-center justify-center text-[#0f426c] font-bold border border-[#bae6fd]">
+                      {user.username.charAt(0).toUpperCase()}
+                    </div>
+                    <span className="max-w-[120px] truncate">{user.username}</span>
+                    <ChevronDown className="w-4 h-4 opacity-50" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-56">
+                  <DropdownMenuLabel className="font-normal">
+                    <div className="flex flex-col space-y-1">
+                      <p className="text-sm font-medium leading-none">{user.username}</p>
+                      <p className="text-xs leading-none text-muted-foreground">
+                        {user.name}
+                      </p>
+                      <p className="text-xs leading-none text-muted-foreground">
+                        {user.email}
+                      </p>
+                    </div>
+                  </DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem className="cursor-pointer">
+                    <UserIcon className="mr-2 h-4 w-4" />
+                    <span>Hồ sơ cá nhân</span>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Settings className="mr-2 h-4 w-4" />
+                    <span>Cài đặt</span>
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem className="cursor-pointer text-red-600 focus:text-red-600 focus:bg-red-50" onClick={logout}>
+                    <LogOut className="mr-2 h-4 w-4" />
+                    <span>Đăng xuất</span>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Link href="/login">
+                <Button variant="ghost" className="text-[#507588] hover:text-[#0f426c]">
+                  Đăng nhập
+                </Button>
+              </Link>
+            )}
             <Link href="/contact">
               <Button variant="hero" size="default">
                 Đăng ký Demo
@@ -219,13 +271,32 @@ export const Navbar = () => {
                   </Accordion>
 
                   <div className="p-5 mt-4 space-y-3 bg-slate-50/50 border-t border-gray-100">
-                    <SheetClose asChild>
-                      <Link href="/login" className="w-full">
-                        <Button variant="outline" className="w-full justify-center gap-2 text-[#0f426c]">
-                          <Users className="w-4 h-4" /> Đăng nhập
-                        </Button>
-                      </Link>
-                    </SheetClose>
+                    {user ? (
+                      <>
+                        <div className="px-2 py-2 flex items-center gap-3 mb-2 bg-blue-50/50 rounded-lg">
+                          <div className="w-10 h-10 rounded-full bg-[#0f426c] flex items-center justify-center text-white font-bold shrink-0">
+                            {user.username.charAt(0).toUpperCase()}
+                          </div>
+                          <div className="overflow-hidden">
+                            <p className="text-sm font-bold text-[#0f426c] truncate">{user.username}</p>
+                            <p className="text-xs text-[#507588] truncate">{user.name}</p>
+                          </div>
+                        </div>
+                        <SheetClose asChild>
+                          <Button variant="outline" className="w-full justify-center gap-2 text-red-600 border-red-200 hover:bg-red-50 hover:text-red-700" onClick={logout}>
+                            <LogOut className="w-4 h-4" /> Đăng xuất
+                          </Button>
+                        </SheetClose>
+                      </>
+                    ) : (
+                      <SheetClose asChild>
+                        <Link href="/login" className="w-full">
+                          <Button variant="outline" className="w-full justify-center gap-2 text-[#0f426c]">
+                            <Users className="w-4 h-4" /> Đăng nhập
+                          </Button>
+                        </Link>
+                      </SheetClose>
+                    )}
                     <SheetClose asChild>
                       <Link href="/contact" className="w-full">
                         <Button variant="hero" className="w-full justify-center">
