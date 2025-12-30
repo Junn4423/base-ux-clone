@@ -8,11 +8,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'sof.vn',
+        hostname: 'sof.com.vn',
       },
       {
         protocol: 'https',
-        hostname: '*.sof.vn',
+        hostname: '*.sof.com.vn',
       },
     ],
     // Optimize images

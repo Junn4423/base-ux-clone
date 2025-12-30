@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     "video tutorial",
   ],
   openGraph: {
-    title: "Hướng Dẫn Sử Dụng | SOF.VN",
+    title: "Hướng Dẫn Sử Dụng | SOF.COM.VN",
     description:
       "Tài liệu hướng dẫn chi tiết giúp bạn khai thác tối đa sức mạnh của phần mềm SOF.",
-    url: "https://sof.vn/user-guide",
+    url: "https://sof.com.vn/user-guide",
   },
   alternates: {
-    canonical: "https://sof.vn/user-guide",
+    canonical: "https://sof.com.vn/user-guide",
   },
 };
 

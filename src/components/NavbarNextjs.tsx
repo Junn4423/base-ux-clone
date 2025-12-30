@@ -114,13 +114,13 @@ export const Navbar = () => {
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             <Image
               src="/logo/logo.png"
-              alt="Logo SOF.VN"
+              alt="Logo SOF.COM.VN"
               width={40}
               height={40}
               className="rounded-md object-contain"
               priority
             />
-            <span className="text-[#0f426c] font-bold text-xl hidden sm:block">SOF.VN</span>
+            <span className="text-[#0f426c] font-bold text-xl hidden sm:block">SOF.COM.VN</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -151,9 +151,11 @@ export const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <Button variant="ghost" className="text-[#507588] hover:text-[#0f426c]">
-              Đăng nhập
-            </Button>
+            <Link href="/login">
+              <Button variant="ghost" className="text-[#507588] hover:text-[#0f426c]">
+                Đăng nhập
+              </Button>
+            </Link>
             <Link href="/contact">
               <Button variant="hero" size="default">
                 Đăng ký Demo
@@ -217,9 +219,13 @@ export const Navbar = () => {
                   </Accordion>
 
                   <div className="p-5 mt-4 space-y-3 bg-slate-50/50 border-t border-gray-100">
-                    {/* <Button variant="outline" className="w-full justify-center gap-2 text-[#0f426c]">
-                      <Users className="w-4 h-4" /> Đăng nhập
-                    </Button> */}
+                    <SheetClose asChild>
+                      <Link href="/login" className="w-full">
+                        <Button variant="outline" className="w-full justify-center gap-2 text-[#0f426c]">
+                          <Users className="w-4 h-4" /> Đăng nhập
+                        </Button>
+                      </Link>
+                    </SheetClose>
                     <SheetClose asChild>
                       <Link href="/contact" className="w-full">
                         <Button variant="hero" className="w-full justify-center">

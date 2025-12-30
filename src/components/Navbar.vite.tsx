@@ -102,14 +102,14 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-[70px]">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 flex-shrink-0" aria-label="Trang chủ SOF.VN" onClick={handleLogoClick}>
+          <Link to="/" className="flex items-center gap-3 flex-shrink-0" aria-label="Trang chủ SOF.COM.VN" onClick={handleLogoClick}>
             <img
               src={sofLogo}
-              alt="Logo SOF.VN"
+              alt="Logo SOF.COM.VN"
               className="h-10 w-auto rounded-md object-contain"
               loading="eager"
             />
-            <span className="text-[#0f426c] font-bold text-xl">SOF.VN</span>
+            <span className="text-[#0f426c] font-bold text-xl">SOF.COM.VN</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -241,18 +241,19 @@ export const Navbar = () => {
               >
                 Đăng nhập
               </Button> */}
-              <Link to="/contact" onClick={handleMobileMenuClose}>
-                <Button
-                  variant="hero"
-                  className="w-full justify-center py-3 text-base"
-                >
-                  Đăng ký Demo
-                </Button>
-              </Link>
-            </div>
+            <Link to="/contact" onClick={handleMobileMenuClose}>
+              <Button
+                variant="hero"
+                className="w-full justify-center py-3 text-base"
+              >
+                Đăng ký Demo
+              </Button>
+            </Link>
           </div>
         </div>
-      )}
-    </nav>
+        </div>
+  )
+}
+    </nav >
   );
 };

@@ -16,11 +16,11 @@ const footerLinks = {
     links: [
       {
         label: "Phần mềm ERP",
-        href: "http://sof.vn/vi/Phan-mem/18/Phan-mem-quan-tri-nguon-luc-doanh-nghiep-(ERP--SOF).html",
+        href: "http://sof.com.vn/vi/Phan-mem/18/Phan-mem-quan-tri-nguon-luc-doanh-nghiep-(ERP--SOF).html",
       },
       {
         label: "Phần mềm HRM",
-        href: "http://sof.vn/vi/Phan-mem/1/Phan-mem-nhan-su-tien-luong.html",
+        href: "http://sof.com.vn/vi/Phan-mem/1/Phan-mem-nhan-su-tien-luong.html",
       },
       { label: "Phần mềm Kế toán", href: "#" },
       { label: "Thiết kế Website", href: "#" },
@@ -31,15 +31,15 @@ const footerLinks = {
     links: [
       {
         label: "Quản lý quán cafe",
-        href: "http://sof.vn/vi/Phan-mem/75/Phan-mem-quan-ly-quan-cafe.html",
+        href: "http://sof.com.vn/vi/Phan-mem/75/Phan-mem-quan-ly-quan-cafe.html",
       },
       {
         label: "Quản lý nhà hàng",
-        href: "http://sof.vn/vi/Phan-mem/76/Phan-mem-quan-ly-nha-hang.html",
+        href: "http://sof.com.vn/vi/Phan-mem/76/Phan-mem-quan-ly-nha-hang.html",
       },
       {
         label: "Quản lý bán hàng",
-        href: "http://sof.vn/vi/Phan-mem/23/Phan-mem-quan-ly-ban-hang.html",
+        href: "http://sof.com.vn/vi/Phan-mem/23/Phan-mem-quan-ly-ban-hang.html",
       },
     ],
   },
@@ -48,15 +48,15 @@ const footerLinks = {
     links: [
       {
         label: "Quản lý khách sạn",
-        href: "http://sof.vn/vi/Phan-mem/77/Phan-mem-quan-ly-khach-san.html",
+        href: "http://sof.com.vn/vi/Phan-mem/77/Phan-mem-quan-ly-khach-san.html",
       },
       {
         label: "Quản lý vận tải",
-        href: "http://sof.vn/vi/Phan-mem/78/Phan-mem-quan-ly-van-tai.html",
+        href: "http://sof.com.vn/vi/Phan-mem/78/Phan-mem-quan-ly-van-tai.html",
       },
       {
         label: "Quản lý kho pallet",
-        href: "http://sof.vn/vi/Phan-mem/374/Phan-men-quan-ly-kho-pallet.html",
+        href: "http://sof.com.vn/vi/Phan-mem/374/Phan-men-quan-ly-kho-pallet.html",
       },
     ],
   },
@@ -152,17 +152,17 @@ export const Footer = () => {
               <Link
                 href="/"
                 className="flex items-center gap-2 sm:gap-3"
-                aria-label="Trang chủ SOF.VN"
+                aria-label="Trang chủ SOF.COM.VN"
               >
                 <Image
                   src="/logo/logo.png"
-                  alt="Logo SOF.VN"
+                  alt="Logo SOF.COM.VN"
                   width={36}
                   height={36}
                   className="rounded-md object-contain"
                 />
                 <span className="text-[#0f426c] font-bold text-lg sm:text-xl">
-                  SOF.VN
+                  SOF.COM.VN
                 </span>
               </Link>
               <span className="text-xs sm:text-sm text-[#507588]">
@@ -258,11 +258,11 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-3 sm:gap-4">
             <a
-              href="mailto:cskh@sof.vn"
+              href="mailto:cskh@sof.com.vn"
               className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-[#507588] hover:text-[#0f426c] transition-colors"
             >
               <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <span className="hidden sm:inline">cskh@sof.vn</span>
+              <span className="hidden sm:inline">cskh@sof.com.vn</span>
             </a>
             <div className="flex items-center gap-1.5 sm:gap-2">
               <a

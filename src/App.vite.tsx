@@ -4,13 +4,16 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
-import Contact from "./pages/Contact";
-import UserGuide from "./pages/UserGuide";
-import WarrantyPolicy from "./pages/WarrantyPolicy";
-import PaymentTerms from "./pages/PaymentTerms";
-import UnderConstruction from "./pages/UnderConstruction";
+import Index from "./pages-vite/Index";
+import NotFound from "./pages-vite/NotFound";
+import Contact from "./pages-vite/Contact";
+import UserGuide from "./pages-vite/UserGuide";
+import WarrantyPolicy from "./pages-vite/WarrantyPolicy";
+import PaymentTerms from "./pages-vite/PaymentTerms";
+import UnderConstruction from "./pages-vite/UnderConstruction";
+import Login from "./pages-vite/Login";
+import Register from "./pages-vite/Register";
+import ForgotPassword from "./pages-vite/ForgotPassword";
 import AOS from "aos";
 
 const queryClient = new QueryClient();
@@ -39,6 +42,9 @@ const App = () => {
             <Route path="/warranty-policy" element={<WarrantyPolicy />} />
             <Route path="/payment-terms" element={<PaymentTerms />} />
             <Route path="/under-construction" element={<UnderConstruction />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -49,3 +55,4 @@ const App = () => {
 };
 
 export default App;
+

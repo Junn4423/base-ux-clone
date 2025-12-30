@@ -1,12 +1,12 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { 
-  CreditCard, 
-  Banknote, 
-  Smartphone, 
-  Building2, 
-  CheckCircle, 
+import {
+  CreditCard,
+  Banknote,
+  Smartphone,
+  Building2,
+  CheckCircle,
   AlertCircle,
   FileText,
   Shield,
@@ -17,7 +17,7 @@ export default function PaymentTerms() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <div className="pt-32 pb-16 bg-gradient-to-br from-[#f4fbff] to-white">
         <div className="container mx-auto px-4 lg:px-8">
@@ -199,7 +199,7 @@ export default function PaymentTerms() {
                 <div className="flex gap-2">
                   <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                   <div className="text-sm text-yellow-800">
-                    <strong>Lưu ý:</strong> Vui lòng ghi rõ nội dung chuyển khoản: 
+                    <strong>Lưu ý:</strong> Vui lòng ghi rõ nội dung chuyển khoản:
                     "Tên công ty - Số hợp đồng - Số điện thoại liên hệ" để chúng tôi xác nhận thanh toán nhanh chóng.
                   </div>
                 </div>
@@ -217,8 +217,8 @@ export default function PaymentTerms() {
                   <div>
                     <h4 className="font-semibold text-[#0f426c] mb-1">Thời hạn thanh toán</h4>
                     <p className="text-gray-600">
-                      Thanh toán trong vòng 7 ngày kể từ ngày nhận hóa đơn VAT. 
-                      Quá thời hạn trên, khách hàng phải chịu phí chậm thanh toán 0.05%/ngày 
+                      Thanh toán trong vòng 7 ngày kể từ ngày nhận hóa đơn VAT.
+                      Quá thời hạn trên, khách hàng phải chịu phí chậm thanh toán 0.05%/ngày
                       trên tổng số tiền chưa thanh toán.
                     </p>
                   </div>
@@ -229,7 +229,7 @@ export default function PaymentTerms() {
                   <div>
                     <h4 className="font-semibold text-[#0f426c] mb-1">Hóa đơn VAT</h4>
                     <p className="text-gray-600">
-                      Hóa đơn VAT được xuất trong vòng 3 ngày làm việc sau khi nhận đủ thanh toán. 
+                      Hóa đơn VAT được xuất trong vòng 3 ngày làm việc sau khi nhận đủ thanh toán.
                       Hóa đơn điện tử sẽ được gửi qua email đã đăng ký.
                     </p>
                   </div>
@@ -240,8 +240,8 @@ export default function PaymentTerms() {
                   <div>
                     <h4 className="font-semibold text-[#0f426c] mb-1">Bảo mật thông tin</h4>
                     <p className="text-gray-600">
-                      Mọi thông tin thanh toán của khách hàng được bảo mật tuyệt đối theo 
-                      tiêu chuẩn PCI DSS. SOF cam kết không chia sẻ thông tin với bên thứ ba 
+                      Mọi thông tin thanh toán của khách hàng được bảo mật tuyệt đối theo
+                      tiêu chuẩn PCI DSS. SOF cam kết không chia sẻ thông tin với bên thứ ba
                       nếu không có sự đồng ý của khách hàng.
                     </p>
                   </div>
@@ -252,7 +252,7 @@ export default function PaymentTerms() {
                   <div>
                     <h4 className="font-semibold text-[#0f426c] mb-1">Xác nhận thanh toán</h4>
                     <p className="text-gray-600">
-                      Sau khi nhận được thanh toán, SOF sẽ gửi email xác nhận trong vòng 24 giờ. 
+                      Sau khi nhận được thanh toán, SOF sẽ gửi email xác nhận trong vòng 24 giờ.
                       Nếu chưa nhận được xác nhận, vui lòng liên hệ bộ phận kế toán.
                     </p>
                   </div>
@@ -294,7 +294,7 @@ export default function PaymentTerms() {
 
                 <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
                   <p className="text-sm text-blue-800">
-                    <strong>Thời gian xử lý hoàn tiền:</strong> 15-30 ngày làm việc kể từ ngày 
+                    <strong>Thời gian xử lý hoàn tiền:</strong> 15-30 ngày làm việc kể từ ngày
                     SOF nhận được yêu cầu hoàn tiền hợp lệ và đầy đủ chứng từ.
                   </p>
                 </div>
@@ -363,7 +363,7 @@ export default function PaymentTerms() {
                     <li className="flex items-start gap-2">
                       <span className="text-orange-600 font-bold">•</span>
                       <span>
-                        Giá và chính sách có thể thay đổi mà không cần báo trước. Áp dụng giá 
+                        Giá và chính sách có thể thay đổi mà không cần báo trước. Áp dụng giá
                         tại thời điểm ký hợp đồng
                       </span>
                     </li>
@@ -388,7 +388,7 @@ export default function PaymentTerms() {
                   Tôi có thể thanh toán bằng ngoại tệ không?
                 </h4>
                 <p className="text-gray-600">
-                  Hiện tại chúng tôi chỉ chấp nhận thanh toán bằng VNĐ. Đối với khách hàng 
+                  Hiện tại chúng tôi chỉ chấp nhận thanh toán bằng VNĐ. Đối với khách hàng
                   quốc tế, vui lòng liên hệ bộ phận kinh doanh để được hỗ trợ.
                 </p>
               </div>
@@ -398,7 +398,7 @@ export default function PaymentTerms() {
                   Làm sao để được ưu đãi thanh toán sớm?
                 </h4>
                 <p className="text-gray-600">
-                  Thanh toán 100% giá trị hợp đồng trong vòng 3 ngày sau khi ký để được giảm 5%. 
+                  Thanh toán 100% giá trị hợp đồng trong vòng 3 ngày sau khi ký để được giảm 5%.
                   Ưu đãi được áp dụng tự động khi xuất hóa đơn.
                 </p>
               </div>
@@ -408,7 +408,7 @@ export default function PaymentTerms() {
                   Tôi đã chuyển khoản nhưng chưa nhận được xác nhận?
                 </h4>
                 <p className="text-gray-600">
-                  Vui lòng liên hệ hotline 0933 549 469 hoặc email accounting@sof.vn kèm theo 
+                  Vui lòng liên hệ hotline 0933 549 469 hoặc email accounting@sof.com.vn kèm theo
                   ảnh chụp/screenshot chuyển khoản để được hỗ trợ nhanh chóng.
                 </p>
               </div>

@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   title: "Chính Sách Bảo Hành",
   description:
-    "Chính sách bảo hành phần mềm SOF.VN - Cam kết chất lượng dịch vụ với bảo hành 12 tháng, hỗ trợ kỹ thuật 24/7 và cập nhật phiên bản miễn phí.",
+    "Chính sách bảo hành phần mềm SOF.COM.VN - Cam kết chất lượng dịch vụ với bảo hành 12 tháng, hỗ trợ kỹ thuật 24/7 và cập nhật phiên bản miễn phí.",
   keywords: [
     "chính sách bảo hành SOF",
     "bảo hành phần mềm",
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     "bảo hành 12 tháng",
   ],
   openGraph: {
-    title: "Chính Sách Bảo Hành | SOF.VN",
+    title: "Chính Sách Bảo Hành | SOF.COM.VN",
     description:
       "Cam kết chất lượng dịch vụ và hỗ trợ tận tâm cho khách hàng. Bảo hành 12 tháng, hỗ trợ 24/7.",
-    url: "https://sof.vn/warranty-policy",
+    url: "https://sof.com.vn/warranty-policy",
   },
   alternates: {
-    canonical: "https://sof.vn/warranty-policy",
+    canonical: "https://sof.com.vn/warranty-policy",
   },
 };
 
@@ -304,7 +304,7 @@ export default function WarrantyPolicyPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-5 h-5 text-[#3087fe]" />
-                  <span className="text-gray-600">Email: support@sof.vn</span>
+                  <span className="text-gray-600">Email: support@sof.com.vn</span>
                 </div>
               </div>
               <div className="mt-8">

@@ -27,7 +27,7 @@ const products = [
       { name: "Mua hàng", icon: ShoppingCart },
     ],
     gradient: "from-blue-500 to-cyan-400",
-    href: "http://sof.vn/vi/Phan-mem/18/Phan-mem-quan-tri-nguon-luc-doanh-nghiep-(ERP--SOF).html",
+    href: "http://sof.com.vn/vi/Phan-mem/18/Phan-mem-quan-tri-nguon-luc-doanh-nghiep-(ERP--SOF).html",
   },
   {
     id: "hrm",
@@ -45,7 +45,7 @@ const products = [
       { name: "Bảo hiểm", icon: ShieldCheck },
     ],
     gradient: "from-emerald-500 to-teal-400",
-    href: "http://sof.vn/vi/Phan-mem/1/Phan-mem-nhan-su-tien-luong.html",
+    href: "http://sof.com.vn/vi/Phan-mem/1/Phan-mem-nhan-su-tien-luong.html",
   },
   {
     id: "pos",
@@ -63,7 +63,7 @@ const products = [
       { name: "Khách hàng", icon: Smile },
     ],
     gradient: "from-orange-500 to-amber-400",
-    href: "http://sof.vn/vi/Phan-mem/23/Phan-mem-quan-ly-ban-hang.html",
+    href: "http://sof.com.vn/vi/Phan-mem/23/Phan-mem-quan-ly-ban-hang.html",
   },
   {
     id: "web",

@@ -39,7 +39,7 @@ export default function UnderConstructionPage() {
               </div>
               <div className="flex items-center justify-center gap-2 text-gray-600">
                 <Mail className="w-4 h-4 text-[#3087fe]" />
-                <span>Email: cskh@sof.vn</span>
+                <span>Email: cskh@sof.com.vn</span>
               </div>
               <div className="flex items-center justify-center gap-2 text-gray-600">
                 <Globe className="w-4 h-4 text-[#3087fe]" />

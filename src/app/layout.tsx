@@ -1,13 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/NavbarNextjs";
-import { Footer } from "@/components/FooterNextjs";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { AOSProvider } from "@/components/providers/AOSProvider";
 import { QueryProvider } from "@/components/providers/QueryProvider";
-import { ProductNav } from "@/components/product-page";
+import { LayoutWrapper } from "@/components/LayoutWrapper";
 
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["vietnamese", "latin"],
@@ -18,7 +16,7 @@ const beVietnamPro = Be_Vietnam_Pro({
 
 // SEO Metadata - Static configuration for the entire site
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sof.com.vn"),
+  metadataBase: new URL("https://sof.vn"),
   title: {
     default: "SOF.VN - Giải pháp phần mềm & Chuyển đổi số toàn diện",
     template: "%s | SOF.VN",
@@ -117,10 +115,7 @@ export default function RootLayout({
       <body className={`${beVietnamPro.variable} font-sans antialiased`}>
         <QueryProvider>
           <AOSProvider>
-            <Navbar />
-            <ProductNav />
-            <main>{children}</main>
-            <Footer />
+            <LayoutWrapper>{children}</LayoutWrapper>
             <Toaster />
             <Sonner />
           </AOSProvider>

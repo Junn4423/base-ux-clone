@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     "đánh giá khách hàng",
   ],
   openGraph: {
-    title: "Khách Hàng Tin Dùng | SOF.VN",
+    title: "Khách Hàng Tin Dùng | SOF.COM.VN",
     description:
       "Hơn 300+ doanh nghiệp đã tin tưởng và sử dụng giải pháp phần mềm của SOF.",
-    url: "https://sof.vn/customers",
+    url: "https://sof.com.vn/customers",
   },
   alternates: {
-    canonical: "https://sof.vn/customers",
+    canonical: "https://sof.com.vn/customers",
   },
 };
 

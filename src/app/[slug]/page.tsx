@@ -25,7 +25,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const product = getProductData(slug);
-  
+
   if (!product) {
     return {
       title: "Không tìm thấy sản phẩm",
@@ -50,7 +50,7 @@ export async function generateMetadata({
         },
       ],
       locale: "vi_VN",
-      siteName: "SOF.VN",
+      siteName: "SOF.COM.VN",
     },
     twitter: {
       card: "summary_large_image",

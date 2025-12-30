@@ -38,14 +38,14 @@ const UnderConstruction = () => {
               </p>
               <p>
                 <span className="font-medium">Email:</span>{" "}
-                <a href="mailto:cskh@sof.vn" className="text-blue-600 hover:text-blue-700">
-                  cskh@sof.vn
+                <a href="mailto:cskh@sof.com.vn" className="text-blue-600 hover:text-blue-700">
+                  cskh@sof.com.vn
                 </a>
               </p>
               <p>
                 <span className="font-medium">Website:</span>{" "}
-                <a href="http://sof.vn" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
-                  sof.vn
+                <a href="http://sof.com.vn" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
+                  sof.com.vn
                 </a>
               </p>
             </div>
@@ -76,7 +76,7 @@ const UnderConstruction = () => {
 
         {/* Footer text */}
         <p className="mt-8 text-gray-500 text-sm">
-          © 2024 SOF.VN - Giải pháp phần mềm quản lý toàn diện
+          © 2024 SOF.COM.VN - Giải pháp phần mềm quản lý toàn diện
         </p>
       </div>
     </div>

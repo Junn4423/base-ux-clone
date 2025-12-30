@@ -15,9 +15,9 @@ const logos = [
   { name: "Cty Wantai - KCN Phước Đông - Tây Ninh", logo: "https://wtrubber.com.vn/wp-content/uploads/2022/02/logo1.jpg" },
   { name: "Công Ty Quốc Tế Di Hưng", logo: "https://goldwellvn.com/upload/photo/logo_08593302102019.png" },
   { name: "Công Ty Điện Lạnh Đông Sapa", logo: "https://dongsapa.com.vn/wp-content/uploads/2022/10/Logo-DSP-new-1.png.webp" },
-  { name: "Huy Vân", logo: "https://huyvan.sof.vn/images/logo/logo.png" },
-  { name: "Geo", logo: "https://geo.sof.vn/images/logo/logo.png" },
-  { name: "Thiên Vân", logo: "https://thienvan.sof.vn/images/logo/logo.png" },
+  { name: "Huy Vân", logo: "https://huyvan.sof.com.vn/images/logo/logo.png" },
+  { name: "Geo", logo: "https://geo.sof.com.vn/images/logo/logo.png" },
+  { name: "Thiên Vân", logo: "https://thienvan.sof.com.vn/images/logo/logo.png" },
 ];
 
 export const LogoCarousel = () => {

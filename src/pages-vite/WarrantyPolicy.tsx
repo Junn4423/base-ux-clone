@@ -1,11 +1,11 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { 
-  Shield, 
-  CheckCircle, 
-  Clock, 
-  FileText, 
+import {
+  Shield,
+  CheckCircle,
+  Clock,
+  FileText,
   Phone,
   Mail,
   AlertCircle
@@ -15,7 +15,7 @@ export default function WarrantyPolicy() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <div className="pt-32 pb-16 bg-gradient-to-br from-[#f4fbff] to-white">
         <div className="container mx-auto px-4 lg:px-8">
@@ -74,7 +74,7 @@ export default function WarrantyPolicy() {
                     <div>
                       <h4 className="font-semibold text-[#0f426c] mb-1">Bảo hành phần mềm</h4>
                       <p className="text-gray-600">
-                        Sửa chữa miễn phí các lỗi phát sinh do phần mềm trong thời gian bảo hành. 
+                        Sửa chữa miễn phí các lỗi phát sinh do phần mềm trong thời gian bảo hành.
                         Bao gồm các lỗi về tính năng, hiển thị, tính toán và báo cáo.
                       </p>
                     </div>
@@ -84,7 +84,7 @@ export default function WarrantyPolicy() {
                     <div>
                       <h4 className="font-semibold text-[#0f426c] mb-1">Hỗ trợ kỹ thuật</h4>
                       <p className="text-gray-600">
-                        Hỗ trợ kỹ thuật qua điện thoại, email, hoặc truy cập từ xa để giải quyết 
+                        Hỗ trợ kỹ thuật qua điện thoại, email, hoặc truy cập từ xa để giải quyết
                         các vấn đề kỹ thuật phát sinh trong quá trình sử dụng.
                       </p>
                     </div>
@@ -94,7 +94,7 @@ export default function WarrantyPolicy() {
                     <div>
                       <h4 className="font-semibold text-[#0f426c] mb-1">Cập nhật phiên bản</h4>
                       <p className="text-gray-600">
-                        Cung cấp miễn phí các bản cập nhật sửa lỗi và cải tiến tính năng trong 
+                        Cung cấp miễn phí các bản cập nhật sửa lỗi và cải tiến tính năng trong
                         thời gian bảo hành. Không bao gồm các phiên bản nâng cấp lớn (major version).
                       </p>
                     </div>
@@ -104,7 +104,7 @@ export default function WarrantyPolicy() {
                     <div>
                       <h4 className="font-semibold text-[#0f426c] mb-1">Đào tạo lại</h4>
                       <p className="text-gray-600">
-                        Hỗ trợ đào tạo lại miễn phí cho người dùng mới thay thế trong tổ chức 
+                        Hỗ trợ đào tạo lại miễn phí cho người dùng mới thay thế trong tổ chức
                         (tối đa 2 lần/năm, mỗi lần tối đa 2 người).
                       </p>
                     </div>
@@ -127,7 +127,7 @@ export default function WarrantyPolicy() {
                   <div className="border-l-4 border-[#3087fe] pl-4">
                     <h4 className="font-semibold text-[#0f426c] mb-2">Gia hạn bảo hành</h4>
                     <p className="text-gray-600">
-                      Khách hàng có thể gia hạn bảo hành theo năm với chi phí ưu đãi. 
+                      Khách hàng có thể gia hạn bảo hành theo năm với chi phí ưu đãi.
                       Liên hệ bộ phận bán hàng để được tư vấn gói bảo hành phù hợp.
                     </p>
                   </div>
@@ -244,7 +244,7 @@ export default function WarrantyPolicy() {
                     <div className="flex-1">
                       <h4 className="font-semibold text-[#0f426c] mb-2">Thông báo sự cố</h4>
                       <p className="text-gray-600">
-                        Liên hệ bộ phận hỗ trợ qua hotline, email hoặc hệ thống ticket. 
+                        Liên hệ bộ phận hỗ trợ qua hotline, email hoặc hệ thống ticket.
                         Cung cấp thông tin chi tiết về lỗi và môi trường sử dụng.
                       </p>
                     </div>
@@ -256,7 +256,7 @@ export default function WarrantyPolicy() {
                     <div className="flex-1">
                       <h4 className="font-semibold text-[#0f426c] mb-2">Tiếp nhận và phân loại</h4>
                       <p className="text-gray-600">
-                        Đội ngũ kỹ thuật tiếp nhận, phân loại mức độ nghiêm trọng và 
+                        Đội ngũ kỹ thuật tiếp nhận, phân loại mức độ nghiêm trọng và
                         xác định thời gian xử lý dự kiến.
                       </p>
                     </div>
@@ -268,7 +268,7 @@ export default function WarrantyPolicy() {
                     <div className="flex-1">
                       <h4 className="font-semibold text-[#0f426c] mb-2">Xử lý sự cố</h4>
                       <p className="text-gray-600">
-                        Kỹ thuật viên tiến hành kiểm tra, phân tích nguyên nhân và đưa ra 
+                        Kỹ thuật viên tiến hành kiểm tra, phân tích nguyên nhân và đưa ra
                         giải pháp khắc phục. Cập nhật tiến độ định kỳ cho khách hàng.
                       </p>
                     </div>
@@ -280,7 +280,7 @@ export default function WarrantyPolicy() {
                     <div className="flex-1">
                       <h4 className="font-semibold text-[#0f426c] mb-2">Nghiệm thu</h4>
                       <p className="text-gray-600">
-                        Khách hàng kiểm tra và xác nhận sự cố đã được giải quyết. 
+                        Khách hàng kiểm tra và xác nhận sự cố đã được giải quyết.
                         Đóng ticket sau khi khách hàng hài lòng với kết quả.
                       </p>
                     </div>
@@ -295,7 +295,7 @@ export default function WarrantyPolicy() {
                 </h2>
                 <div className="space-y-4">
                   <p className="text-gray-600">
-                    Sau khi hết thời gian bảo hành, khách hàng có thể tiếp tục sử dụng 
+                    Sau khi hết thời gian bảo hành, khách hàng có thể tiếp tục sử dụng
                     các dịch vụ hỗ trợ với các gói dịch vụ sau:
                   </p>
                   <div className="grid md:grid-cols-2 gap-6 mt-6">
@@ -346,7 +346,7 @@ export default function WarrantyPolicy() {
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                 <Mail className="w-8 h-8 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Email</h3>
-                <p className="text-lg">support@sof.vn</p>
+                <p className="text-lg">support@sof.com.vn</p>
                 <p className="text-sm opacity-80">Phản hồi trong 24h</p>
               </div>
             </div>

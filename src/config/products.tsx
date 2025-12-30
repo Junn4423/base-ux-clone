@@ -273,7 +273,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "SOF Cafe POS - Phần Mềm Quản Lý Quán Cafe Đa Nền Tảng",
       description: "Giải pháp POS chuyên sâu cho quán cafe với giao diện trực quan, quản lý bàn, gọi món, kho hàng và báo cáo real-time.",
       keywords: ["SOF Cafe POS", "phần mềm quản lý quán cafe", "POS cafe", "quản lý bán hàng cafe"],
-      canonical: "https://sof.vn/phan-mem-ban-hang",
+      canonical: "https://sof.com.vn/phan-mem-ban-hang",
     },
   },
 
@@ -292,7 +292,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm ERP - Hệ Thống Quản Trị Doanh Nghiệp Toàn Diện",
       description: "Giải pháp ERP tích hợp tài chính, kế toán, kho vận, sản xuất và nhân sự. Tùy chỉnh theo đặc thù doanh nghiệp Việt.",
       keywords: ["phần mềm ERP", "quản trị doanh nghiệp", "ERP Việt Nam", "SOF ERP"],
-      canonical: "https://sof.vn/phan-mem-erp",
+      canonical: "https://sof.com.vn/phan-mem-erp",
     },
   },
 
@@ -311,7 +311,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm Nhân Sự HRM - Quản Lý Nhân Sự Thông Minh",
       description: "Hệ thống HRM tự động hóa chấm công, tính lương, KPI. Tích hợp máy chấm công, BHXH.",
       keywords: ["phần mềm nhân sự", "HRM", "quản lý nhân sự", "chấm công tự động"],
-      canonical: "https://sof.vn/phan-mem-nhan-su",
+      canonical: "https://sof.com.vn/phan-mem-nhan-su",
     },
   },
 
@@ -330,7 +330,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm Khách Sạn PMS - Quản Lý Khách Sạn Chuyên Nghiệp",
       description: "Hệ thống PMS quản lý đặt phòng, check-in/out, housekeeping. Tích hợp Booking, Agoda.",
       keywords: ["phần mềm khách sạn", "hotel PMS", "quản lý đặt phòng", "channel manager"],
-      canonical: "https://sof.vn/phan-mem-khach-san",
+      canonical: "https://sof.com.vn/phan-mem-khach-san",
     },
   },
 
@@ -349,7 +349,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm Kho Pallet WMS - Quản Lý Kho Hàng Thông Minh",
       description: "Hệ thống WMS quản lý vị trí pallet, FIFO/LIFO, picking, packing với barcode real-time.",
       keywords: ["phần mềm kho", "WMS", "quản lý kho pallet", "warehouse management"],
-      canonical: "https://sof.vn/phan-mem-kho-pallet",
+      canonical: "https://sof.com.vn/phan-mem-kho-pallet",
     },
   },
 
@@ -368,7 +368,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm Vận Tải TMS - Quản Lý Logistics Hiệu Quả",
       description: "Hệ thống TMS quản lý đội xe, GPS tracking, tối ưu lộ trình giao hàng.",
       keywords: ["phần mềm vận tải", "TMS", "logistics", "quản lý đội xe"],
-      canonical: "https://sof.vn/phan-mem-van-tai-logistic",
+      canonical: "https://sof.com.vn/phan-mem-van-tai-logistic",
     },
   },
 
@@ -387,7 +387,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm Giữ Xe - Quản Lý Bãi Đỗ Xe Thông Minh",
       description: "Hệ thống quản lý bãi xe tự động, nhận dạng biển số, barrier thông minh.",
       keywords: ["phần mềm giữ xe", "quản lý bãi đỗ xe", "parking management", "nhận dạng biển số"],
-      canonical: "https://sof.vn/phan-mem-quan-li-giu-xe",
+      canonical: "https://sof.com.vn/phan-mem-quan-li-giu-xe",
     },
   },
 
@@ -406,7 +406,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Phần Mềm Chữ Ký Số - Ký Số Hợp Đồng, Hóa Đơn Điện Tử",
       description: "Giải pháp ký số hợp đồng, hóa đơn điện tử hợp pháp. Chứng thư số uy tín.",
       keywords: ["chữ ký số", "ký số điện tử", "e-signature", "hóa đơn điện tử"],
-      canonical: "https://sof.vn/phan-mem-chu-ky-so",
+      canonical: "https://sof.com.vn/phan-mem-chu-ky-so",
     },
   },
 
@@ -425,7 +425,7 @@ export const productConfigs: Record<string, ProductData> = {
       title: "Dịch Vụ Thiết Kế Website Chuyên Nghiệp Chuẩn SEO",
       description: "Thiết kế website doanh nghiệp, landing page, e-commerce chuẩn SEO. Responsive, tốc độ cao.",
       keywords: ["thiết kế website", "web design", "làm website", "website chuẩn SEO"],
-      canonical: "https://sof.vn/dich-vu-thiet-ke-web",
+      canonical: "https://sof.com.vn/dich-vu-thiet-ke-web",
     },
   },
 };

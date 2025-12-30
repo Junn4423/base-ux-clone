@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: "Quy Định Thanh Toán",
   description:
-    "Quy định thanh toán và chính sách hoàn tiền của SOF.VN. Hỗ trợ nhiều hình thức thanh toán: chuyển khoản, tiền mặt, thẻ tín dụng và ví điện tử.",
+    "Quy định thanh toán và chính sách hoàn tiền của SOF.COM.VN. Hỗ trợ nhiều hình thức thanh toán: chuyển khoản, tiền mặt, thẻ tín dụng và ví điện tử.",
   keywords: [
     "quy định thanh toán SOF",
     "hình thức thanh toán",
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     "payment terms",
   ],
   openGraph: {
-    title: "Quy Định Thanh Toán | SOF.VN",
+    title: "Quy Định Thanh Toán | SOF.COM.VN",
     description:
       "Chính sách thanh toán linh hoạt, minh bạch và an toàn cho khách hàng.",
-    url: "https://sof.vn/payment-terms",
+    url: "https://sof.com.vn/payment-terms",
   },
   alternates: {
-    canonical: "https://sof.vn/payment-terms",
+    canonical: "https://sof.com.vn/payment-terms",
   },
 };
 
