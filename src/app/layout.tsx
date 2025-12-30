@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { AOSProvider } from "@/components/providers/AOSProvider";
 import { QueryProvider } from "@/components/providers/QueryProvider";
+import { ProductNav } from "@/components/product-page";
 
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["vietnamese", "latin"],
@@ -117,6 +118,7 @@ export default function RootLayout({
         <QueryProvider>
           <AOSProvider>
             <Navbar />
+            <ProductNav />
             <main>{children}</main>
             <Footer />
             <Toaster />

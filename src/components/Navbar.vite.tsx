@@ -18,18 +18,18 @@ const navItems = [
 
 // Mobile dropdown items
 const mobileProductItems = [
-  { name: "Bán hàng", icon: ShoppingCart, href: "/phan-mem-ban-hang/index.html" },
+  { name: "Bán hàng", icon: ShoppingCart, href: "/phan-mem-ban-hang" },
   { name: "Siêu thị", icon: Store, href: "/under-construction" },
-  { name: "Tạp hóa", icon: Package, href: "/phan-mem-ban-hang/index.html" },
-  { name: "Quán Cafe", icon: Coffee, href: "/phan-mem-ban-hang/index.html" },
+  { name: "Tạp hóa", icon: Package, href: "/phan-mem-ban-hang" },
+  { name: "Quán Cafe", icon: Coffee, href: "/phan-mem-ban-hang" },
   { name: "Nhà hàng", icon: Utensils, href: "/under-construction" },
-  { name: "Khách sạn", icon: Hotel, href: "/phan-mem-khach-san/index.html" },
-  { name: "Thiết kế web", icon: Users, href: "/dich-vu-thiet-ke-web/index.html" },
-  { name: "Vận tải", icon: Truck, href: "/phan-mem-van-tai-logistic/index.html" },
-  { name: "Kho Pallet", icon: Warehouse, href: "/phan-mem-kho-pallet/index.html" },
-  { name: "Bãi gửi xe", icon: Car, href: "/phan-mem-quan-li-giu-xe/index.html" },
-  { name: "Nhân sự HRM", icon: Users, href: "/phan-mem-nhan-su/index.html" },
-  { name: "ERP", icon: Building2, href: "/phan-mem-erp/index.html" },
+  { name: "Khách sạn", icon: Hotel, href: "/phan-mem-khach-san" },
+  { name: "Thiết kế web", icon: Users, href: "/dich-vu-thiet-ke-web" },
+  { name: "Vận tải", icon: Truck, href: "/phan-mem-van-tai-logistic" },
+  { name: "Kho Pallet", icon: Warehouse, href: "/phan-mem-kho-pallet" },
+  { name: "Bãi gửi xe", icon: Car, href: "/phan-mem-quan-li-giu-xe" },
+  { name: "Nhân sự HRM", icon: Users, href: "/phan-mem-nhan-su" },
+  { name: "ERP", icon: Building2, href: "/phan-mem-erp" },
   { name: "Dược phẩm", icon: Pill, href: "/under-construction" },
 ];
 
