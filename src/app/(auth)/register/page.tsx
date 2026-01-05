@@ -11,6 +11,7 @@ import { toast } from "sonner";
 import { authService } from "@/services/authService";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { getGoogleAuthCode } from "@/lib/googleAuth";
+import { getFacebookAuthToken } from "@/lib/facebookAuth";
 import {
     Eye,
     EyeOff,
@@ -131,6 +132,35 @@ export default function RegisterPage() {
         } catch (error) {
             console.error(error);
             toast.error("Đăng nhập Google thất bại, vui lòng thử lại");
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
+    const handleFacebookLogin = async () => {
+        setIsLoading(true);
+        try {
+            const { accessToken } = await getFacebookAuthToken();
+            const response = await authService.loginWithFacebook(accessToken);
+
+            if (response.success) {
+                toast.success(response.message || "Đăng nhập Facebook thành công!");
+
+                login({
+                    username: response.data.username,
+                    name: response.data.name,
+                    token: response.data.token,
+                    role: response.data.role,
+                    email: response.data.email,
+                });
+
+                router.push("/");
+            } else {
+                toast.error(response.message || "Đăng nhập Facebook thất bại");
+            }
+        } catch (error) {
+            console.error(error);
+            toast.error("Đăng nhập Facebook thất bại, vui lòng thử lại");
         } finally {
             setIsLoading(false);
         }
@@ -305,6 +335,8 @@ export default function RegisterPage() {
                                     <Button
                                         variant="outline"
                                         className="w-full h-12 border-[#a7d5ec] hover:bg-[#f4fbff] hover:border-[#0f426c] transition-all duration-300 relative"
+                                        onClick={handleFacebookLogin}
+                                        disabled={isLoading}
                                     >
                                         <Facebook className="w-5 h-5 text-[#1877F2] absolute left-4" />
                                         <span className="text-[#0f426c]">Đăng ký với Facebook</span>

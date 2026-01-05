@@ -99,4 +99,22 @@ export const authService = {
             throw error;
         }
     },
+
+    loginWithFacebook: async (accessToken: string): Promise<AuthResponse> => {
+        try {
+            const res = await fetch("/api/auth/facebook", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ accessToken }),
+            });
+
+            const data = await res.json();
+            return data;
+        } catch (error) {
+            console.error("Facebook Login API Error:", error);
+            throw error;
+        }
+    },
 };
