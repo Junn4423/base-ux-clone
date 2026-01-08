@@ -189,11 +189,11 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-3 sm:gap-4">
             <a
-              href="mailto:cskh@sof.com.vn"
+              href="mailto:cskh@sof.vn"
               className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-[#507588] hover:text-[#0f426c] transition-colors"
             >
               <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <span className="hidden sm:inline">cskh@sof.com.vn</span>
+              <span className="hidden sm:inline">cskh@sof.vn</span>
             </a>
             <div className="flex items-center gap-1.5 sm:gap-2">
               <a

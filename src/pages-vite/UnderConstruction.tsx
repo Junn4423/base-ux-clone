@@ -38,8 +38,8 @@ const UnderConstruction = () => {
               </p>
               <p>
                 <span className="font-medium">Email:</span>{" "}
-                <a href="mailto:cskh@sof.com.vn" className="text-blue-600 hover:text-blue-700">
-                  cskh@sof.com.vn
+                <a href="mailto:cskh@sof.vn" className="text-blue-600 hover:text-blue-700">
+                  cskh@sof.vn
                 </a>
               </p>
               <p>

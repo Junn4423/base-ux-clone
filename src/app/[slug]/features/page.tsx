@@ -172,7 +172,7 @@ export default async function FeaturesPage({
         <div className="bg-amber-50 border-b border-amber-200 py-2">
           <div className="container mx-auto px-4 text-center">
             <p className="text-amber-800 text-sm font-medium">
-              ⏳ Thông tin tính năng đang được cập nhật. Vui lòng liên hệ để biết thêm chi tiết.
+               Thông tin tính năng đang được cập nhật. Vui lòng liên hệ để biết thêm chi tiết.
             </p>
           </div>
         </div>

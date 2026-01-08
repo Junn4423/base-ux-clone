@@ -6,8 +6,8 @@ export const companyInfo = {
   taxCode: "0310690184",
   address: "69/9 Đường D9, Phường Tây Thạnh, Quận Tân Phú, TP. Hồ Chí Minh",
   hotline: ["0933 549 469", "0932 518 569"],
-  email: "cskh@sof.com.vn",
-  supportEmail: "cskh@sof.com.vn",
+  email: "cskh@sof.vn",
+  supportEmail: "cskh@sof.vn",
   website: "sof.com.vn",
   foundedYear: 2011,
   social: {
